@@ -2,36 +2,15 @@
 class User { 
 	//id, name, clave, legajo, birdate, entryDate, email, positionNumber, position, costCenter, costCenterName, subordinates, city, function, hc, companyCode, active, dateRegister, img_perfil, img_portada, gender
 	var $id;
-	var $name; 
-	var $clave;
-	var $legajo; 
-	var $birdate; 
-	var $entryDate; 
-	var $email;
-	var $positionNumber;
-	var $position;
-	var $costCenter;
-	var $costCenterName; 
-	var $subordinates;
-	var $city;
-	var $function; 
-	var $hc;
-	var $companyCode;
+	var $nombre;
+	var $usuario;
+	var $clave; 
+	var $mecanica; 	 
+	var $fechaNac; 	 
+	var $email; 	 
+	var $celular; 	 
 	var $active;
-	var $dateRegister;
-	var $img_perfil;
-	var $img_portada;
-	var $gender;
-	var $area;
-	var $subarea;
-	var $entrega;
-	var $status;
-	var $ceco;
-	var $cecoFacturacion;
-	var $region;
-	var $supervisor;
-	var $employeGroup;
-
+	var $date;
 	function User($_id=0) { 
 		if ($_id<>0) { 
 
@@ -43,37 +22,15 @@ class User {
 
 
 			$this->id = $datos_carga['id']; 
-			$this->name = $datos_carga['name'];
+			$this->nombre = $datos_carga['nombre'];
+			$this->usuario = $datos_carga['usuario'];
 			$this->clave = $datos_carga['clave'];
-			$this->legajo = $datos_carga['legajo'];
-			$this->birdate = $datos_carga['birdate']; 
-			$this->entryDate = $datos_carga['entryDate'];
+			$this->mecanica = $datos_carga['mecanica'];
+			$this->fechaNac = $datos_carga['fechaNac']; 
 			$this->email = $datos_carga['email']; 
-			$this->positionNumber = $datos_carga['positionNumber']; 
-			$this->position = $datos_carga['position'];
-			$this->costCenter = $datos_carga['costCenter'];
-			$this->costCenterName = $datos_carga['costCenterName'];
-			$this->subordinates = $datos_carga['subordinates']; 
-			$this->city = $datos_carga['city']; 
-			$this->function = $datos_carga['function']; 
-			$this->hc = $datos_carga['hc'];
-			$this->companyCode = $datos_carga['companyCode']; 
+			$this->celular = $datos_carga['celular']; 
 			$this->active = $datos_carga['active']; 
-			$this->dateRegister = $datos_carga['dateRegister']; 			
-			$this->img_perfil = $datos_carga['img_perfil']; 
-			$this->img_portada = $datos_carga['img_portada']; 
-			$this->gender = $datos_carga['gender']; 
-			$this->area = $datos_carga['area']; 
-			$this->subarea = $datos_carga['subarea']; 
-			$this->entrega = $datos_carga['entrega']; 
-			$this->status = $datos_carga['status']; 
-			$this->ceco = $datos_carga['ceco']; 
-			$this->cecoFacturacion = $datos_carga['cecoFacturacion']; 
-			$this->region = $datos_carga['region']; 
-			$this->supervisor = $datos_carga['supervisor']; 
-			$this->employeGroup = $datos_carga['employeGroup']; 
-
-
+			$this->date = $datos_carga['date']; 			
 		
 			$conn = null;
 			$sql = null;
@@ -89,10 +46,10 @@ class User {
 		$conn = new Conexion();
 	
 		if ($this->id<>0) { 
-			$query_save = "update users set name = '$this->name', legajo = '$this->legajo', birdate = '$this->birdate', entryDate = '$this->entryDate', email = '$this->email', positionNumber = '$this->positionNumber', position = '$this->position', costCenter = '$this->costCenter', costCenterName = '$this->costCenterName', subordinates = '$this->subordinates', city = '$this->city', function = '$this->function', hc = '$this->hc', companyCode = '$this->companyCode' where id='$this->id'"; 
+//			$query_save = "update users set name = '$this->name', legajo = '$this->legajo', birdate = '$this->birdate', entryDate = '$this->entryDate', email = '$this->email', positionNumber = '$this->positionNumber', position = '$this->position', costCenter = '$this->costCenter', costCenterName = '$this->costCenterName', subordinates = '$this->subordinates', city = '$this->city', function = '$this->function', hc = '$this->hc', companyCode = '$this->companyCode' where id='$this->id'"; 
 			mysql_query($query_save) or die(mysql_error()); 
 		} else { 
-			$sql = $conn->prepare( "INSERT into users values (null, '$this->name', '$this->clave' , '$this->legajo', '$this->birdate', '$this->entryDate', '$this->email', '$this->positionNumber', '$this->position', '$this->costCenter', '$this->costCenterName', '$this->subordinates', '$this->city', '$this->function', '0', '$this->companyCode', '1', '', '', '' , '$this->gender' , '$this->area', '$this->subarea', '$this->entrega', '$this->status', '$this->ceco', '$this->cecoFacturacion', '$this->region', '$this->supervisor','$this->employeGroup' )"); 
+//			$sql = $conn->prepare( "INSERT into users values (null, '$this->name', '$this->clave' , '$this->legajo', '$this->birdate', '$this->entryDate', '$this->email', '$this->positionNumber', '$this->position', '$this->costCenter', '$this->costCenterName', '$this->subordinates', '$this->city', '$this->function', '0', '$this->companyCode', '1', '', '', '' , '$this->gender' , '$this->area', '$this->subarea', '$this->entrega', '$this->status', '$this->ceco', '$this->cecoFacturacion', '$this->region', '$this->supervisor','$this->employeGroup' )"); 
 
 			$sql->execute();
 				$lastId = $conn->lastInsertId();
@@ -103,345 +60,6 @@ class User {
 			return $lastId;			
 	}
 
-	function new_user($_PARAM){
-
-		$user = new User();
-		$user->set_name($_PARAM["name"]);
-		$user->set_clave($_PARAM["clave"]);
-		$user->set_legajo($_PARAM["legajo"]);
-		$user->set_birdate($_PARAM["birdate"]);
-		$user->set_entryDate($_PARAM["entryDate"]);
-		$user->set_email($_PARAM["email"]);
-		$user->set_positionNumber($_PARAM["positionNumber"]);
-		$user->set_position($_PARAM["position"]);
-		$user->set_costCenter($_PARAM["costCenter"]);
-		$user->set_costCenterName($_PARAM["costCenterName"]);
-		$user->set_subordinates($_PARAM["subordinates"]);
-		$user->set_city($_PARAM["city"]);
-		$user->set_function($_PARAM["function"]);
-		$user->set_hc(0);
-		$user->set_companyCode($_PARAM["companyCode"]);
-		$user->set_gender($_PARAM["gender"]);
-		$user->set_area($_PARAM["area"]);
-		$user->set_subarea($_PARAM["subarea"]);
-		$user->set_entrega($_PARAM["entrega"]);
-		$user->set_status($_PARAM["status"]);
-		$user->set_ceco($_PARAM["ceco"]);
-		$user->set_cecoFacturacion($_PARAM["cecoFacturacion"]);
-		$user->set_region($_PARAM["region"]);
-		$user->set_supervisor($_PARAM["supervisor"]);
-		$user->set_employeGroup($_PARAM["employeGroup"]);
-
-		$lastId = $user->save();
-
-		// INSERT POINTS
-		if($lastId):
-			$conn = new Conexion;
-			$sql = $conn->prepare("INSERT INTO users_points values (null, :USERID, :POINTS, :POINTSDONATE, 1 ) ");
- 			$sql->execute(array('USERID' => $lastId, 'POINTS' => $_PARAM["points"], 'POINTSDONATE' => $_PARAM["pointsDonate"]));
-
-			$conn = null;
-			$sql = null;
-		endif;	
-	}
-
-	function foto_perfil($_user_id, $_archivo){
-
-		if($_archivo): 
-			$name_img = User::upload_file($_archivo, $_user_id);
-	//	echo "update users set img_perfil = '$name_img' where id='$_user_id'";die;
-			$conn = new Conexion;
-			$sql = $conn->prepare("update users set img_perfil = '$name_img' where id='$_user_id'");
- 			$sql->execute();
-
-			$conn = null;
-			$sql = null;
-
-		endif;			
-	}
-
-
-	function foto_portada($_user_id, $_archivo){
-
-		if($_archivo): 
-			$name_img = User::upload_file_portada($_archivo, $_user_id);
-			$conn = new Conexion;
-			$sql = $conn->prepare("update users set img_portada = '$name_img' where id='$_user_id'");
- 			$sql->execute();
-
-			$conn = null;
-			$sql = null;
-
-		endif;			
-	}
-
-	function users_birdate(){
-		$conn = new Conexion;
-
-		$sql = $conn->prepare("SELECT * from users where day(birdate)=day(NOW()) and month(birdate)=month(NOW())");
- 		$sql->execute();
-
-		return($sql->fetchAll());
-
-		$conn = null;
-		$sql = null;
-
-
-
-
-
-	}
-
-
-	function upload_file($_archivo, $insertId){
-
-		$_usuario = unserialize($_SESSION["user"]);
-
-		if ($_archivo["imagen"]["error"] > 0){
-	//		echo "ha ocurrido un error";
-		} else { 
-			//ahora vamos a verificar si el tipo de archivo es un tipo de imagen permitido.
-			//y que el tamano del archivo no exceda los 100kb
-			$permitidos = array("image/jpg", "image/jpeg", "image/gif", "image/png");
-			$limite_kb = 100;
-
-			if (in_array($_archivo['imagen']['type'], $permitidos) ){ 
-				//esta es la ruta donde copiaremos la imagen
-				//recuerden que deben crear un directorio con este mismo nombre
-				//en el mismo lugar donde se encuentra el archivo subir.php
-				//imagen : cambio el nombre de la imagen
-				$ext = pathinfo($_archivo['imagen']['name'], PATHINFO_EXTENSION);				
-				$name_img = $_archivo["imagen"]["name"];
-
-				$name_min = "min_" . $_archivo["imagen"]["name"];
-
-//				print_r($_archivo["imagen"]);die;
-				$ruta = "../template/img/usuarios/perfiles/" . $name_img;
-				//comprovamos si este archivo existe para no volverlo a copiar.
-				//pero si quieren pueden obviar esto si no es necesario.
-				//o pueden darle otro nombre para que no sobreescriba el actual.
-				if (!file_exists($ruta)){ 
-					//aqui movemos el archivo desde la ruta temporal a nuestra ruta
-					//usamos la variable $resultado para almacenar el resultado del proceso de mover el archivo
-					//almacenara true o false
-				} else {
-					unlink($ruta);
-				}
-					$resultado = @move_uploaded_file($_archivo["imagen"]["tmp_name"], $ruta);		
-
-
-					$ruta_imagen = $ruta;
-
-					$miniatura_ancho_maximo = 200;
-					$miniatura_alto_maximo = 200;
-
-					$info_imagen = getimagesize($ruta_imagen);
-					$imagen_ancho = $info_imagen[0];
-					$imagen_alto = $info_imagen[1];
-					$imagen_tipo = $info_imagen['mime'];
-
-
-					$proporcion_imagen = $imagen_ancho / $imagen_alto;
-					$proporcion_miniatura = $miniatura_ancho_maximo / $miniatura_alto_maximo;
-
-					if ( $proporcion_imagen > $proporcion_miniatura ){
-						$miniatura_ancho = $miniatura_alto_maximo * $proporcion_imagen;
-						$miniatura_alto = $miniatura_alto_maximo;
-					} else if ( $proporcion_imagen < $proporcion_miniatura ){
-						$miniatura_ancho = $miniatura_ancho_maximo;
-						$miniatura_alto = $miniatura_ancho_maximo / $proporcion_imagen;
-					} else {
-						$miniatura_ancho = $miniatura_ancho_maximo;
-						$miniatura_alto = $miniatura_alto_maximo;
-					}
-
-					$x = ( $miniatura_ancho - $miniatura_ancho_maximo ) / 2;
-					$y = ( $miniatura_alto - $miniatura_alto_maximo ) / 2;
-
-					switch ( $imagen_tipo ){
-						case "image/jpg":
-						case "image/jpeg":
-							$imagen = imagecreatefromjpeg( $ruta_imagen );
-							break;
-						case "image/png":
-							$imagen = imagecreatefrompng( $ruta_imagen );
-							break;
-						case "image/gif":
-							$imagen = imagecreatefromgif( $ruta_imagen );
-							break;
-					}
-
-					$lienzo = imagecreatetruecolor( $miniatura_ancho_maximo, $miniatura_alto_maximo );
-					$lienzo_temporal = imagecreatetruecolor( $miniatura_ancho, $miniatura_alto );
-
-					imagecopyresampled($lienzo_temporal, $imagen, 0, 0, 0, 0, $miniatura_ancho, $miniatura_alto, $imagen_ancho, $imagen_alto);
-					imagecopy($lienzo, $lienzo_temporal, 0,0, $x, $y, $miniatura_ancho_maximo, $miniatura_alto_maximo);
-
-					unlink($ruta);
-
-					imagejpeg($lienzo, $ruta, 91);			
-
-
-
-
-				//CREANDO NIMIATURA
-					$ruta_imagen = $ruta;
-
-					$miniatura_ancho_maximo = 31;
-					$miniatura_alto_maximo = 31;
-
-					$info_imagen = getimagesize($ruta_imagen);
-					$imagen_ancho = $info_imagen[0];
-					$imagen_alto = $info_imagen[1];
-					$imagen_tipo = $info_imagen['mime'];
-
-					switch ( $imagen_tipo ){
-						case "image/jpg":
-						case "image/jpeg":
-							$imagen = imagecreatefromjpeg( $ruta_imagen );
-							break;
-						case "image/png":
-							$imagen = imagecreatefrompng( $ruta_imagen );
-							break;
-						case "image/gif":
-							$imagen = imagecreatefromgif( $ruta_imagen );
-							break;
-					}
-
-					$lienzo = imagecreatetruecolor( $miniatura_ancho_maximo, $miniatura_alto_maximo );
-
-					imagecopyresampled($lienzo, $imagen, 0, 0, 0, 0, $miniatura_ancho_maximo, $miniatura_alto_maximo, $imagen_ancho, $imagen_alto);
-
-
-					imagejpeg($lienzo, "../template/img/usuarios/perfiles/".$name_min, 91);				
-
-					//borro las imagenes viejas
-					if($_usuario->img_perfil):
-					unlink("../template/img/usuarios/perfiles/" . $_usuario->img_perfil);
-					unlink("../template/img/usuarios/perfiles/min_" . $_usuario->img_perfil);
-					endif;
-					//borro las imagenes viejas
-
-					return ($name_img) ;			
-
-			} else {
-				echo "archivo no permitido, es tipo de archivo prohibido o excede el tamano de $limite_kb Kilobytes";
-			}
-		}
-
-
-	}
-
-
-	function upload_file_portada($_archivo, $insertId){
-		$_usuario = unserialize($_SESSION["user"]);
-
-		if ($_archivo["imagen"]["error"] > 0){
-	//		echo "ha ocurrido un error";
-		} else { 
-			//ahora vamos a verificar si el tipo de archivo es un tipo de imagen permitido.
-			//y que el tamano del archivo no exceda los 100kb
-			$permitidos = array("image/jpg", "image/jpeg", "image/gif", "image/png");
-			$limite_kb = 100;
-
-			if (in_array($_archivo['imagen']['type'], $permitidos) ){ 
-
-				$ext = pathinfo($_archivo['imagen']['name'], PATHINFO_EXTENSION);				
-				$name_img = $_archivo["imagen"]["name"];
-				$name_min = "min_" . $_archivo["imagen"]["name"];
-
-				$ruta = "../template/img/usuarios/portadas/" . $name_img;
-				if (file_exists($ruta)){ 
-					unlink($ruta);
-				}
-
-					$resultado = @move_uploaded_file($_archivo["imagen"]["tmp_name"], $ruta);
-
-				//CREANDO NIMIATURA
-					$ruta_imagen = $ruta;
-
-					$miniatura_ancho_maximo = 565;
-					$miniatura_alto_maximo = 200;
-
-					$info_imagen = getimagesize($ruta_imagen);
-					$imagen_ancho = $info_imagen[0];
-					$imagen_alto = $info_imagen[1];
-					$imagen_tipo = $info_imagen['mime'];
-
-
-					$proporcion_imagen = $imagen_ancho / $imagen_alto;
-					$proporcion_miniatura = $miniatura_ancho_maximo / $miniatura_alto_maximo;
-
-					if ( $proporcion_imagen > $proporcion_miniatura ){
-						$miniatura_ancho = $miniatura_alto_maximo * $proporcion_imagen;
-						$miniatura_alto = $miniatura_alto_maximo;
-					} else if ( $proporcion_imagen < $proporcion_miniatura ){
-						$miniatura_ancho = $miniatura_ancho_maximo;
-						$miniatura_alto = $miniatura_ancho_maximo / $proporcion_imagen;
-					} else {
-						$miniatura_ancho = $miniatura_ancho_maximo;
-						$miniatura_alto = $miniatura_alto_maximo;
-					}
-
-					$x = ( $miniatura_ancho - $miniatura_ancho_maximo ) / 2;
-					$y = ( $miniatura_alto - $miniatura_alto_maximo ) / 2;
-
-					switch ( $imagen_tipo ){
-						case "image/jpg":
-						case "image/jpeg":
-							$imagen = imagecreatefromjpeg( $ruta_imagen );
-							break;
-						case "image/png":
-							$imagen = imagecreatefrompng( $ruta_imagen );
-							break;
-						case "image/gif":
-							$imagen = imagecreatefromgif( $ruta_imagen );
-							break;
-					}
-
-					$lienzo = imagecreatetruecolor( $miniatura_ancho_maximo, $miniatura_alto_maximo );
-					$lienzo_temporal = imagecreatetruecolor( $miniatura_ancho, $miniatura_alto );
-
-					imagecopyresampled($lienzo_temporal, $imagen, 0, 0, 0, 0, $miniatura_ancho, $miniatura_alto, $imagen_ancho, $imagen_alto);
-					imagecopy($lienzo, $lienzo_temporal, 0,0, $x, $y, $miniatura_ancho_maximo, $miniatura_alto_maximo);
-
-
-					imagejpeg($lienzo, "../template/img/usuarios/portadas/".$name_min, 80);			
-
-					unlink($ruta);
-					//borro las imagenes viejas
-					if($_usuario->img_portada):
-
-					@unlink("../template/img/usuarios/portadas/min_" . $_usuario->img_portada);
-					endif;
-					//borro las imagenes viejas
-					return ($name_img) ;			
-
-			} else {
-				echo "archivo no permitido, es tipo de archivo prohibido o excede el tamano de $limite_kb Kilobytes";
-			}
-		}
-
-
-	}
-
-
-	/*FUNCION VERFICADORA DE ADMIN AND PASSWORD*/
-
-/*	$nombre = "Luciano Verni";
-
-	$conn = new Conexion();
-
-	$sql = $conn->prepare('SELECT * FROM users WHERE name = :Nombre');
-	$sql->execute(array('Nombre' => $nombre));
-	$resultado = $sql->fetchAll();
-
-	foreach ($resultado as $row) {
-		echo $row["name"];
-	}
-	$conn = null;
-	$sql = null;
-*/
 	function change_pass($user_id, $clave, $nueva_clave){
 		$conn = new Conexion();
 		date_default_timezone_set('America/Argentina/Buenos_Aires');
@@ -460,7 +78,7 @@ class User {
 
 		if($resultado):
 
-			$sql = $conn->prepare('UPDATE users SET clave = :NEWPASS, dateRegister = :FECHA  WHERE id = :User' );
+			$sql = $conn->prepare('UPDATE users SET clave = :NEWPASS, date = :FECHA  WHERE id = :User' );
 			$sql->execute(array('User' => $user_id, 'NEWPASS' => $nueva_clave, 'FECHA' => $hora_actual));
 
 			$resultado = $sql->fetch(PDO::FETCH_ASSOC);
@@ -488,7 +106,7 @@ class User {
 
 //		ECHO "SELECT id FROM users WHERE email = :User and (clave = :Pass OR clave = $_password_SHA";
 
-		$sql = $conn->prepare('SELECT id FROM users WHERE email = :User and (clave = :Pass OR clave = :PassSHA)' );
+		$sql = $conn->prepare('SELECT id FROM users WHERE usuario = :User and (clave = :Pass OR clave = :PassSHA)' );
 		$sql->execute(array('User' => $_user,  'PassSHA' => $_password_SHA, 'Pass' => $_password));
 		$resultado = $sql->fetchAll();
 		if($resultado):

@@ -1,22 +1,17 @@
 ﻿<?php
+$url = "http://localhost/gomarlboro/";
 define('ROOT','localhost');
-define('DATABASE','rec');
+define('DATABASE','gomarlboro');
 define('USER','root');
-define('PASS','');
-define('HOME','http://localhost/rec/');
-define('ADMIN','http://localhost/rec/');
-define('IMGS','http://localhost/rec/template/img/');
-define('IMGS_PUB','http://localhost/rec/template/img/publicaciones/usuarios/');
-define('IMGS_PERFIL','http://localhost/rec/template/img/usuarios/perfiles/');
-define('IMGS_PORTADA','http://localhost/rec/template/img/usuarios/portadas/');
-define('JS','http://localhost/rec/template/js/');
-define('CSS','http://localhost/rec/template/css/');
-define('VIEW','http://localhost/rec/view/');
-define('CTRL','http://localhost/rec/ctrl/');
-define('CLASES','http://localhost/rec/models/');
-define('BOOTSTRAP_CSS','http://localhost/rec/template/css/bootstrap/');
-define('BOOTSTRAP_JS','http://localhost/rec//template/js/bootstrap/');
-define('VALIDACIONES','http://localhost/rec/template/js/validaciones/');
+define('PASS','1610lucho');
+define('HOME',$url);
+define('ADMIN',$url);
+define('IMGS',$url . 'img/');
+define('JS', $url. 'template/js/');
+define('CSS', $url . 'template/css/');
+define('VIEW',$url . 'view/');
+define('CTRL', $url . 'ctrl/');
+define('CLASES', $url . 'models/');
 
 
 /*function conectar_bd()
