@@ -82,9 +82,9 @@ class User {
 			$sql->execute(array('User' => $user_id, 'NEWPASS' => $nueva_clave, 'FECHA' => $hora_actual));
 
 			$resultado = $sql->fetch(PDO::FETCH_ASSOC);
-			return "Se modifico la clave correctamente";
+			return true;
 		else:
-			return("Contraseña actual Incorrecta");
+			return false;
 		
 		endif;	
 		$conn = null;

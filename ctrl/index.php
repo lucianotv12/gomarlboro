@@ -37,7 +37,14 @@ switch($accion):
 
 		}
 	case 'cambiar_clave':
-		echo "echo horhaorho";
+		$_usuario = unserialize($_SESSION["user"]);
+
+		$change = User::change_pass($_usuario->id, "Mlbka123", $_POST["clave_nueva"]);
+		
+		if($change):
+			include("../view/completar_datos.php");
+
+		endif;	
 
 		break;	
 
