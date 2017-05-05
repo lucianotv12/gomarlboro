@@ -13,6 +13,7 @@ if (isset($_POST["user"]) && isset($_POST["password"]))
     { 
     $_usuario = new User($id);
       $_SESSION["user"] = serialize($_usuario);
+      ECHO "ACA ENTROOO";DIE;
       echo '<script type="text/javascript">
 
       window.location.assign("home.html");

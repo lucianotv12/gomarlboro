@@ -37,11 +37,11 @@
         <div class="col-md-6">
           <form class="login-form provincia" name="login" method="post">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="- Usuario">
+              <input type="text" name="user" class="form-control" placeholder="- Usuario">
               <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
             </div>
             <div class="input-group input-separation">
-              <input type="password" class="form-control" placeholder="- Contraseña">
+              <input type="password" name="password" class="form-control" placeholder="- Contraseña">
               <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
             </div>
             <div class="button-container">
