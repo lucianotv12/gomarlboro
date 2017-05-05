@@ -28,11 +28,11 @@ if (isset($_POST["user"]) && isset($_POST["password"]))
   }
 
 
-/*if(!@$_SESSION["user"]):
+if(!@$_SESSION["user"]):
   include("view/login.php");
 
 
-endif;*/
+endif;
 
 
 ?>

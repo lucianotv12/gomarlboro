@@ -45,7 +45,7 @@
               <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
             </div>
             <div class="button-container">
-              <button type="button" class="btn btn-grey">Aceptar</button>
+              <button type="submit" class="btn btn-grey">Aceptar</button>
             </div>
           </form>
         </div>
