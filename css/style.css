@@ -1,0 +1,802 @@
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN Condensed Bold.ttf');
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+body{
+	font-family: 'MyriadPro';
+	min-height: 100vh;
+}
+
+body.modal-open{
+	overflow: auto;
+	padding-right: 0 !important;
+}
+
+@media (max-width: 768px){
+body.modal-open{
+	overflow: hidden;
+}	
+}
+
+.bold{
+	font-family: 'DIN';
+}
+
+.input-separation{
+	margin-top: 16px;
+}
+
+.input-separation-extend{
+	margin-top: 17%;
+}
+
+@media (max-width: 768px){
+.separation-nav{
+	padding-top: 55px;
+}
+.separation-nav-gt{
+	padding-top: 105px;
+}
+}
+
+@media (max-width: 768px) and (orientation: landscape){
+.separation-nav{
+	padding-top: 80px;
+}
+.separation-nav-gt{
+	padding-top: 130px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+.separation-nav-gt{
+	padding-top: 150px;
+}	
+}
+
+@media (min-width: 1400px){
+.input-separation-extend{
+	margin-top: 70px;
+}	
+}
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float: right;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.modal-backdrop{
+	display: none;
+}
+
+.optional:after{
+	content: 'campo no obligatorio';
+    position: absolute;
+    top: 7px;
+    left: 160px;
+    z-index: 10;
+    color: #818285;
+}
+
+@media (min-width: 1800px){
+.optional:after{
+	top: 18px;
+    left: 222px;
+}	
+}
+
+.optional2:after{
+	content: 'campo no obligatorio';
+    position: absolute;
+    top: 7px;
+    left: 78px;
+    z-index: 10;
+    color: #818285;
+}
+
+@media (min-width: 1800px){
+.optional2:after{
+	top: 18px;
+    left: 102px;
+}	
+}
+
+.optional3:after{
+	content: 'campo no obligatorio';
+    position: absolute;
+    top: 7px;
+    left: 52px;
+    z-index: 10;
+    color: #818285;
+}
+
+@media (min-width: 1800px){
+.optional3:after{
+	top: 18px;
+    left: 69px;
+}	
+}
+
+@media (max-width: 768px){
+.optional:after{
+	content: '';
+}
+.optional2:after{
+	content: '';
+}
+.optional3:after{
+	content: '';
+}
+}
+
+/* ------------------- BACKGROUNDS SECTION ------------------- */	
+/*all mobile portrait*/
+.background-image{
+	position: relative;
+	min-height: 100vh;
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+}
+
+/*all mobile landscape*/
+@media (max-width: 767px) and (orientation: landscape){
+.background-image{
+	min-height: 300vh;
+}
+}
+
+@media (min-width: 769px){
+.background-image{
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+.background-image{
+	background-size: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+}
+}
+
+/*ipad portrait*/
+@media (min-width: 768px) and (orientation: portrait){
+.background-image{
+	min-height: 1024px;
+}
+}
+
+/*ipad landscape*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+.background-image{
+	min-height: 768px;
+}
+}
+
+@media (min-width: 1200px){
+.background-image{
+	min-height: 800px;
+}
+}
+
+@media (min-width: 1300px){
+.background-image{
+	min-height: 850px;
+}
+}
+
+@media (min-width: 1400px){
+.background-image{
+	min-height: 900px;
+}
+}
+
+@media (min-width: 1600px){
+.background-image{
+	min-height: 1080px;
+}
+}
+
+/*MOBILE BACKGROUND*/
+.start-gift-background, .login-background, .popin-background {
+    background-image: url(../img/mobile/background.jpg);
+}
+
+.start-gift-background-wgc{
+	background-image: url(../img/mobile/gift-card-background.png), url(../img/mobile/background.jpg);
+}
+
+.start-gift-background-wm{
+	background-image: url(../img/mobile/moto-background.png), url(../img/mobile/background.jpg);
+}
+.start-gift-background-all{
+	background-image: url(../img/mobile/moto-background.png), url(../img/mobile/gift-card-background.png), url(../img/mobile/background.jpg);
+}
+/*END MOBILE BACKGROUND*/
+
+/*DESKTOP BACKGROUND*/
+@media (min-width: 769px){
+.start-gift-background, .login-background, .popin-background{
+	background-image: url(../img/gt/background.jpg);
+}
+.start-gift-background-wgc{
+	background-image: url(../img/gt/gift-card-background.png), url(../img/gt/background.jpg);
+}
+.start-gift-background-wm{
+	background-image: url(../img/gt/moto-background.png), url(../img/gt/background.jpg);
+}
+.start-gift-background-all{
+	background-image: url(../img/gt/moto-background.png), url(../img/gt/gift-card-background.png), url(../img/gt/background.jpg);
+}
+.login-background{
+	background-image: url(../img/gt/login-background.jpg);	
+}
+.popin-background{
+	background-image: url(../img/gt/popin-background.jpg);	
+}
+.home-background{
+	background-image: url(../img/gt/home-background.jpg);
+}	
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+.start-gift-background{
+	min-height: 1080px;
+}	
+}
+/*END DESKTOP BACKGROUND*/
+/* ------------------- END LOGIN SECTION ------------------- */	
+
+/* ------------------- MENU SECTION ------------------- */	
+.navbar-default{
+	border: none;
+	background-color: transparent; 
+}
+
+@media (max-width: 768px){
+.navbar-default{
+	background-color: #628b9f; 
+}	
+}
+
+.navbar-toggle{
+	margin-left: 15px;
+	margin-right: 0;
+	float: left;
+	padding: 5px 3px;	
+}
+
+.navbar-brand{
+	width: calc(100% - 60px);
+	float: right;
+}
+
+@media (max-width: 768px) and (orientation: landscape){
+.navbar-brand{
+	height: 80px;
+}
+}
+
+@media (min-width: 768px) and (orientation: portrait){
+.navbar-brand{
+	height: 84px;
+}
+}
+
+@media (max-width: 768px){
+.login-background .navbar-brand,
+.start-gift-background .navbar-brand,
+.popin-background .navbar-brand{
+	width: 100%;
+}
+}
+
+.navbar-brand img{
+	width: 100%;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+	border: none;
+	z-index: 10000;
+}
+
+.navbar-toggle .icon-bar{
+	width: 30px;
+	height: 5px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+
+.navbar-header{
+	min-height: 55px;
+}
+
+@media (max-width: 768px){
+.navbar-header{
+	float: none;
+}
+.navbar-toggle{
+	display: block;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+.navbar-brand{
+	width: calc(100% - 90px);
+	padding: 15px 30px;
+}
+.navbar-toggle{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 20px;
+}
+.navbar-toggle .icon-bar {
+    width: 54px;
+    height: 9px;
+}
+.navbar-nav{
+	float: none;
+}
+.navbar-nav>li{
+	float: none;
+}
+.navbar-collapse.collapse{
+	display: none !important;
+}
+.navbar-collapse.collapse.in{
+	display: block !important;
+}
+.separation-nav{
+	padding-top: 84px;
+}
+}
+
+.navbar-collapse{
+	position: fixed;
+	width: 100%;
+}
+
+.navbar-collapse{
+	background-color: #cbccce;
+	font-size: 24px;
+	color: #4f7282;
+	z-index: 10000;
+}
+
+.navbar-collapse li.salir{
+	background-color: #4f7282;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #4f7282;	
+}
+
+.nav>li.divider{
+	height: 1px;
+    background-color: #879aa4;
+}
+
+.navbar-nav{
+	margin: 0 -15px; 
+}
+
+.navbar-collapse li.salir a{
+	color: white;
+}
+
+.navbar-default{
+	z-index: 10000;
+}
+
+@media (max-width: 768px){
+.navbar-default{
+	min-height: 55px;
+	/*Test*/
+	position: fixed;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+.navbar-default{
+	width: 100%;	
+}
+}
+/* ------------------- END MENU SECTION ------------------- */	
+
+/* ------------------- GENERAL SECTION ------------------- */
+.login-form .input-group .form-control{
+	border-radius: 10px;
+	padding-right: 40px;
+	background-color: #d4d5d6;
+	color: black;
+	text-transform: uppercase;
+}
+
+@media (min-width: 1800px){
+.login-form .input-group .form-control{
+	border-radius: 12px;
+	padding-right: 40px;
+	font-size: 20px;
+    height: 50px;
+}
+}
+
+@media (max-width: 768px){
+.login-form .input-group .form-control{
+	background-color: white;
+	font-size: 20px;
+    height: 50px;
+}
+}
+
+.login-form .input-group .form-control::-webkit-input-placeholder { color: black }
+.login-form .input-group .form-control:-moz-placeholder { color: black }
+.login-form .input-group .form-control::-moz-placeholder { color: black }
+.login-form .input-group .form-control:-ms-input-placeholder { color: black }
+
+.login-form{
+	margin: 0;
+	margin-top: 40%; 
+}	
+
+
+@media (min-width: 1024px){
+.login-form{	
+	margin: 63% 15% 0 11%;	
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+.login-form{	
+	margin: 63% 12% 0 34%;	
+}
+}
+
+@media (min-width: 1200px){
+.login-form{	
+	margin: 53% 12% 0 24%;	
+}
+}
+
+@media (min-width: 1300px){
+.login-form{
+	margin: 57% 13% 0 18%;
+}
+}
+
+@media (min-width: 1400px){
+.login-form{
+	margin: 60% 14% 0 14%;
+}	
+}
+
+@media (min-width: 1800px){
+.login-form{
+	margin: 51% 11% 0 26%;
+}
+}
+
+.login-form .glyphicon-user, .login-form .glyphicon-lock{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 16px;
+	color: #96989b;
+	z-index: 3;
+}
+
+@media (min-width: 1800px){
+.login-form .glyphicon-user, .login-form .glyphicon-lock{
+	right: 16px;
+    top: 13px;
+    font-size: 22px;
+}
+}
+
+@media (max-width: 768px){
+.login-form .glyphicon-user, .login-form .glyphicon-lock{
+	right: 14px;
+    top: 12px;
+    font-size: 24px;
+}
+}
+
+.btn-grey{
+	border-radius: 10px;
+	background-color: #d4d5d6;
+	color: black;
+	text-transform: uppercase;
+}
+
+@media (min-width: 1800px){
+.btn-grey{
+	font-size: 20px;
+}	
+}
+
+@media (max-width: 768px){
+.btn-grey{
+	background-color: white;
+	font-size: 20px;
+}
+}
+
+.login-form.provincia .input-group:nth-child(2){
+	margin-top: 18px;
+}
+
+.login-form.provincia .button-container{
+	margin-top: 5%;
+}
+
+@media (max-width: 768px){
+.login-form.provincia .button-container{
+	margin-top: 20%;
+}	
+}
+
+.login-form.sign-up{
+	margin: 92% 29% 0 0;
+}
+
+@media (min-width: 1024px){
+.login-form.sign-up{
+	margin: 102% 24% 0 0;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+.login-form.sign-up{
+	margin: 102% 43% 0 0;
+}
+}
+
+@media (min-width: 1200px){
+.login-form.sign-up{
+	margin: 87% 33% 0 0;
+}
+}
+
+@media (min-width: 1300px){
+.login-form.sign-up{
+	margin: 92% 29% 0 0;
+}
+}
+
+@media (min-width: 1400px){
+.login-form.sign-up{
+	margin: 98% 25% 0 0;
+}
+}
+
+@media (min-width: 1800px){
+.login-form.sign-up{
+	margin: 85% 34% 0 0;
+}
+}
+
+@media (max-width: 768px){
+.login-form.sign-up{
+	margin: 0;
+	margin-top: 40%; 
+}	
+}
+
+@media (max-width: 768px){
+.login-form.sign-up.perfiles{
+	margin-top: 10%;
+	margin-bottom: 30px;
+}	
+}
+/* ------------------- END GENERAL SECTION ------------------- */
+
+.bottom-container{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 0;
+	text-align: center;
+}
+
+@media (max-width: 768px){
+.bottom-container>button{
+	width: 170px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+}
+
+@media (min-width: 769px){
+.bottom-container{
+	width: 27%;
+	margin: 0 auto;
+	margin-top: 17%;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+.bottom-container{
+	width: 35%;
+	margin-top: 18.5%;
+}	
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+.ranking .bottom-container{
+	margin-top: 8%;
+}	
+}
+
+@media (min-width: 1800px){
+.bottom-container{
+	margin-top: 15%;
+}
+}
+
+.btn-red{
+	color: white;
+	padding: 3px 12px;
+	width: 140px;
+	background-color: #d72029;
+	box-shadow: 2px -2px rgba(178,24,31,1);
+}
+
+@media (min-width: 1800px){
+.btn-red{
+	width: 198px;
+}	
+}
+
+.btn-red .grey{
+	color: #d1d2d4;
+}
+
+.btn-red.focus, .btn-red:focus, .btn-red:hover{
+	color: white;
+}
+
+.btn-sep{
+	width: 20px;
+}
+
+.gift-small-container{
+	cursor: pointer;
+	background-color: #4f7282;
+	width: 40px;
+	text-align: center;
+    margin: 10px auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+.gift-small-container>img{
+	width: 100%;
+}
+
+.back-home{
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+}
+
+.back-home>img{
+	width: 32px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+.back-home>img{
+	width: 70px;
+}
+.ranking-locales .back-home{
+	display: block;
+	width: 100%;
+	position: relative;
+	left: auto;
+	bottom: auto;
+	height: 70px;
+	margin-top: 30px;
+}
+.ranking-locales .back-home>img{
+	position: absolute;
+	left: 10px;
+	bottom: 5px;	
+}	
+}
+
+.premios2, .premios{
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------- RESPONSIVE SECTION ------------------- */	
+.inline{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@media (min-width: 1800px){
+.container{
+	width: 1600px;
+}
+}
+
+@media (max-width: 768px){
+.hidden-mobile{
+	display: none;
+}
+}
+
+@media (min-width: 769px){
+.hidden-desktop{
+	display: none;
+}
+}
+
+@media (max-width: 768px){
+.full-width-mobile{
+	padding: 0;
+	width: 100%;
+}	
+}
+
+@media (max-width: 768px){
+.clear-mobile{
+	float: none;
+}
+}
+
+@media (max-width: 768px){
+.input-separation-extend{
+	margin-top: 16px;
+}
+}
+/* ------------------- END RESPONSIVE SECTION ------------------- */	

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Start-Gift</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/style-GT.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#add-gc").click(function(){
+          removeAll();
+          $("section").addClass("start-gift-background-wgc");
+        });
+        $("#add-moto").click(function(){
+          removeAll();
+          $("section").addClass("start-gift-background-wm");
+        });
+        $("#add-both").click(function(){
+          removeAll();
+          $("section").addClass("start-gift-background-all");
+        });
+        $("#removeAll").click(function(){
+          removeAll();
+        });
+      });
+
+      function removeAll(){
+        $("section").removeClass("start-gift-background-wgc");
+        $("section").removeClass("start-gift-background-wm");
+        $("section").removeClass("start-gift-background-all");
+      }
+    </script>
+
+    <div style="position: absolute; top:0; right:0; width: 100px; z-index:1">
+      <div id="add-gc">add gift card</div>
+      <div id="add-moto">add moto</div>
+      <div id="add-both">add both</div>
+      <div id="removeAll">remove all</div>
+    </div>
+    <section class="background-image start-gift-background"></section>
+  </body>
+</html>

@@ -1,0 +1,705 @@
+/* ------------------- LOGIN SECTION ------------------- */
+.login-form>.input-group{
+	width: 100%;
+}
+
+.login-form .button-container{
+	text-align: center;
+	margin-top: 20%;
+}
+
+.login-form.sign-up .button-container{
+	text-align: center;
+	margin-top: 8%;
+}
+
+@media (min-width: 1400px){
+.login-form.sign-up .button-container{
+	margin-top: 9%;
+}	
+}
+
+
+.popin-container{
+	background-color: #878d9e;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top: 50%;
+    border-radius: 10px;
+    box-shadow: 3px -3px rgba(255,255,255,1);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+}
+
+@media (min-width: 769px){
+.popin-container{
+	margin: 65% 16% 0 20%;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+.popin-container{
+	margin: 70% 16% 0 40%;
+}
+}
+
+@media (min-width: 1200px){
+.popin-container{
+	margin: 63% 16% 0 26%;
+}	
+}
+
+@media (min-width: 1300px){
+.popin-container{
+	margin: 65% 16% 0 20%;
+}	
+}
+
+@media (min-width: 1400px){
+.popin-container{
+	margin: 68% 16% 0 20%;
+    font-size: 18px;
+}	
+}
+
+@media (min-width: 1800px){
+.popin-container{
+	margin: 60% 15% 0 27%;
+    font-size: 22px;
+}	
+}
+
+.popin-container>img{
+    position: absolute;
+    top: 5px;
+	right: 5px;
+    width: 22px;
+    cursor: pointer;
+}
+
+@media (min-width: 769px){
+.popin-container>img{
+	top: -70px;
+    right: -20px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+.popin-container>img{
+	top: -50px;
+    right: -28px;
+}
+}	
+}
+
+@media (min-width: 1200px){
+.popin-container>img{
+	top: -70px;
+    right: -20px;
+}
+}
+
+@media (min-width: 1300px){
+.popin-container>img{
+	top: -68px;
+    right: -18px;
+}
+}
+
+@media (min-width: 1400px){
+.popin-container>img{
+    top: -65px;
+    right: -15px;
+}	
+}
+
+@media (min-width: 1800px){
+.popin-container>img{
+    top: -90px;
+    right: -25px;
+}	
+}
+
+.perfil-container{
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	padding-top: 100px;
+}
+
+@media (min-width: 769px){
+.perfil-container{
+	margin: 62% 30% 0 34%;
+	padding: 0;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+.perfil-container{
+	margin: 65% 20% 0 44%;
+}	
+}
+
+@media (min-width: 1200px){
+.perfil-container{
+	margin: 58% 25% 0 38%;
+}
+}
+
+@media (min-width: 1300px){
+.perfil-container{
+	margin: 62% 30% 0 34%;
+}
+}
+
+@media (min-width: 1400px){
+.perfil-container{
+	margin: 66% 30% 0 34%;
+}
+}
+
+@media (min-width: 1800px){
+.perfil-container{
+	margin: 58% 26% 0 40%;
+}
+}
+
+.perfil-box{
+	width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    white-space: normal;
+}
+
+.perfil-box>img{
+	width: 50px;
+	display: block;
+	margin: 0 auto;
+}
+
+.perfil-box.separation{
+	margin-top: 10px;
+}
+
+.perfil-box>.btn-grey{
+	font-size: 14px;
+    padding: 4px 6px;
+    margin-top: 10px;
+    width: 82px;
+}
+    
+/* ------------------- END LOGIN SECTION ------------------- */	
+
+/* ------------------- HOME SECTION ------------------- */	
+.home-background .modal{
+	position: static;
+	padding-right: 0 !important;
+}
+
+@media (max-width: 768px){
+.home-background .modal{
+	position: fixed;
+	padding-top: 100px;
+}
+}
+
+.home-background .modal-dialog{
+	margin: 20% auto;
+}
+
+@media (max-width: 768px){
+.home-background .modal-dialog{
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    margin: 0;
+}
+}
+
+@media (max-width: 768px){
+.home-background .modal-content{
+	height: 100%;
+	text-align: center;
+	background-color: #e5eaec;
+    border-radius: 0;
+    border-color: transparent;
+}	
+}
+
+@media (max-width: 768px){
+.home-background .modal-body{
+	margin-top: 25%;
+}	
+}
+
+@media (min-width: 769px){
+.home-background .modal-dialog{
+	margin: 8% auto;
+	width: 26%;
+}
+.home-background .modal-content, .ranking-background .modal-content{
+	min-height: 300px;
+	background-color: #e5eaec;
+	box-shadow: 3px -3px rgba(255,255,255,1);
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+}
+.home-background .modal-body{
+	padding-top: 14%;
+}
+}
+
+@media (min-width: 1300px){
+.home-background .modal-dialog{
+	margin: 10% auto;
+}
+}
+
+.modal-content p{
+	font-size: 22px;
+	line-height: 1;
+}
+
+@media (max-width: 768px){
+.modal-content p{
+	font-size: 32px;
+}	
+}
+
+.modal-content p.no-sep{
+	margin-bottom: 0;
+}
+
+.modal-content p.red{
+	color: #d72029;
+}
+
+.modal-content p.bigger{
+	font-size: 42px;
+}
+
+@media (max-width: 768px){
+.modal-content p.bigger{
+	font-size: 60px;
+}	
+}
+
+.modal-content .sub-content{
+	width: 80%;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.modal-content .sub-content p{
+	font-size: 14px;
+    color: #4f7282;
+    line-height: 1.1;
+    margin-bottom: 3px;
+}
+
+@media (max-width: 768px){
+.modal-content .sub-content p{
+	font-size:18px;
+}
+}
+.modal-content .sub-content p.bold{
+	font-family: 'MyriadPro';
+	font-weight: bold;
+}
+
+.modal-content .close{
+	cursor: pointer;
+	position: absolute;
+	right: 12px;
+	top: 6px;
+	z-index: 1;
+	opacity: 1;
+}
+
+.modal-content .close img{
+	width: 24px;
+}
+
+/* ------------------- END HOME SECTION ------------------- */	
+
+/* ------------------- MENU SECTION ------------------- */	
+.menu-container{
+	margin-top: 4.7%;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.menu-container img{
+	width: 170px;
+}
+
+.btn-arrow{
+	position: absolute;
+    top: 12px;
+    left: 142px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    padding: 7px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.btn-arrow[aria-expanded="false"]{
+	background-image: url(../img/gt/arrow-down.png);
+}
+
+.btn-arrow[aria-expanded="true"]{
+	background-image: url(../img/gt/arrow-up.png);
+}
+
+.chances-container{
+	background-color: #dc1e25;
+	width: 170px;
+	margin-top: -3px;
+	text-align: center;
+    padding-top: 12px;
+}
+
+.chances-acumuladas{
+	background-color: #dc1e25;
+    height: 50px;
+    font-size: 24px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.chances-container p{
+	line-height: 2;
+	margin: 0;
+	border: none; 
+	border-top: 1px solid white;
+	color: white;
+	padding: 0 18px;
+}
+
+.dropdown-menu{
+	margin-top: -2px;
+    width: 170px;
+    border: none;
+    background-color: #e5eaec;
+}
+
+.dropdown-menu>li>a{
+	padding: 0 18px;
+	color: #4f7282; 
+}
+
+.dropdown-menu .divider{
+	margin: 4px 0;
+	background-color: #cdcdcd;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover{
+	color: #dc1e25;
+	background-color: transparent;
+}
+
+.input-camion{
+	position: absolute;
+    right: 1px;
+    width: 40px;
+    z-index: 10;
+    top: 8px;
+}
+    
+.input-arg{
+	position: absolute;
+    right: 6px;
+    width: 28px;
+    z-index: 10;
+    top: 5px;
+}
+
+@media (max-width: 768px){
+.input-camion{
+	right: 1px;
+    width: 48px;
+    top: 13px;
+}    
+.input-arg{
+	right: 8px;
+    width: 34px;
+    top: 9px;
+}
+}
+
+
+
+@media (min-width: 1800px){
+.input-camion{
+	right: 1px;
+    width: 60px;
+    top: 10px;
+}
+.input-arg{
+	right: 10px;
+    width: 40px;
+    top: 8px;	
+}
+}
+
+@media (max-width: 768px){
+.btn-perfil{
+	float: none;
+	width: 192px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+}
+
+
+@media (min-width: 769px){
+.home2-background{
+	background-image: url(../img/gt/home2-background.png);
+}
+.home2-background.full{
+	background-image: 
+	url(../img/gt/mlb-box1.png),
+	url(../img/gt/mlb-box2.png),
+	url(../img/gt/mlb-box3.png),
+	url(../img/gt/mlb-box4.png),
+	url(../img/gt/mlb-box5.png),
+	url(../img/gt/home2-background.jpg);
+}	
+}
+
+@media (min-width: 769px){
+.boxes-container.botones-2 {
+    width: 40%;
+    margin-top: 25%;
+    padding-left: 0;
+    height: 160px;
+}
+}
+
+@media (min-width: 1200px){
+.boxes-container.botones-2 {
+    margin-top: 23%;
+  	height: 150px;  
+}
+}
+
+@media (min-width: 1300px){
+.boxes-container.botones-2 {
+    margin-top: 25%;
+    height: 160px;
+}
+}
+
+@media (min-width: 1400px){
+.boxes-container.botones-2 {
+    margin-top: 27%;
+}
+}
+
+@media (min-width: 1800px){
+.boxes-container.botones-2 {
+    margin-top: 23%;
+}
+}
+
+@media (min-width: 769px){
+.botones-2 .box-container>img {
+    width: 100px;
+}
+}
+
+@media (min-width: 769px){
+.bottom-container.chances{
+	width: 34%;
+    margin-top: 9%;
+}
+.chances>button{
+	width: 280px;
+    font-size: 18px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+.gift-small-container{
+	margin-top: 10px;
+}	
+}
+
+@media (min-width: 1400px){
+.bottom-container.chances{
+	margin-top: 11%;
+}
+}
+
+@media (min-width: 1800px){
+.bottom-container.chances{
+	margin-top: 12.5%;
+}
+}
+
+@media (min-width: 1800px){
+.botones-2 .box-container{
+	height: 198px;
+}
+}
+
+@media (max-width: 768px){
+.chances>button{
+	font-size: 14px;
+}	
+}
+
+.home-modal-background{
+	background-image: url(../img/gt/home-modal-background.jpg);
+}
+
+.gt-modal .modal-dialog{
+	width: 36%;
+	padding-left: 4%;
+}
+
+@media (max-width: 768px){
+.gt-modal .modal-dialog {
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    margin: 0;
+}
+}
+
+.gt-modal .modal-body{
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.chart-container{
+	position: absolute;
+    left: calc(100% + 30px);
+    top: 50%;
+    text-align: center;
+    color: #4f7282;
+    font-size: 16px;
+    background-color: rgba(230,230,230,0.8);
+    box-shadow: 2px -2px rgba(230,230,230,1);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px){
+.chart-container{
+	left: 0;
+	top: auto;
+	bottom: 10%;
+	background-color: transparent;
+	box-shadow: none;
+	padding-left: 25px;
+}	
+}
+
+.chart-container .red{
+	color: #dc1e25;
+}
+
+#chart{
+	width: 140px;
+	height: 140px;
+	margin-top: -10px;
+}
+
+@media (max-width: 768px){
+#chart{
+	width: 100px;
+	height: 100px;
+}
+}
+
+.percentage{
+	position: absolute;
+    right: calc(50% - 22px);
+    top: calc(50% - 18px);
+    font-size: 30px;
+}
+
+@media (max-width: 768px){
+.percentage{
+	right: calc(50% - 16px);
+    top: calc(50% - 12px);
+    font-size: 22px;
+}	
+}
+
+.premios-gt-background{
+	background-image: url(../img/mobile/home-background2.jpg);
+}
+
+@media (min-width: 769px){
+.premios-gt-background{
+	background-image: url(../img/gt/premios-background.jpg);
+}
+}
+
+.premios-gt .premio-row{
+	margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.premios-gt .premio-row>img{
+	width: 80%;
+}
+
+@media (max-width: 768px){
+.popin{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}	
+}
+
+.popin .modal-dialog{
+	width: 30%;
+}
+
+.gt-modal.popin .modal-dialog{
+	width: 36%;
+	margin-top: 8%;
+}
+
+@media (max-width: 768px){
+.gt-modal.popin .modal-dialog,
+.popin .modal-dialog{
+	width: 100%;
+    height: 100vh;
+    padding: 0;
+    padding-top: 105px;
+    margin: 0;
+}
+}
+
+@media (max-width: 768px) and (orientation: landscape){
+.home-background .modal-dialog {
+    height: 300vh;
+    padding-top: 130px;
+}
+}
+
+@media (min-width: 1800px){
+.gt-modal.popin .modal-dialog,
+.popin .modal-dialog{
+	width: 28%;
+}	
+}
+
+/* ------------------- END MENU SECTION ------------------- */	
