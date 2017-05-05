@@ -78,7 +78,7 @@ class User {
 
 		if($resultado):
 
-			$sql = $conn->prepare('UPDATE users SET clave = :NEWPASS, date = :FECHA  WHERE id = :User' );
+			$sql = $conn->prepare('UPDATE users SET clave = :NEWPASS, date = :FECHA, active = 1  WHERE id = :User' );
 			$sql->execute(array('User' => $user_id, 'NEWPASS' => $nueva_clave, 'FECHA' => $hora_actual));
 
 			$resultado = $sql->fetch(PDO::FETCH_ASSOC);
