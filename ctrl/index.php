@@ -30,14 +30,16 @@ switch($accion):
 			break;
 		endif;	
 
-
-
 		Template::draw_header();
 		include("../view/index.php");
 		Template::draw_footer();
 		break;
 
 		}
+	case 'cambiar_clave':
+		echo "echo horhaorho";
+
+		break;	
 
 endswitch;
 ?>

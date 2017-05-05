@@ -36,7 +36,7 @@
       <div class="container">
         <div class="col-md-6"></div>
         <div class="col-md-6">
-          <form class="login-form sign-up">
+          <form class="login-form sign-up" name="cambio_clave" method="post" action="cambiar_clave.html">
             <div class="input-group">
               <input type="password" class="form-control" placeholder="- NUEVA CONTRASEÑA">
               <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
