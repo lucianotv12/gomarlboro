@@ -29,10 +29,10 @@ switch($accion):
 			include("../view/cambio_clave.php");
 			break;
 		endif;	
-
+/*
 		Template::draw_header();
 		include("../view/index.php");
-		Template::draw_footer();
+		Template::draw_footer();*/
 		break;
 
 		}
@@ -41,6 +41,12 @@ switch($accion):
 
 		$change = User::change_pass($_usuario->id, "Mlbka123", $_POST["clave_nueva"]);
 		
+		session_destroy();
+		session_start();
+
+	 	$_usuario_new = new User($_usuario->id);
+	  	$_SESSION["user"] = serialize($_usuario_new);
+
 		if($change):
 			include("../view/completar_datos.php");
 
@@ -56,7 +62,9 @@ switch($accion):
 			include("../view/completar_datos.php");
 
 		endif;	
+
 */
+
 		echo "aca entro canejo";die;
 		break;	
 endswitch;
