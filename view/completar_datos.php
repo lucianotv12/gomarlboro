@@ -23,7 +23,7 @@
         $(document).ready(function(){
 
 
-                $("#cambiar_clave").validate({ 
+                $("#datos").validate({ 
                     rules: {             
                         nombre: { required: true, minlength: 3}
 
