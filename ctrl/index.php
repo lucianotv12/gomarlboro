@@ -47,6 +47,17 @@ switch($accion):
 		endif;	
 
 		break;	
+	case 'cambiar_datos':
+		$_usuario = unserialize($_SESSION["user"]);
+		/*
+		$change = User::change_pass($_usuario->id, "Mlbka123", $_POST["clave_nueva"]);
+		
+		if($change):
+			include("../view/completar_datos.php");
 
+		endif;	
+*/
+		echo "aca entro canejo";die;
+		break;	
 endswitch;
 ?>

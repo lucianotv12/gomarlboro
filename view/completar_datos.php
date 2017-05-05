@@ -17,6 +17,28 @@
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="<?php echo JS?>bootstrap.min.js"></script>
+    <script language="JavaScript" src="<?php echo JS?>jquery-3.1.0.min.js"></script>
+    <script language="JavaScript" src="<?php echo JS?>jquery.validate.js"></script>    
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+
+                $("#cambiar_clave").validate({ 
+                    rules: {             
+                        nombre: { required: true, minlength: 3}
+
+                    },messages:{
+                      nombre: "Campo Requerido",                     
+
+                    }
+
+                });
+
+        });
+
+
+    </script>
+
   </head>
   <body>
     <section class="background-image login-background">
@@ -36,22 +58,22 @@
       <div class="container">
         <div class="col-md-6"></div>
         <div class="col-md-6">
-          <form class="login-form sign-up">
+          <form class="login-form sign-up" name="datos" id="datos" method="post" action="cambiar_datos.html">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="NOMBRE_">
+              <input type="text" class="form-control" name="nombre" id="nombre" placeholder="NOMBRE_">
               <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
             </div>
             <div class="input-group input-separation optional">
-              <input type="text" class="form-control" placeholder="FECHA DE NACIMIENTO_">
+              <input type="text" class="form-control" name="fecha" id="fecha" placeholder="FECHA DE NACIMIENTO_">
             </div>
             <div class="input-group input-separation optional2">
-              <input type="text" class="form-control" placeholder="CELULAR_">
+              <input type="text" class="form-control" name="celular" id="celular" placeholder="CELULAR_">
             </div>
             <div class="input-group input-separation-extend optional3">
-              <input type="text" class="form-control" placeholder="MAIL_">
+              <input type="text" class="form-control" name="email" id="email" placeholder="MAIL_">
             </div>
             <div class="button-container">
-              <button type="button" class="btn btn-grey fleft clear-mobile">Aceptar</button>
+              <button type="submit" class="btn btn-grey fleft clear-mobile">Aceptar</button>
             </div>
           </form>
         </div>
