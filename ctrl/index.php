@@ -254,6 +254,26 @@ switch($accion):
 
 		break;	
 		}
+	case 'ranking':
+		{
+		$site="ranking";				
+		$_usuario = unserialize($_SESSION["user"]);
 
+		Template::draw_header($site);
+		include("../view/ranking.php");
+
+		}
+		break;	
+
+	case 'ranking-locales':
+		{
+		$site="ranking-locales";				
+		$_usuario = unserialize($_SESSION["user"]);
+		Template::draw_header($site);
+		include("../view/ranking-locales.php");
+		Template::draw_footer($site);			
+
+		}
+		break;	
 endswitch;
 ?>

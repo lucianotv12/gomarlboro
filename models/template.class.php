@@ -134,13 +134,13 @@ class Template
         </div>
         <?php endif;?>
         <div class="bottom-container bold">
-          <button type="button" class="btn btn-grey btn-red inline">
+          <a href="<?php echo HOME?>ranking.html" class="btn btn-grey btn-red inline">
             <span class="grey">tu </span><span>performance</span>
-          </button>
+          </a>
           <span class="btn-sep inline hidden-mobile"></span>
-          <button type="button" class="btn btn-grey btn-red inline">
+          <a href="<?php echo HOME?>ranking-locales.html" class="btn btn-grey btn-red inline">
             <span>performance </span><span class="grey">locales</span>
-          </button>
+          </a>
           <div class="gift-small-container">
             <img src="<?php echo IMGS?>ka/moto-small.png">
           </div>
