@@ -219,7 +219,7 @@ switch($accion):
 		$site="premiosb";				
 		$_usuario = unserialize($_SESSION["user"]);
 		if($_usuario->mecanica == "B"):
-			
+
 		Template::draw_header($site);
 		include("../view/premiosb.php");
 		Template::draw_footer($site);			
@@ -261,10 +261,11 @@ switch($accion):
 		$site= "video";
 		$_usuario = unserialize($_SESSION["user"]);
 		if($_usuario->mecanica == "A"):
-			$link_video = "SIHW-B.mp4";
+			$link_video = "SIOW-A.mp4";
 
 		elseif($_usuario->mecanica == "B"):
-			$link_video = "SIOW-A.mp4";
+			$link_video = "SIHW-B.mp4";
+		
 
 		endif;	
 
