@@ -3,7 +3,7 @@
         <!-- Modal content-->
         <div class="modal-content mlb-modal mlb-modal4">
           <div class="modal-body">
-            <img src="<?php echo IMGS?>ka/dirijan-web.png">
+            <img src="<?php echo $link_web?>">
           </div>
           <a class="back-home" href="./home.html">
             <img src="<?php echo IMGS?>ka/arrow-left.png">
