@@ -222,7 +222,7 @@ switch($accion):
 
 		Template::draw_header($site);
 		include("../view/premiosb.php");
-		Template::draw_footer($site);			
+	
 		else:
 			redireccionar();
 		endif;	
