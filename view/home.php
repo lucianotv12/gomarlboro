@@ -30,6 +30,6 @@
               <img src="<?php echo IMGS?>ka/web.png">
               <p>dirijan a la web</p>
             </div>
-            <a id="link-4" class="hidden" href="<?php echo HOME?>stock.html"></a>
+            <a id="link-4" class="hidden" href="<?php echo HOME?>web.html"></a>
           </div>
         </div>

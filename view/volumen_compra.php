@@ -4,7 +4,7 @@
         <!-- Modal content-->
         <div class="modal-content mlb-modal box-1">
           <div class="modal-body">
-            <img src="<?php echo IMGS?>ka/superen-volumen.png">
+            <img src="<?php echo $link_volumen?>">
 <!--            <img src="<?php echo IMGS?>gif/superen-volumen.png">-->
           </div>
           <a class="back-home" href="./home.html">

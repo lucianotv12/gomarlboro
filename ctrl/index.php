@@ -131,6 +131,12 @@ switch($accion):
 		{
 		$site="volumen_compra";				
 		$_usuario = unserialize($_SESSION["user"]);
+		if($_usuario->mecanica == "A"):
+			$link_volumen =  IMGS . "superen-volumen-compraMecanicaA.png";
+		else:
+			$link_volumen =  IMGS . "ka/superen-volumen.png";
+		endif;	
+
 		Template::draw_header($site);
 		include("../view/volumen_compra.php");
 		Template::draw_footer($site);			
@@ -142,6 +148,12 @@ switch($accion):
 		{
 		$site="stock";				
 		$_usuario = unserialize($_SESSION["user"]);
+		if($_usuario->mecanica == "A"):
+			$link_stock =  IMGS . "aseguren-stockmecanicaA.png";
+		else:
+			$link_stock =  IMGS . "ka/aseguren-stock.png";
+		endif;	
+
 		Template::draw_header($site);
 		include("../view/stock.php");
 		Template::draw_footer($site);			
@@ -163,6 +175,11 @@ switch($accion):
 		{
 		$site="web";				
 		$_usuario = unserialize($_SESSION["user"]);
+		if($_usuario->mecanica == "A"):
+			$link_web =  IMGS . "dirijan-webmecanicaA.png";
+		else:
+			$link_web =  IMGS . "ka/dirijan-web.png";
+		endif;
 		Template::draw_header($site);
 		include("../view/web.php");
 		Template::draw_footer($site);			
@@ -243,9 +260,11 @@ switch($accion):
 		$site= "video";
 		$_usuario = unserialize($_SESSION["user"]);
 		if($_usuario->mecanica == "A"):
-			$link_video = "SIOW-A.mp4";
-		elseif($_usuario->mecanica == "B"):
 			$link_video = "SIHW-B.mp4";
+
+		elseif($_usuario->mecanica == "B"):
+			$link_video = "SIOW-A.mp4";
+
 		endif;	
 
 		Template::draw_header($site);
