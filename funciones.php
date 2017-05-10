@@ -1,6 +1,6 @@
 ﻿<?php
-//$url = "http://www.gomarlboro.com.ar/";
-$url = "http://localhost/gomarlboro/";
+$url = "http://www.gomarlboro.com.ar/";
+//$url = "http://localhost/gomarlboro/";
 define('ROOT','localhost');
 define('DATABASE','gomarlboro');
 define('USER','root');
