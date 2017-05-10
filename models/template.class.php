@@ -142,7 +142,7 @@ class Template
             <span>performance </span><span class="grey">locales</span>
           </a>
           <div class="gift-small-container">
-            <img src="<?php echo IMGS?>ka/moto-small.png">
+            <img src="<?php echo IMGS?>gif/moto-gift.gif">
           </div>
         </div>
       </div>
