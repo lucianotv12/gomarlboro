@@ -121,9 +121,9 @@ switch($accion):
 
 	      echo '<script type="text/javascript">
 
-	      window.location.assign("home.html");
+	      window.location.assign("video.html");
 	      </script>';               
-	      header('Location:' . HOME . 'home.html');		
+	      header('Location:' . HOME . 'video.html');		
 
 		break;	
 		}
