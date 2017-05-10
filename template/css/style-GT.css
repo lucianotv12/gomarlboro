@@ -211,7 +211,7 @@
 }
 
 .home-background .modal-dialog{
-	margin: 20% auto;
+	margin: 20% auto 0 auto;
 }
 
 @media (max-width: 768px){
@@ -259,7 +259,7 @@
 
 @media (min-width: 1300px){
 .home-background .modal-dialog{
-	margin: 10% auto;
+	margin: 10% auto 20px auto;
 }
 }
 

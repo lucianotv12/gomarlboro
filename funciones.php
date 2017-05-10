@@ -1,12 +1,13 @@
 ﻿<?php
-$url = "http://www.gomarlboro.com.ar/";
+//$url = "http://www.gomarlboro.com.ar/";
+$url = "http://localhost/gomarlboro/";
 define('ROOT','localhost');
 define('DATABASE','gomarlboro');
 define('USER','root');
-define('PASS','1610lucho');
+define('PASS','');
 define('HOME',$url);
 define('ADMIN',$url);
-define('IMGS',$url . 'img/');
+define('IMGS',$url . 'template/img/');
 define('JS', $url. 'template/js/');
 define('CSS', $url . 'template/css/');
 define('VIEW',$url . 'view/');
