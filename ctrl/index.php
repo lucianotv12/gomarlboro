@@ -219,7 +219,7 @@ switch($accion):
 		$site="premiosb";				
 		$_usuario = unserialize($_SESSION["user"]);
 		if($_usuario->mecanica == "B"):
-			echo "aca entro";die;
+			
 		Template::draw_header($site);
 		include("../view/premiosb.php");
 		Template::draw_footer($site);			
