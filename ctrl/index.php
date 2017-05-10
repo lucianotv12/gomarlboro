@@ -214,7 +214,7 @@ switch($accion):
 		}
 		break;	
 
-	case 'premiosB':
+	case 'premiosb':
 		{
 		$site="premiosb";				
 		$_usuario = unserialize($_SESSION["user"]);
@@ -242,7 +242,7 @@ switch($accion):
 		}
 		break;	
 
-	case 'basesycondicionesB':
+	case 'basesycondicionesb':
 		{
 		$site="basesycondicionesB";				
 		$_usuario = unserialize($_SESSION["user"]);
