@@ -13,7 +13,7 @@ class Template
       $link_premios =  HOME . "premios.html";
       $link_bases = HOME . "basesycondiciones.html";
    elseif($_usuario->mecanica == "B"):
-      $link_premios =  HOME . "premiosB.html";
+      $link_premios =  HOME . "premiosb.html";
       $link_bases = HOME . "basesycondicionesb.html";
    
    endif; 
