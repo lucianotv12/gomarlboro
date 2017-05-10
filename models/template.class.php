@@ -65,7 +65,8 @@ class Template
     <?php elseif($site == "premios"):?>  
       <section class="background-image premios2-background">
     <?php elseif($site == "premiosb"):?>  
-      <div class="container separation-nav  premios">
+      <section class="background-image premios-background">
+
     <?php else: ?>
       <section class="background-image home-background home-modal-background">
     <?php endif;?>    
