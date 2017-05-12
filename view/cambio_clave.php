@@ -36,11 +36,11 @@
                   clave: "Campo Requerido",                     
                 clave_nueva: {
                     minlength: "Longitud minima 8 digitos",
-                    pwcheck: "Debe tener letrar y numeros"
+                    pwcheck: "Debe tener letras y numeros"
                 },
                 clave_nueva1: {
                     minlength: "Longitud minima 8 digitos",
-                    pwcheck: "Debe tener letrar y numeros"
+                    pwcheck: "Debe tener letras y numeros"
                 }
 
                 }
