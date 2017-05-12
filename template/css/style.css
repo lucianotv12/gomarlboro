@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'DIN';
-  src: url('../fonts/DIN Condensed Bold.ttf');
+/*  src: url('../fonts/DIN Condensed Bold.ttf');
+ @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+src:url("../fonts/Oswald_Bold/Oswald-Bold.eot?") format("eot"),url("../fonts/Oswald_Bold/Oswald-Bold.woff") format("woff"),
+url("../fonts/Oswald_Bold/Oswald-Bold.ttf") format("truetype"),
+url("../fonts/Oswald_Bold/Oswald-Bold.svg#Oswald-Bold") format("svg");font-weight:normal;font-style:normal;}  
 }
 
 @font-face {
