@@ -54,6 +54,8 @@
 
   </head>
   <body>
+  <?php include_once( HOME . "analyticstracking.php") ?>
+  
     <section class="background-image login-background">
       <nav id="menu" class="navbar navbar-default hidden-desktop">
         <div class="container full-width-mobile">
