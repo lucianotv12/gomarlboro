@@ -20,7 +20,7 @@
     <script src="<?php echo JS?>bootstrap.min.js"></script>
   </head>
   <body>
-  <?php include_once( HOME . "analyticstracking.php") ?>
+  <?php include_once("../analyticstracking.php") ?>
   
     <section class="background-image home-background home-modal2-background">
       <nav id="menu" class="navbar navbar-default">
