@@ -41,6 +41,8 @@ class Template
     <script src="<?php echo JS?>bootstrap.min.js"></script>
   </head>
   <body>
+  <?php include_once( HOME . "analyticstracking.php") ?>
+  
     <script type="text/javascript">
       $(document).ready(function() {
         $("#box-1").click(function(){
