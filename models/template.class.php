@@ -144,9 +144,9 @@ class Template
           <a href="<?php echo HOME?>ranking-locales.html" class="btn btn-grey btn-red inline">
             <span>performance </span><span class="grey">locales</span>
           </a>
-          <div class="gift-small-container">
-            <img src="<?php echo IMGS?>gif/moto-gift.gif">
-          </div>
+<!--          <div class="gift-small-container">
+            <img src="< ?php echo IMGS?>gif/moto-gift.gif">
+          </div>-->
         </div>
       </div>
     </section>
