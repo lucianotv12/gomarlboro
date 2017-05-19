@@ -20,35 +20,43 @@ $site="";
 switch($accion):
 	case "home" :
 		{				
-
-
-
-		$_usuario = unserialize($_SESSION["user"]);
-
-		if($_usuario->active == 0):
-			include("../view/cambio_clave.php");
-			break;
+		//ACA HAY QUE VALIDAR QUE TIPO DE SESSION TIENE, SI USER O USER_GT
+		if(@$_SESSION["user"]):
+			$usuario_tipo ="KA";
+			$_usuario = unserialize($_SESSION["user"]);
+		elseif(@$_SESSION["user_gt"]):
+			$usuario_tipo ="GT";
+			$_usuario = unserialize($_SESSION["user_gt"]);
 		endif;	
 
-		if($_usuario->acepta_bases == 0):
-			if($_usuario->mecanica == "A"):
-				include("../view/acepta-bases-condiciones-A.php");
-			else:
-				include("../view/acepta-bases-condiciones-B.php");			
+			if($usuario_tipo == "KA"):
+				if($_usuario->active == 0):
+					include("../view/cambio_clave.php");
+					break;
+				endif;	
+
+				if($_usuario->acepta_bases == 0):
+					if($_usuario->mecanica == "A"):
+						include("../view/acepta-bases-condiciones-A.php");
+					else:
+						include("../view/acepta-bases-condiciones-B.php");			
+					endif;	
+
+				endif;	
+				$site="home";	
+				Template::draw_header($site);
+				if($_usuario->mecanica == "A"):
+					include("../view/home-5.php");
+				elseif($_usuario->mecanica == "B"):
+					include("../view/home.php");
+
+				endif;		
+
+				Template::draw_footer($site);
+
+			elseif($usuario_tipo == "GT"):
+				print_r($_usuario);
 			endif;	
-
-		endif;	
-		$site="home";	
-		Template::draw_header($site);
-		if($_usuario->mecanica == "A"):
-			include("../view/home-5.php");
-		elseif($_usuario->mecanica == "B"):
-			include("../view/home.php");
-
-		endif;		
-
-		Template::draw_footer($site);
-
 
 /*
 		Template::draw_header();

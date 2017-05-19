@@ -116,14 +116,11 @@ class User {
 
 	function login_admin($_user,$_password)
 	{
-	//	$_user = mysql_real_escape_string($_user);
-//		$_password = mysql_real_escape_string($_password);		
+	
 		$_password_SHA = sha1($_password);
 			
 
 		$conn = new Conexion();
-
-//		ECHO "SELECT id FROM users WHERE email = :User and (clave = :Pass OR clave = $_password_SHA";
 
 		$sql = $conn->prepare('SELECT id FROM users WHERE usuario = :User and (clave = :Pass OR clave = :PassSHA)' );
 		$sql->execute(array('User' => $_user,  'PassSHA' => $_password_SHA, 'Pass' => $_password));
