@@ -9,5 +9,8 @@
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext.png">
             <p style="padding-top: 15px; font-size: 30px; color:#d72029">¡No te frenes! ¡Seguí superándote hasta llegar al premio mayor! Próximamente publicaremos resultados.</p>
           </div> 
+          <a class="back-home" href="./home.html">
+            <img src="<?php echo IMGS?>ka/arrow-left.png">
+          </a>                  
         </div>
       </div>     
