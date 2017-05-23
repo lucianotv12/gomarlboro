@@ -19,7 +19,7 @@
     <script src="<?php echo JS?>bootstrap.min.js"></script>
   </head>
   <body>
-  <?php include_once("../analyticstracking.php") ?>
+  <?php include_once( HOME . "analyticstracking.php") ?>
     <section class="background-image start-gift-background">
       <nav id="menu" class="navbar navbar-default hidden-desktop">
         <div class="container full-width-mobile">
