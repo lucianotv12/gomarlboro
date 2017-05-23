@@ -108,9 +108,6 @@ class User {
 	//	ECHO "UPDATE users set nombre = '$nombre', fechaNac = '$fecha_sql', celular = '$celular', email = '$email' WHERE id = $user_id";die;
 		$sql = $conn->prepare("UPDATE users set nombre = :NOMBRE, fechaNac = :FECHANAC, celular = :CELULAR , email =  :EMAIL WHERE id = :User");
 		$sql->execute(array('User' => $user_id, 'NOMBRE' => $_PARAM["nombre"], 'FECHANAC' => $fecha_sql, 'CELULAR' => $_PARAM["celular"], 'EMAIL' => $_PARAM["email"]));
-		print_r($_PARAM["fecha"]);
-		print_r($sql);die;
-
 
 	}
 
