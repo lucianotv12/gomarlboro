@@ -140,20 +140,7 @@
         </div>
       </div>
 
-      <div class="container hidden-mobile bases-condicion">
-        <div class="bottom-container bold">
-          <button type="button" class="btn btn-grey btn-red inline">
-            <span class="grey">tu </span><span>performance</span>
-          </button>
-          <span class="btn-sep inline hidden-mobile"></span>
-          <button type="button" class="btn btn-grey btn-red inline">
-            <span>performance </span><span class="grey">locales</span>
-          </button>
-          <div class="gift-small-container">
-            <img src="<?php echo IMGS?>ka/moto-small.png">
-          </div>
-        </div>
-      </div>
+
 
     </section>
   </body>
