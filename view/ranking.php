@@ -10,4 +10,7 @@
             <p style="padding-top: 15px; font-size: 30px;color:#d72029">¡No te frenes! ¡Si tus Puntos de Venta Ganan, Vos También podés ganar! Próximamente publicaremos resultados.</p>
           </div> 
         </div>
+          <a class="back-home" href="./home.html">
+            <img src="<?php echo IMGS?>ka/arrow-left.png">
+          </a>        
       </div>     
