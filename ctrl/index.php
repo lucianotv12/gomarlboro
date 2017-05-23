@@ -244,6 +244,7 @@ switch($accion):
 		if($_usuario->mecanica == "A"):
 		Template::draw_header($site);
 		include("../view/bases-condiciones-A.php");
+		Template::draw_footer($site);			
 
 		else:
 			redireccionar();
