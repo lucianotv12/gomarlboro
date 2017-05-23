@@ -98,11 +98,17 @@ class User {
 
 	function actualizar_datos($user_id,$_PARAM){
 //		list($dia, $mes, $anio) = ('[/.-]', $_PARAM["fecha"]);
-		$fecha = explode("/", $_PARAM["fecha"]);
-		$fecha_sql = $fecha[2] . "-" . $fecha[1] ."-". $fecha[0];		
+		if($_PARAM["fecha"]):
+			$fecha = explode("/", $_PARAM["fecha"]);
+			$fecha_sql = $fecha[2] . "-" . $fecha[1] ."-". $fecha[0];		
+		else:
+			$fecha_sql = null;	
+			
+		endif;	
 		$nombre = $_PARAM["nombre"];
 		$celular = $_PARAM["celular"];
 		$email = $_PARAM["email"];
+
 
 		$conn = new Conexion();
 	//	ECHO "UPDATE users set nombre = '$nombre', fechaNac = '$fecha_sql', celular = '$celular', email = '$email' WHERE id = $user_id";die;
