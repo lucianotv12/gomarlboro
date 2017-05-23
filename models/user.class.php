@@ -99,9 +99,16 @@ class User {
 	function actualizar_datos($user_id,$_PARAM){
 		list($dia, $mes, $anio) = split('[/.-]', $_PARAM["fecha"]);
 		$fecha_sql = $anio . "-" . $mes ."-". $dia;		
+		$nombre = $_PARAM["nombre"];
+		$celular = $_PARAM["celular"];
+		$email = $_PARAM["email"];
+
 		$conn = new Conexion();
-		$sql = $conn->prepare("UPDATE users set nombre = :NOMBRE, fechaNac = :FECHANAC, celular = :CELULAR, email = :EMAIL WHERE id = :User");
+		ECHO "UPDATE users set nombre = '$nombre', fechaNac = '$fecha_sql', celular = '$celular', email = '$email' WHERE id = $user_id";die;
+		$sql = $conn->prepare("UPDATE users set nombre = :NOMBRE, fechaNac = :FECHANAC, celular = :CELULAR , email =  :EMAIL WHERE id = :User");
 		$sql->execute(array('User' => $user_id, 'NOMBRE' => $_PARAM["nombre"], 'FECHANAC' => $fecha_sql, 'CELULAR' => $_PARAM["celular"], 'EMAIL' => $_PARAM["email"]));
+		print_r($_PARAM["fecha"]);
+		print_r($sql);die;
 
 
 	}
