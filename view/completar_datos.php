@@ -18,10 +18,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="<?php echo JS?>bootstrap.min.js"></script>
     <script language="JavaScript" src="<?php echo JS?>jquery-3.1.0.min.js"></script>
-    <script language="JavaScript" src="<?php echo JS?>jquery.validate.js"></script>    
+    <script language="JavaScript" src="<?php echo JS?>jquery.validate.js"></script>      
+    <script src="<?php echo JS?>jquery.maskedinput.js" type="text/javascript" ></script>    
     <script type="text/javascript">
         $(document).ready(function(){
-
+          $('#fecha').mask('99/99/9999');
 
                 $("#datos").validate({ 
                     rules: {             
