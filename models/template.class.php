@@ -152,6 +152,19 @@ class Template
           </div>-->
         </div>
       </div>
+      <div class="container hidden-desktop">
+       <div class="bottom-container bold">
+          <a href="<?php echo HOME?>ranking.html" class="btn btn-grey btn-red inline" style="width: 100%">
+            <span class="grey">tu </span><span>performance</span>
+          </a> <br/><br/>
+          <span class="btn-sep inline hidden-mobile"></span>
+          <a href="<?php echo HOME?>ranking-locales.html" class="btn btn-grey btn-red inline" style="width: 100%">
+            <span>performance </span><span class="grey">locales</span>
+          </a>
+
+        </div>
+      </div>
+
     </section>
   </body>
 </html>

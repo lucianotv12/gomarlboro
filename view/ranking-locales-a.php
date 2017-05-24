@@ -6,9 +6,8 @@
             <img class="ranking-text" src="<?php echo IMGS?>ka/ranking-text.png">
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext2.png">
             <div class="ranking-container">
-              <div class="row-ranking first-row">  
-                <div>
-                  <table class="table" >
+
+                  <table class="table table-responsive" >
                     <tr><td colspan="8" style="text-align: center;">SEMANA 1</td></tr>
                     <tr>
                       <td>Supervisor</td>
@@ -38,8 +37,6 @@
             <?php endforeach;?>
                </table>
 
-                </div>
-              </div>               
             </div>
           </div>
           <a class="back-home" href="./home.html">
