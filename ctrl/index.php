@@ -300,7 +300,14 @@ switch($accion):
 		$site="ranking-locales";				
 		$_usuario = unserialize($_SESSION["user"]);
 		Template::draw_header($site);
-		include("../view/ranking-locales.php");
+		if($_usuario->mecanica == "A"):
+			$pdvs= User::get_pdvs_a($_usuario->usuario);	
+			include("../view/ranking-locales-a.php");
+		elseif($_usuario->mecanica == "B"):
+			$pdvs= User::get_pdvs_b($_usuario->usuario);	
+			include("../view/ranking-locales-b.php");
+		endif;	
+
 		Template::draw_footer($site);			
 
 		}

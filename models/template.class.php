@@ -68,6 +68,9 @@ class Template
       <section class="background-image premios2-background">
     <?php elseif($site == "premiosb"):?>  
       <section class="background-image premios-background">
+    <?php elseif($site == "ranking-locales"):?>  
+      <section class="background-image ranking-background">
+
 
     <?php else: ?>
       <section class="background-image home-background home-modal-background">

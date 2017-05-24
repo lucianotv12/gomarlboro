@@ -189,6 +189,32 @@ class User {
 		return $data;
 	}
 
+	function get_pdvs_b($_dni){
+		$conn = new Conexion();
+
+		$sql = $conn->prepare('select * from pdv_b where dni = :DNI order by faltantes_flia_mlb');
+		$sql->execute(array('DNI' => $_dni));
+		return $sql->fetchAll();
+
+	}
+
+	function get_pdvs_a($_dni){
+		$conn = new Conexion();
+
+		$sql = $conn->prepare('select grupo from pdv_a where dni = :DNI');
+		$sql->execute(array('DNI' => $_dni));
+		$grupo = $sql->fetch(PDO::FETCH_ASSOC);
+		
+		$grupo = $grupo["grupo"];
+
+
+		$sql = $conn->prepare("select * from pdv_a where grupo = '$grupo' order by faltantes_flia_mlb");
+		$sql->execute();
+//		print_r($sql);die;
+		return $sql->fetchAll();
+
+
+	}
 
 	/*---GETTERS--------------------------------------------------------------*/ 
 
