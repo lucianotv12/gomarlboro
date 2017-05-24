@@ -133,7 +133,7 @@ class Template
 
 
       <div class="container hidden-mobile">
-        <?php if($site != "home"):?>  
+        <?php if($site != "home" and $site != "ranking-locales" ):?>  
         <div class="bottom-text bold">
           <p>¡Aprovechá todas las oportunidades de sumar y ganá con marlboro!</p>
           <p>¡No dejes que nada te frene!</p>
