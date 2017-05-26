@@ -4,7 +4,7 @@ $url = "https://www.gomarlboro.com.ar/";
 define('ROOT','localhost');
 define('DATABASE','gomarlboro');
 define('USER','root');
-define('PASS','');
+define('PASS','1610lucho');
 define('HOME',$url);
 define('ADMIN',$url);
 define('IMGS',$url . 'template/img/');
