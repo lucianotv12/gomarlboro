@@ -64,6 +64,7 @@ switch($accion):
 				if($_usuario->acepta_bases == 0):
 
 						include("../view/acepta-bases-condiciones-gt.php");
+					break;
 
 				endif;	
 
@@ -206,7 +207,7 @@ switch($accion):
 
 	case 'acepta_bases_gt':
 		{
-			ECHO "ACA ENTROOO LP,";DIE;
+			
 		$_usuario = unserialize($_SESSION["user_gt"]);			
 		User_gt::acepta_basesycondiciones($_usuario->id);		
 
