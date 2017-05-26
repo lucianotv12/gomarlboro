@@ -239,9 +239,7 @@ class Template
           <button type="button" class="btn btn-grey btn-red inline">
             <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile"> chances</span>
           </button>
-          <div class="gift-small-container">
 
-          </div>
         </div>
       </div>
 
