@@ -441,9 +441,9 @@ switch($accion):
 		break;	
 	case 'mrl_core':
 		{	$site="core";
-			Template::draw_header_gt($site);
+//			Template::draw_header_gt($site);
 			include("../view/mrl_core.php");
-			Template::draw_footer_gt($site);
+//			Template::draw_footer_gt($site);
 
 
 
