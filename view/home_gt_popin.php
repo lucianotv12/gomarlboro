@@ -56,7 +56,7 @@
               </a>
             </div>
             <div class="chances-acumuladas">
-              <p>Chances amuculadas <?php echo $_usuario->puntos?></p>
+              <p>Chances amuculadas 10</p>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
@@ -79,7 +79,7 @@
         <div class="modal-dialog">
           <!-- Modal content-->
           <div class="modal-content">
-            <form name="popin" method="post" action="<?php echo HOME?>">
+            <form name="popin" method="post" action="<?php echo HOME?>home.html">
             <button id="myModalClose" type="submit" class="close" data-dismiss="modal">
               <img src="<?php echo IMGS?>gt/close.png">
             </button>

@@ -29,7 +29,7 @@
             <img src="<?php echo IMGS?>gt/menu.png">
             <button type="button" class="btn-arrow dropdown-toggle down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="chances-container">
-              <p>Chances Acumuladas 0</p>
+              <p>Chances Acumuladas 10</p>
             </div>
             <ul class="dropdown-menu">
               <li role="separator" class="divider"></li>
