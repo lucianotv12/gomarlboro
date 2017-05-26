@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Go Marlboro</title>
+    <title>Home 1</title>
 
     <link href="<?php echo CSS?>bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo CSS?>style.css" rel="stylesheet">
-    <link href="<?php echo CSS?>style-GT.css" rel="stylesheet">
     <link href="<?php echo CSS?>style-KA.css" rel="stylesheet">
+    <link href="<?php echo CSS?>style-GT.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -19,9 +19,73 @@
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="<?php echo JS?>bootstrap.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
   </head>
   <body>
-    <section class="background-image home-background home-modal2-background">
+    <script type="text/javascript">
+    $( document ).ready(function() {
+      var percentage = 0.25;
+
+      var browserData = [
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true},
+          {color: '#4f7282', y: 1, sliced: true}
+      ]
+
+      var quotient = Math.floor(percentage*12);
+      for (var i = 0; i < quotient; i++){
+          browserData[i].color = '#dc1e25';
+      }
+
+      // Create the chart
+      Highcharts.chart('chart', {
+          title: {
+            text:null
+          },
+          chart: {
+              type: 'pie',
+              backgroundColor: null,
+              plotBackgroundColor: 'none',
+              plotBorderWidth: 0,
+              plotShadow: false
+          },
+          plotOptions: {
+              pie: {
+                  shadow: false,
+                  borderWidth: null
+              }
+          },
+          tooltip: {
+            enabled: false
+          },
+          series: [{
+              name: 'Browsers',
+              data: browserData,
+              size: '80%',
+              innerSize: '60%',
+              dataLabels: false,
+              states: {
+                hover: false
+              }
+          }],
+          exporting: false,
+          credits: {
+            enabled: false
+          }
+      });
+    });  
+    </script>
+    <section class="background-image home-background home-modal-background modal-gt-back">
       <nav id="menu" class="navbar navbar-default">
         <div class="container full-width-mobile">
           <!-- DESKTOP MENU -->
@@ -57,7 +121,7 @@
               </a>
             </div>
             <div class="chances-acumuladas">
-              <p>Chances amuculadas 1234</p>
+              <p>Chances amuculadas 10</p>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
@@ -73,30 +137,27 @@
           </div>
           <!-- END MOBILE MENU  -->
         </div>
-        
       </nav>
 
-      
-      <!-- Modal -->
-      <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content mlb-modal box-2">
-          <div class="modal-body">
-            <img src="<?php echo IMGS?>gt/mlb-core.png">
+      <div class="container gt-modal popin">
+        <!-- Modal -->
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content mlb-modal box-1">
+            <div class="modal-body">
+              <img src="<?php echo IMGS?>gt/compra-mlb.png">
+            </div>
+            <a class="back-home" href="./home.html">
+              <img src="<?php echo IMGS?>ka/arrow-left.png">
+            </a>
           </div>
-          <a class="back-home" href="./home.html">
-            <img src="<?php echo IMGS?>ka/arrow-left.png">
-          </a>
+          <div class="chart-container bold">
+            <div><span class="red">AVANCE </span><span>VS. OBJETIVO</span></div>
+            <div class="percentage red">100%</div>
+            <div id="chart"></div>
+          </div>
         </div>
       </div>
-
-      <div class="container hidden-mobile">
-        <div class="bottom-text bold">
-          <p>¡Aprovechá todas las oportunidades de sumar y ganá con marlboro!</p>
-          <p>¡No dejes que nada te frene!</p>
-        </div>
-      </div>
-
     </section>
   </body>
 </html>

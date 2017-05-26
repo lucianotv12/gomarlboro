@@ -8,7 +8,7 @@
               <img src="<?php echo IMGS?>gt/cart.png">
               <p>comprá marlboro</p>
             </div>
-            <a id="link-1" class="hidden" href="./home1.html"></a>
+            <a id="link-1" class="hidden" href="<?php echo HOME?>mlb_compra.html"></a>
           </div>
           <div class="col-md-6">
             <div id="box-2" class="box-container">

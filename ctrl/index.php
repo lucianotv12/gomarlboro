@@ -451,5 +451,18 @@ switch($accion):
 			# code...
 			break;	
 
+	case 'mlb_compra':
+		{	$site="core";
+//			Template::draw_header_gt($site);
+			include("../view/mlb_compra.php");
+//			Template::draw_footer_gt($site);
+
+
+
+		}
+			# code...
+			break;	
+
+
 endswitch;
 ?>
