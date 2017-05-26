@@ -462,7 +462,17 @@ switch($accion):
 		}
 			# code...
 			break;	
+	case 'premios_GT':
+		{	$site="core";
+//			Template::draw_header_gt($site);
+			include("../view/premios_GT.php");
+//			Template::draw_footer_gt($site);
 
+
+
+		}
+			# code...
+			break;	
 
 endswitch;
 ?>

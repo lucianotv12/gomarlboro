@@ -97,7 +97,7 @@
             </div>
             <ul class="dropdown-menu">
               <li role="separator" class="divider"></li>
-              <li><a href="./premios.html">Premios</a></li>
+              <li><a href="<?php echo HOME?>premios.html">Premios</a></li>
               <li role="separator" class="divider"></li>
               <li><a href="#">Bases y condiciones</a></li>
               <li role="separator" class="divider"></li>
