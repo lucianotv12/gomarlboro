@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Marlboro Go</title>
+    <title>Go marlboro</title>
 
     <link href="<?php echo CSS?>bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo CSS?>style.css" rel="stylesheet">
@@ -19,8 +20,7 @@
     <script src="<?php echo JS?>bootstrap.min.js"></script>
   </head>
   <body>
-  <?php include_once("analyticstracking.php") ?>
-    <section class="background-image start-gift-background">
+    <section class="background-image login-background">
       <nav id="menu" class="navbar navbar-default hidden-desktop">
         <div class="container full-width-mobile">
           <!-- MOBILE MENU  -->
@@ -35,27 +35,31 @@
         </div>
       </nav>
       <div class="container">
+        <div class="col-md-6"></div>
         <div class="col-md-6">
-          <form class="login-form provincia" name="login" method="post">
+          <form class="login-form sign-up" method="post" action="usuario_confirmado.html">
+          <input type="hidden" name="user_id" value="<?php echo $datos['id']?>">
             <div class="input-group">
-              <input type="text" name="user" class="form-control" placeholder="- Usuario">
-              <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+
+              <p class="form-control"><?php echo $datos["razon_social"]?></p>
             </div>
             <div class="input-group input-separation">
-              <input type="password" name="password" class="form-control" placeholder="- Contraseña">
-              <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+
+              <p class="form-control"><?php echo $datos["calle"] . " " . $datos["numero"] ?></p>
             </div>
-            <?php if(@$mensaje_error):?>
-              <div class="">
-                <p style="color: red; text-align: center;">Usuario o clave inválidos</p>
-              </div>  
-            <?php endif;?> 
+            <div class="input-group input-separation">
+              <p class="form-control"><?php echo $datos["localidad"]?></p>
+            </div>
+            <div class="input-group input-separation-extend">
+
+              <p class="form-control"><?php echo $datos["provincia"]?></p>
+            </div>
             <div class="button-container">
-              <button type="submit" class="btn btn-grey">Aceptar</button>
+              <button type="button" class="btn btn-grey fleft" onclick="javascript:history.back(1)">Cancelar</button>
+              <button type="submit" class="btn btn-grey fright">Aceptar</button>
             </div>
           </form>
         </div>
-        <div class="col-md-6"></div>
       </div>
     </section>
   </body>

@@ -72,7 +72,6 @@ class User_gt {
 	}
 
 	function change_pass($user_id, $clave, $nueva_clave){
-
 		$conn = new Conexion();
 		date_default_timezone_set('America/Argentina/Buenos_Aires');
 		$_hora= date ("H:i:s");
@@ -83,15 +82,14 @@ class User_gt {
 		$nueva_clave = sha1($nueva_clave);
 
 
-		$sql = $conn->prepare('SELECT id FROM users_gt WHERE id = :User and (clave = :Pass or clave = :PassSHA)' );
+		$sql = $conn->prepare('SELECT id FROM users WHERE id = :User and (clave = :Pass or clave = :PassSHA)' );
 		$sql->execute(array('User' => $user_id, 'PassSHA' => $clave_actual, 'Pass' => $clave));
 
 		$resultado = $sql->fetch(PDO::FETCH_ASSOC);
 
 		if($resultado):
 
-
-			$sql = $conn->prepare('UPDATE users_gt SET clave = :NEWPASS, date = :FECHA, active = 1  WHERE id = :User' );
+			$sql = $conn->prepare('UPDATE users SET clave = :NEWPASS, date = :FECHA, active = 1  WHERE id = :User' );
 			$sql->execute(array('User' => $user_id, 'NEWPASS' => $nueva_clave, 'FECHA' => $hora_actual));
 
 			$resultado = $sql->fetch(PDO::FETCH_ASSOC);
@@ -117,7 +115,7 @@ class User_gt {
 	function acepta_basesycondiciones($_id){
 		$_id		= preg_replace('/[^0-9]/'		,''	, $_id);
 		$conn = new Conexion();
-		$sql = $conn->prepare("UPDATE users_gt set acepta_bases = 1 where id = :ID"); 
+		$sql = $conn->prepare("UPDATE users set acepta_bases = 1 where id = :ID"); 
 		$sql->execute(array('ID' => $_id)); 		
 		$sql=null;
 		$conn=null;
@@ -185,86 +183,6 @@ class User_gt {
 		return $data;
 	}
 
-	function get_provincias_user($_user){
-
-		$conn = new Conexion();
-
-		$sql = $conn->prepare('select provincia from users_gt where usuario= :NAME and active = 0');
-		$sql->execute(array('NAME' => $_user));
-		$resultado = $sql->fetchAll();
-		
-		$sql=null;
-		$conn=null;
-
-		return $resultado;	
-
-
-	}
-
-	function get_ezd($idProvincia, $_user){
-
-		$conn = new Conexion();
-
-		$sql = $conn->prepare('select desc_EZD from users_gt where usuario= :NAME and provincia = :PROVINCIA and active = 0');
-		$sql->execute(array('NAME' => $_user, 'PROVINCIA' => $idProvincia));
-		$resultado = $sql->fetchAll();
-		
-		$sql=null;
-		$conn=null;
-
-		return $resultado;	
-
-
-	}
-
-	function confirma_datos($_user, $_PARAM){
-
-		$conn = new Conexion();
-
-		$sql = $conn->prepare('select * from users_gt where usuario= :NAME AND provincia = :PROVINCIA AND desc_EZD = :EZD');
-		$sql->execute(array('NAME' => $_user, 'PROVINCIA' => $_PARAM["provincia"], 'EZD' => $_PARAM["ezd"]));
-		return $sql->fetch(PDO::FETCH_ASSOC);
-
-	}
-
-	function activar_usuario($_user){
-
-		$conn = new Conexion();
-
-		$sql = $conn->prepare('UPDATE users_gt set active = 1 where id :USER');
-		$sql->execute(array('USER' => $_user));
-
-	}
-	function sumar_puntos($_user, $puntos){
-
-		$conn = new Conexion();
-
-		$sql = $conn->prepare('UPDATE users_gt set puntos = :PUNTOS where id :USER');
-		$sql->execute(array('USER' => $_user, 'PUNTOS' => $puntos));
-
-	}
-	function carga_datos($_user, $_PARAM){
-		
-		if($_PARAM["fecha"]):
-			$fecha = explode("/", $_PARAM["fecha"]);
-			$fecha_sql = $fecha[2] . "-" . $fecha[1] ."-". $fecha[0];		
-		else:
-			$fecha_sql = null;	
-			
-		endif;
-		$tipo = $_PARAM["tipo_usuario"];
-		$nombre = $_PARAM["nombre"];
-		$celular = $_PARAM["celular"];
-		$email = $_PARAM["email"];
-
-		$conn = new Conexion();
-
-		$sql = $conn->prepare("INSERT INTO datos_gt values($_user, '$tipo', '$nombre', '$fecha_sql', '$celular', '$email')");
-//		$sql->execute(array('USER' => $_user, 'TIPO' => $_PARAM["tipo_usuario"], 'NOMBRE' => $_PARAM["nombre"], 'FECHA' => $fecha_sql, 'celular' => $_PARAM["celular"], 'EMAIL' => $_PARAM["email"] ));
-		$sql->execute();
-
-
-	}	
 
 	/*---GETTERS--------------------------------------------------------------*/ 
 

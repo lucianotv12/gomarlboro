@@ -31,6 +31,7 @@ switch($accion):
 
 			if($usuario_tipo == "KA"):
 				if($_usuario->active == 0):
+					$tipo = "KA";
 					include("../view/cambio_clave.php");
 					break;
 				endif;	
@@ -55,7 +56,23 @@ switch($accion):
 				Template::draw_footer($site);
 
 			elseif($usuario_tipo == "GT"):
-				print_r($_usuario);
+				if($_usuario->active == 0):
+					$provincias = User_gt::get_provincias_user($_usuario->usuario);
+					include("../view/provincia_ezd.php");
+					break;
+				endif;					
+				if($_usuario->acepta_bases == 0):
+
+						include("../view/acepta-bases-condiciones-gt.php");
+
+				endif;	
+
+
+				Template::draw_header_gt($site);
+				include("../view/home_gt.php");
+				Template::draw_footer_gt($site);
+				//print_r($_usuario);
+
 			endif;	
 
 /*
@@ -67,20 +84,41 @@ switch($accion):
 		}
 	case 'cambiar_clave':
 		{
-		$_usuario = unserialize($_SESSION["user"]);
+		if($_POST["tipo"] == "KA" ):	
 
-		$change = User::change_pass($_usuario->id, "Mlbka123", $_POST["clave_nueva"]);
-		
-		session_destroy();
-		session_start();
+			$_usuario = unserialize($_SESSION["user"]);
 
-	 	$_usuario_new = new User($_usuario->id);
-	  	$_SESSION["user"] = serialize($_usuario_new);
+			$change = User::change_pass($_usuario->id, "Mlbka123", $_POST["clave_nueva"]);
+			
+			session_destroy();
+			session_start();
 
-		if($change):
-			include("../view/completar_datos.php");
+		 	$_usuario_new = new User($_usuario->id);
+		  	$_SESSION["user"] = serialize($_usuario_new);
+
+			if($change):
+				include("../view/completar_datos.php");
+
+			endif;	
+		elseif($_POST["tipo"] == "GT" ):
+
+			$_usuario = unserialize($_SESSION["user_gt"]);
+
+			$change = User_gt::change_pass($_usuario->id, "Mlbka123", $_POST["clave_nueva"]);
+			
+			session_destroy();
+			session_start();
+
+		 	$_usuario_new = new User_gt($_usuario->id);
+		  	$_SESSION["user_gt"] = serialize($_usuario_new);
+
+			if($change):
+				include("../view/completar_datos_gt.php");
+
+			endif;		
 
 		endif;	
+
 
 		break;
 		}	
@@ -115,6 +153,36 @@ switch($accion):
 
 		break;	
 		}
+
+	case 'cambiar_datos_gt':
+		{
+		$_usuario = unserialize($_SESSION["user_gt"]);
+
+
+			User_gt::carga_datos($_usuario->id, $_POST);
+
+
+		if(isset($_POST["mas"])):
+			include("../view/completar_datos_gt.php");
+
+		elseif(isset($_POST["guardar"])):	
+
+		  	User_gt::sumar_puntos($_usuario->id, 10);
+
+			session_destroy();
+			session_start();
+
+		 	$_usuario_new = new User_gt($_usuario->id);
+		  	$_SESSION["user_gt"] = serialize($_usuario_new);
+			$_usuario = unserialize($_SESSION["user_gt"]);
+
+
+			include("../view/home_gt_popin.php");
+
+		endif;	
+			break;	
+		}
+
 	case 'acepta_bases':
 		{
 		$_usuario = unserialize($_SESSION["user"]);			
@@ -135,6 +203,29 @@ switch($accion):
 
 		break;	
 		}
+
+	case 'acepta_bases_gt':
+		{
+			ECHO "ACA ENTROOO LP,";DIE;
+		$_usuario = unserialize($_SESSION["user_gt"]);			
+		User_gt::acepta_basesycondiciones($_usuario->id);		
+
+		session_destroy();
+		session_start();
+
+	 	$_usuario_new = new User($_usuario->id);
+	  	$_SESSION["user_gt"] = serialize($_usuario_new);		
+		$_usuario = unserialize($_SESSION["user_gt"]);
+
+	      echo '<script type="text/javascript">
+
+	      window.location.assign("home.html");
+	      </script>';               
+	      header('Location:' . HOME );		
+
+		break;	
+		}
+
 	case 'volumen_compra':
 		{
 		$site="volumen_compra";				
@@ -312,5 +403,52 @@ switch($accion):
 
 		}
 		break;	
+/*// GT*///
+	case 'confirma_gt_datos':
+		{
+		$site="confirma_datos";
+//		print_r($_POST);die;
+		$_usuario = unserialize($_SESSION["user_gt"]);
+		$datos = User_gt::confirma_datos($_usuario->usuario, $_POST);
+
+		include("../view/confirma_datos.php");
+
+		}
+
+		break;
+
+	case 'usuario_confirmado':
+		{
+		$site="confirma_datos";
+//		print_r($_POST);die;
+
+	//  	User_gt::activar_usuario($_POST["user_id"]);
+
+		session_destroy();
+		session_start();
+
+	 	$_usuario_new = new User_gt($_POST["user_id"]);
+	  	$_SESSION["user_gt"] = serialize($_usuario_new);
+
+	  	$tipo = "GT"; 
+		include("../view/cambio_clave.php");
+
+
+
+		}
+
+		break;	
+	case 'mrl_core':
+		{	$site="core";
+			Template::draw_header_gt($site);
+			include("../view/mrl_core.php");
+			Template::draw_footer_gt($site);
+
+
+
+		}
+			# code...
+			break;	
+
 endswitch;
 ?>

@@ -74,6 +74,7 @@
         <div class="col-md-6"></div>
         <div class="col-md-6">
           <form class="login-form sign-up" id="cambiar_clave" name="cambiar_clave" method="post" action="cambiar_clave.html">
+            <input type="hidden" name="tipo" value="<?php echo $tipo?>">
             <div class="input-group">
               <input type="password" id="clave_nueva" name="clave_nueva" class="form-control" placeholder="- NUEVA CONTRASEÑA">
               <span class="glyphicon glyphicon-user" aria-hidden="true"></span>

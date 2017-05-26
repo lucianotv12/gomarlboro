@@ -4,7 +4,7 @@ $url = "http://www.gomarlboro.com.ar/gomarlboro/";
 define('ROOT','localhost');
 define('DATABASE','gomarlboro');
 define('USER','root');
-define('PASS','1610lucho');
+define('PASS','');
 define('HOME',$url);
 define('ADMIN',$url);
 define('IMGS',$url . 'template/img/');
@@ -13,6 +13,7 @@ define('CSS', $url . 'template/css/');
 define('VIEW',$url . 'view/');
 define('CTRL', $url . 'ctrl/');
 define('CLASES', $url . 'models/');
+define('PUNTOS_GT', 0);
 
 
 /*function conectar_bd()
@@ -45,7 +46,7 @@ function __autoload($class_name)
 
 function validar_permanencia ($_redireccion_estricta = true)
 	{
-	if (!isset($_SESSION["user"]))
+	if (!isset($_SESSION["user"]) and !isset($_SESSION["user_gt"]))
 		{
 		# Verifico si me pasa una URL para mostrar un mensaje de error
 		if($_redireccion_estricta)
