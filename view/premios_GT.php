@@ -34,9 +34,9 @@
               <li role="separator" class="divider"></li>
               <li><a href="#">Bases y condiciones</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">Web marlboro</a></li>
+              <li><a target="_blank" href="https://www.marlboro.com.ar">Web marlboro</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">Video tutorial</a></li>
+              <li><a href="<?php echo HOME?>video_gt.html">Video tutorial</a></li>
             </ul>
           </div>
           <!-- END DESKTOP MENU -->
@@ -59,7 +59,7 @@
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Premios</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Web marlboro</a></li>
+                <li><a   href="https://www.marlboro.com.ar">Web marlboro</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="salir"><a href="#">Salir</a></li>
               </ul>

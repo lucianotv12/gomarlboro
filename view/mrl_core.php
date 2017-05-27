@@ -37,9 +37,9 @@
               <li role="separator" class="divider"></li>
               <li><a href="#">Bases y condiciones</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">Web marlboro</a></li>
+              <li><a target="_blank" href="https://www.marlboro.com.ar">Web marlboro</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">Video tutorial</a></li>
+              <li><a href="<?php echo HOME?>video_gt.html">Video tutorial</a></li>
             </ul>
           </div>
           <!-- END DESKTOP MENU -->
@@ -57,7 +57,7 @@
               </a>
             </div>
             <div class="chances-acumuladas">
-              <p>Chances amuculadas 1234</p>
+              <p>Chances amuculadas 10</p>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
@@ -65,7 +65,7 @@
                 <li role="separator" class="divider"></li>
                 <li><a href="./premios.html">Premios</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#">Web marlboro</a></li>
+                 <li><a  href="https://www.marlboro.com.ar">Web marlboro</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="salir"><a href="#">Salir</a></li>
               </ul>

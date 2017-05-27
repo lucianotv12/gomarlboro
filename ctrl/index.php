@@ -376,6 +376,18 @@ switch($accion):
 
 		break;	
 		}
+
+	case 'video_gt':
+		{
+		$site= "video";
+
+			$link_video = "SIOW-A.mp4";
+		Template::draw_header_gt($site);
+		include("../view/video.php");
+		Template::draw_footer_gt($site);			
+
+		break;	
+		}		
 	case 'ranking':
 		{
 		$site="ranking";				
