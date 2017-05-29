@@ -688,6 +688,15 @@ font-weight: bold;
 	margin: 0;
 	width: 100%;
 }	
+#muestra_objetivo{
+position: absolute;
+left:42%; 
+top:71%; 
+color:white; 
+font-size: 14px; 
+font-weight: bold;
+
+}
 }
 
 .popin .modal-dialog{
@@ -717,10 +726,7 @@ font-weight: bold;
 }
 }
 
-.gt-modal.popin .modal-dialog,
-.popin .modal-dialog{
-	width: 50%;
-}	
+
 @media (min-width: 1800px){
 .gt-modal.popin .modal-dialog,
 .popin .modal-dialog{
