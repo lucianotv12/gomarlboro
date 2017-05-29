@@ -219,7 +219,11 @@ class Template
               </a>
             </div>
             <div class="chances-acumuladas">
-              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+              <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
+                 <p>Puntos Acumulados <span style="font-size: 20px">10</span></p>
+               <?php else:?>
+                 <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+                <?php endif;?>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
@@ -247,11 +251,12 @@ class Template
 ?>
         <div class="bottom-container bold chances" >
           <button type="button" class="btn btn-grey btn-red inline">
-            <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile"> 
+
               <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
-                 Puntos
+              <span class="grey hidden-mobile">llevas acumulados </span><span class="grey hidden-desktop">Puntos acumulados </span><span>(10)</span><span class="grey hidden-mobile">Puntos 
+                 
                <?php else:?>
-                 Chances
+              <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile">Chances
                 <?php endif;?>
             </span>
           </button>
