@@ -26,7 +26,7 @@
         <div class="container full-width-mobile">
           <!-- DESKTOP MENU -->
           <div class="menu-container bold hidden-mobile">
-            <img src="<?php echo IMGS?>gt/menu.png">
+           <a href="<?php echo HOME?>home.html"> <img src="<?php echo IMGS?>gt/menu.png"></a>
             <button type="button" class="btn-arrow dropdown-toggle down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="chances-container">
               <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
