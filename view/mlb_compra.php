@@ -93,7 +93,7 @@
             <img src="<?php echo IMGS?>gt/menu.png">
             <button type="button" class="btn-arrow dropdown-toggle down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="chances-container">
-              <p>Chances Acumuladas 10</p>
+              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
             </div>
             <ul class="dropdown-menu">
               <li role="separator" class="divider"></li>
@@ -121,7 +121,7 @@
               </a>
             </div>
             <div class="chances-acumuladas">
-              <p>Chances amuculadas 10</p>
+              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
@@ -158,6 +158,19 @@
           </div>
         </div>
       </div>
+
+        <div class="bottom-text bold">
+          <p>¡Aprovechá todas las oportunidades de sumar y ganá con marlboro!</p>
+          <p>¡No dejes que nada te frene!</p>
+        </div>
+        <div class="bottom-container bold chances" style="margin-top: 20px">
+          <button type="button" class="btn btn-grey btn-red inline">
+            <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile"> chances</span>
+          </button>
+
+        </div>
+      </div>
+
     </section>
   </body>
 </html>

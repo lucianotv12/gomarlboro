@@ -170,7 +170,7 @@ class Template
     </script> 
 
     <?php if($site == "core"):?>  
-         <section class="background-image home-background home-modal2-background"> 
+      <section class="background-image home-background home-modal-background modal-gt-back">
     <?php else:?>      
     <section class="background-image home-background home2-background full">
   <?php endif;?>
@@ -181,7 +181,7 @@ class Template
             <a href="<?php echo HOME?>home.html"><img src="<?php echo IMGS?>gt/menu.png"></a>
             <button type="button" class="btn-arrow dropdown-toggle down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="chances-container">
-              <p>Chances Acumuladas 10</p>
+              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
             </div>
             <ul class="dropdown-menu">
               <li role="separator" class="divider"></li>
@@ -210,7 +210,7 @@ class Template
               </a>
             </div>
             <div class="chances-acumuladas">
-              <p>Chances amuculadas 10</p>
+              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
@@ -236,7 +236,7 @@ class Template
 
   function draw_footer_gt($site=0){
 ?>
-        <div class="bottom-container bold chances" style="padding-top: 50px">
+        <div class="bottom-container bold chances" >
           <button type="button" class="btn btn-grey btn-red inline">
             <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile"> chances</span>
           </button>

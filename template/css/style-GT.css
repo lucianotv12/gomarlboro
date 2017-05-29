@@ -471,10 +471,7 @@
 .home2-background.full{
 	background-image: 
 	url(../img/gt/mlb-box1.png),
-	url(../img/gt/mlb-box2.png),
-	url(../img/gt/mlb-box3.png),
-	url(../img/gt/mlb-box4.png),
-	url(../img/gt/mlb-box5.png),
+	url(../img/background_paquetes.gif),
 	url(../img/gt/home2-background.jpg);
 }	
 }
