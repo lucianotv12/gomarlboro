@@ -77,7 +77,11 @@
       </nav>
       <div class="container separation-nav hidden-desktop premios premios-gt">
         <div class="home-text">
-          <img src="<?php echo IMGS?>mobile/supera-tus.png">
+          <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"):?>
+            <img src="<?php echo IMGS?>mobile/home-text-PUNTOS-MOBILE.png">
+          <?php else:?>
+            <img src="<?php echo IMGS?>mobile/home-text-CHANCES-MOBILE.png">
+          <?php endif;?> 
         </div>
         <div class="premio-row">
           <img src="<?php echo IMGS?>mobile/gifts/moto-plegable.png">
