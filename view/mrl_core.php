@@ -100,8 +100,8 @@
 
       <div class="container hidden-mobile">
         <div class="bottom-text bold">
-          <p>¡Aprovechá todas las oportunidades de sumar y ganá con marlboro!</p>
-          <p>¡No dejes que nada te frene!</p>
+          <p>¡No dejes que nada te frene hasta ser uno de los ganadores!</p>
+
         </div>
         <div class="bottom-container bold chances" style="padding-top: 00px">
           <button type="button" class="btn btn-grey btn-red inline">
