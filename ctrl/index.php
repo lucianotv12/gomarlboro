@@ -222,7 +222,7 @@ switch($accion):
 
 	      window.location.assign("home.html");
 	      </script>';               
-	      header('Location:' . HOME );		
+	      header('Location:' . HOME . 'home.html' );		
 
 		break;	
 		}
@@ -381,7 +381,7 @@ switch($accion):
 		{
 		$site= "video";
 
-			$link_video = "SIOW-A.mp4";
+			$link_video = "video_gt.mp4";
 		Template::draw_header_gt($site);
 		include("../view/video.php");
 		Template::draw_footer_gt($site);			

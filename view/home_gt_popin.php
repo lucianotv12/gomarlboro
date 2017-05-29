@@ -26,7 +26,7 @@
         <div class="container full-width-mobile">
           <!-- DESKTOP MENU -->
           <div class="menu-container bold hidden-mobile">
-            <img src="<?php echo IMGS?>gt/menu.png">
+            <a href="<?php echo HOME?>home.html"><img src="<?php echo IMGS?>gt/menu.png"></a>
             <button type="button" class="btn-arrow dropdown-toggle down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="chances-container">
               <p>Chances Acumuladas <?php echo $_usuario->puntos?></p>
@@ -85,13 +85,13 @@
             </button>
            </form> 
             <div class="modal-body">
-              <p class="red uppercase bold no-sep">Ya sumaste tus primeras</p>
-              <p class="red uppercase bigger bold">10 chances</p>
+              <p class="red uppercase bold no-sep" style="font-size: 30px">Ya sumaste tus primeras</p>
+              <p class="red uppercase bigger bold" style="font-size: 50px">10 chances</p>
               <div class="sub-content">
-                <p>Por solo haberte registrado</p>
-                <p class="bold">obtenés 10 chances extras en los sorteos mensuales.</p>
-                <p>Más facil imposible</p>
-                <p class="bold">¡Superá tus límites y segui sumando!</p>
+                <p  style="font-size: 18px">Por solo haberte registrado</p>
+                <p  style="font-size: 18px" class="bold">obtenés 10 chances extras en los sorteos mensuales.</p>
+                <p  style="font-size: 18px">Más facil imposible</p>
+                <p  style="font-size: 18px" class="bold">¡Superá tus límites y segui sumando!</p>
               </div>
             </div>
           </div>

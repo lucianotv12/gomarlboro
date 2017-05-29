@@ -627,9 +627,9 @@
 
 .percentage{
 	position: absolute;
-    right: calc(50% - 22px);
+    right: calc(50% - 35px);
     top: calc(50% - 18px);
-    font-size: 30px;
+    font-size: 28px;
 }
 
 @media (max-width: 768px){
@@ -698,7 +698,7 @@
 @media (min-width: 1800px){
 .gt-modal.popin .modal-dialog,
 .popin .modal-dialog{
-	width: 28%;
+	width: 40%;
 }	
 }
 
