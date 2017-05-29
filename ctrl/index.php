@@ -71,7 +71,7 @@ switch($accion):
 
 				Template::draw_header_gt($site, $_usuario);
 				include("../view/home_gt.php");
-				Template::draw_footer_gt($site);
+				Template::draw_footer_gt($site, $_usuario);
 				//print_r($_usuario);
 
 			endif;	
@@ -380,11 +380,12 @@ switch($accion):
 	case 'video_gt':
 		{
 		$site= "video";
+		$_usuario = unserialize($_SESSION["user_gt"]);
 
 			$link_video = "video_gt.mp4";
-		Template::draw_header_gt($site);
+		Template::draw_header_gt($site, $_usuario);
 		include("../view/video.php");
-		Template::draw_footer_gt($site);			
+		Template::draw_footer_gt($site, $_usuario);			
 
 		break;	
 		}		

@@ -93,7 +93,11 @@
             <img src="<?php echo IMGS?>gt/menu.png">
             <button type="button" class="btn-arrow dropdown-toggle down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="chances-container">
-              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+              <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
+                 <p>Puntos Acumulados <span style="font-size: 20px">10</span></p>
+               <?php else:?>
+                 <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+                <?php endif;?>
             </div>
             <ul class="dropdown-menu">
               <li role="separator" class="divider"></li>
@@ -121,7 +125,11 @@
               </a>
             </div>
             <div class="chances-acumuladas">
-              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+              <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
+                 <p>Puntos Acumulados <span style="font-size: 20px">10</span></p>
+               <?php else:?>
+                 <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+                <?php endif;?>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">

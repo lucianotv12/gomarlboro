@@ -186,7 +186,11 @@ class Template
             <a href="<?php echo HOME?>home.html"><img src="<?php echo IMGS?>gt/menu.png"></a>
             <button type="button" class="btn-arrow dropdown-toggle down" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
             <div class="chances-container">
-              <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+              <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
+                 <p>Puntos Acumulados <span style="font-size: 20px">10</span></p>
+               <?php else:?>
+                 <p>Chances Acumuladas <span style="font-size: 20px">10</span></p>
+                <?php endif;?>
             </div>
             <ul class="dropdown-menu">
               <li role="separator" class="divider"></li>
@@ -239,11 +243,17 @@ class Template
 <?php
   }
 
-  function draw_footer_gt($site=0){
+  function draw_footer_gt($site=0, $_usuario=0){
 ?>
         <div class="bottom-container bold chances" >
           <button type="button" class="btn btn-grey btn-red inline">
-            <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile"> chances</span>
+            <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile"> 
+              <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
+                 Puntos
+               <?php else:?>
+                 Chances
+                <?php endif;?>
+            </span>
           </button>
 
         </div>
