@@ -71,7 +71,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="#">Bases y condiciones</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="./premios.html">Premios</a></li>
+                <li><a href="<?php echo HOME?>premios_GT.html">Premios</a></li>
                 <li role="separator" class="divider"></li>
                  <li><a  href="https://www.marlboro.com.ar">Web marlboro</a></li>
                 <li role="separator" class="divider"></li>
