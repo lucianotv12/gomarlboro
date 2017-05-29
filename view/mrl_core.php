@@ -82,7 +82,7 @@
         <!-- Modal content-->
         <div class="modal-content mlb-modal box-2">
           <div class="modal-body">
-            <img src="<?php echo IMGS?>gt/mlb-core.png">
+            <img src="<?php echo IMGS?>gt/<?php echo $img_muestra;?>">
           </div>
           <a class="back-home" href="./home.html">
             <img src="<?php echo IMGS?>ka/arrow-left.png">

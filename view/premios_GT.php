@@ -21,7 +21,14 @@
     <script src="<?php echo JS?>bootstrap.min.js"></script>
   </head>
   <body>
+
+  <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"):?>
     <section class="background-image premios-gt-background">
+
+  <?php else:?> 
+    <section class="background-image premios-gt-background_chances">
+    
+  <?php endif;?>    
       <nav id="menu" class="navbar navbar-default">
         <div class="container full-width-mobile">
           <!-- DESKTOP MENU -->

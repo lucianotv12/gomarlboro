@@ -63,7 +63,7 @@ class Template
       });
     </script> 
     <?php if($site == "home"):?>  
-      <section class="background-image home-background full">
+        <section class="background-image home-background full">
     <?php elseif($site == "premios"):?>  
       <section class="background-image premios2-background">
     <?php elseif($site == "premiosb"):?>  
@@ -126,7 +126,7 @@ class Template
 
   }
 
-  function draw_header_gt($site=0){
+  function draw_header_gt($site=0, $_usuario=0){ 
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -172,7 +172,12 @@ class Template
     <?php if($site == "core"):?>  
       <section class="background-image home-background home-modal-background modal-gt-back">
     <?php else:?>      
-    <section class="background-image home-background home2-background full">
+      <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>
+        <section class="background-image home-background home2-background full-puntos">
+      <?php else: ?> 
+        <section class="background-image home-background home2-background full">
+      <?php endif;?>      
+
   <?php endif;?>
       <nav id="menu" class="navbar navbar-default">
         <div class="container full-width-mobile">

@@ -474,6 +474,13 @@
 	url(../img/background_paquetes.gif),
 	url(../img/gt/home2-background.jpg);
 }	
+.home2-background.full-puntos{
+	background-image: 
+	url(../img/gt/mlb-box1.png),
+	url(../img/background_paquetes.gif),
+	url(../img/gt/home-background-puntos.jpg);
+}	
+
 }
 
 @media (min-width: 769px){
@@ -641,10 +648,28 @@
 	background-image: url(../img/mobile/home-background2.jpg);
 }
 
+#muestra_objetivo{
+position: absolute;
+left:42%; 
+top:75%; 
+color:white; 
+font-size: 14px; 
+font-weight: bold;
+
+}
+
+
+
+
 @media (min-width: 769px){
 .premios-gt-background{
-	background-image: url(../img/gt/premios-background.jpg);
+	background-image: url(../img/premios-background-PUNTOS.jpg);
 }
+.premios-gt-background_chances{
+	background-image: url(../img/premios-background-CHANCES.jpg);
+}
+
+
 }
 
 .premios-gt .premio-row{
@@ -692,11 +717,17 @@
 }
 }
 
+.gt-modal.popin .modal-dialog,
+.popin .modal-dialog{
+	width: 50%;
+}	
 @media (min-width: 1800px){
 .gt-modal.popin .modal-dialog,
 .popin .modal-dialog{
 	width: 40%;
 }	
 }
+
+
 
 /* ------------------- END MENU SECTION ------------------- */	

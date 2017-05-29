@@ -145,7 +145,8 @@
           <!-- Modal content-->
           <div class="modal-content mlb-modal box-1">
             <div class="modal-body">
-              <img src="<?php echo IMGS?>gt/compra-mlb.png">
+            <span id="muestra_objetivo"><?php echo $_usuario->objetivo?></span>
+              <img src="<?php echo IMGS?>gt/<?php echo $img_muestra?>">
             </div>
             <a class="back-home" href="./home.html">
               <img src="<?php echo IMGS?>ka/arrow-left.png">
@@ -153,15 +154,15 @@
           </div>
           <div class="chart-container bold">
             <div><span class="red">AVANCE </span><span>VS. OBJETIVO</span></div>
-            <div class="percentage red">100%</div>
+            <div class="percentage red">00%</div>
             <div id="chart"></div>
           </div>
         </div>
       </div>
 
         <div class="bottom-text bold">
-          <p>¡Aprovechá todas las oportunidades de sumar y ganá con marlboro!</p>
-          <p>¡No dejes que nada te frene!</p>
+          
+          <p>¡No dejes que nada te frene hasta ser uno de los ganadores!</p>
         </div>
         <div class="bottom-container bold chances" style="margin-top: 20px">
           <button type="button" class="btn btn-grey btn-red inline">

@@ -1,6 +1,10 @@
       <div class="container separation-nav-gt">
         <div class="home-text hidden-desktop">
-          <img src="<?php echo IMGS?>mobile/home-text.png">
+          <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"):?>
+            <img src="<?php echo IMGS?>mobile/home-text-PUNTOS-MOBILE.png">
+          <?php else:?>
+            <img src="<?php echo IMGS?>mobile/home-text-CHANCES-MOBILE.png">
+          <?php endif;?>  
         </div>
         <div class="boxes-container bold botones-2">
           <div class="col-md-6">

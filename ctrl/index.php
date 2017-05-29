@@ -69,7 +69,7 @@ switch($accion):
 				endif;	
 
 
-				Template::draw_header_gt($site);
+				Template::draw_header_gt($site, $_usuario);
 				include("../view/home_gt.php");
 				Template::draw_footer_gt($site);
 				//print_r($_usuario);
@@ -453,6 +453,12 @@ switch($accion):
 		break;	
 	case 'mrl_core':
 		{	$site="core";
+			$_usuario = unserialize($_SESSION["user_gt"]);
+			if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"):
+				$img_muestra ="mlb-core-PUNTOS.png";
+			else:
+				$img_muestra ="mlb-core.png";
+			endif;	
 //			Template::draw_header_gt($site);
 			include("../view/mrl_core.php");
 //			Template::draw_footer_gt($site);
@@ -466,6 +472,13 @@ switch($accion):
 	case 'mlb_compra':
 		{	$site="core";
 //			Template::draw_header_gt($site);
+			$_usuario = unserialize($_SESSION["user_gt"]);
+			if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"):
+				$img_muestra ="compra-mlb-PUNTOS.png";
+			else:
+				$img_muestra ="compra-mlb.png";
+			endif;	
+
 			include("../view/mlb_compra.php");
 //			Template::draw_footer_gt($site);
 
@@ -476,6 +489,8 @@ switch($accion):
 			break;	
 	case 'premios_GT':
 		{	$site="core";
+			$_usuario = unserialize($_SESSION["user_gt"]);
+			//print_r($_usuario);die;
 //			Template::draw_header_gt($site);
 			include("../view/premios_GT.php");
 //			Template::draw_footer_gt($site);
