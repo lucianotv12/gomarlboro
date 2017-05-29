@@ -253,10 +253,10 @@ class Template
           <button type="button" class="btn btn-grey btn-red inline">
 
               <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>            
-              <span class="grey hidden-mobile">llevas acumulados </span><span class="grey hidden-desktop">Puntos acumulados </span><span>(10)</span><span class="grey hidden-mobile">Puntos 
+              <span class="grey hidden-mobile">llevas acumulados </span><span class="grey hidden-desktop">Puntos acumulados </span><span>(10)</span><span class="grey hidden-mobile"> Puntos 
                  
                <?php else:?>
-              <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile">Chances
+              <span class="grey hidden-mobile">llevas acumuladas </span><span class="grey hidden-desktop">chances acumuladas </span><span>(10)</span><span class="grey hidden-mobile"> Chances
                 <?php endif;?>
             </span>
           </button>
