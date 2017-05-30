@@ -9,11 +9,7 @@
 .home-background.full{
 	background-image: 
 	url(../img/ka/mlb-box1.png),
-	url(../img/ka/mlb-box2.png),
-	url(../img/ka/mlb-box3.png),
-	url(../img/ka/mlb-box4.png),
-	url(../img/ka/mlb-box5.png),
-	url(../img/ka/mlb-box6.png),
+	url(../img/background_paquetes_ka.gif),
 	url(../img/ka/home-text-background.jpg);
 }	
 }
