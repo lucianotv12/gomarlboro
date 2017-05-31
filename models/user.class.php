@@ -190,6 +190,7 @@ class User {
 	}
 
 	function get_pdvs_b($_dni){
+		if($_dni == "pruebabb"): $_dni = "31833109"; endif;
 		$conn = new Conexion();
 
 		$sql = $conn->prepare('select * from pdv_b where dni = :DNI order by faltantes_flia_mlb');
@@ -199,6 +200,8 @@ class User {
 	}
 
 	function get_pdvs_a($_dni){
+		if($_dni == "pruebaaa"): $_dni = "3043758A"; endif;
+
 		$conn = new Conexion();
 
 		$sql = $conn->prepare('select grupo from pdv_a where dni = :DNI');
