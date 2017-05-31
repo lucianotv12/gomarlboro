@@ -18,6 +18,7 @@
                       <td>Faltante <br/> OB</td>                      
                       <td>Compras <br/>core</td>
                       <td>Faltante <br/> OB</td>
+                      <td>Cupones</td>
                     </tr>
 
 
@@ -32,6 +33,7 @@
                       <td ><?php echo $pdv["faltantes_ventas"]?></td>
                       <td ><?php echo $pdv["compras_core"]?></td>
                       <td ><?php echo $pdv["faltantes_core"]?></td>
+                      <td ><?php echo $pdv["cupones"]?></td>
                     </tr>
 
             <?php endforeach;?>
