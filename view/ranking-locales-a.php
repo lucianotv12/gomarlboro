@@ -8,7 +8,7 @@
             <div class="ranking-container">
 
                   <table class="table table-responsive" >
-                    <tr><td colspan="8" style="text-align: center;">SEMANA 1</td></tr>
+                    <tr><td colspan="8" style="text-align: center;">SEMANA 2</td></tr>
                     <tr>
                       <td>Supervisor</td>
                       <td>Direccion</td>
