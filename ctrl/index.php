@@ -111,7 +111,7 @@ switch($accion):
 
 			$_usuario = unserialize($_SESSION["user_gt"]);
 
-			$change = User_gt::change_pass($_usuario->id, "Mlbka123", $_POST["clave_nueva"]);
+			$change = User_gt::change_pass($_usuario->id, "Mt6713Ag", $_POST["clave_nueva"]);
 			
 			session_destroy();
 			session_start();

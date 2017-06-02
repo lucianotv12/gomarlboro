@@ -26,7 +26,9 @@
 
                 $("#datos").validate({ 
                     rules: {             
-                        nombre: { required: true, minlength: 3}
+                        nombre: { required: true, minlength: 3},
+                        celular:{required:true, number: true},
+                        email:{email:true}
 
                     },messages:{
                       nombre: "Campo Requerido",                     

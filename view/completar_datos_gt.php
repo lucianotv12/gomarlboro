@@ -27,7 +27,9 @@
 
                 $("#datos").validate({ 
                     rules: {             
-                        nombre: { required: true, minlength: 3}
+                        nombre: { required: true, minlength: 3},
+                        celular:{required:true, number: true},
+                        email:{email:true}
 
                     },messages:{
                       nombre: "Campo Requerido",                     
@@ -64,7 +66,7 @@
           <div class="perfil-container">
             <div class="perfil-box">
               <img src="<?php echo IMGS?>gt/user.png">
-              <input type="radio" name="tipo_usuario" value="Dueño">
+              <input type="radio" name="tipo_usuario" value="Dueño" checked="checked">
               <button type="button" class="btn btn-grey">Dueño</button>
             </div>
             <div class="perfil-box">
