@@ -371,6 +371,24 @@ switch($accion):
 		endif;	
 		}
 		break;	
+	case 'basesycondiciones-gt':
+		{
+		$site="basesycondiciones-gt";				
+		$_usuario = unserialize($_SESSION["user_gt"]);
+
+		if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"):
+			Template::draw_header_gt($site, $_usuario);
+			include("../view/bases-condiciones-gt-2.php");
+			Template::draw_footer_gt($site, $_usuario);		
+		else:
+			Template::draw_header_gt($site, $_usuario);
+			include("../view/bases-condiciones-gt.php");
+			Template::draw_footer_gt($site, $_usuario);		
+		endif;	
+
+		}
+		break;	
+
 	case 'video':
 		{
 		$site= "video";
