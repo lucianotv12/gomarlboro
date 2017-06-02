@@ -16,6 +16,8 @@ class User_gt {
 	var $active;	
 	var $date;
 	var $acepta_bases;
+	var $acepta_recibir;
+
 
 	function User_gt($_id=0) { 
 		if ($_id<>0) { 
@@ -42,6 +44,7 @@ class User_gt {
 			$this->active = $datos_carga['active']; 
 			$this->date = $datos_carga['date']; 			
 			$this->acepta_bases = $datos_carga['acepta_bases']; 			
+			$this->acepta_recibir = $datos_carga['acepta_recibir']; 			
 		
 			$conn = null;
 			$sql = null;
@@ -114,11 +117,11 @@ class User_gt {
 
 	}
 
-	function acepta_basesycondiciones($_id){
+	function acepta_basesycondiciones($_id,$acepta_recibir=0){
 		$_id		= preg_replace('/[^0-9]/'		,''	, $_id);
 		$conn = new Conexion();
-		$sql = $conn->prepare("UPDATE users_gt set acepta_bases = 1 where id = :ID"); 
-		$sql->execute(array('ID' => $_id)); 		
+		$sql = $conn->prepare("UPDATE users_gt set acepta_bases = 1, acepta_recibir = :ACEPTA where id = :ID"); 
+		$sql->execute(array('ID' => $_id, "ACEPTA" => $acepta_recibir)); 		
 		$sql=null;
 		$conn=null;
 	}	
@@ -283,6 +286,7 @@ class User_gt {
 	function get_active() { return($this->active); } 
 	function get_date() { return($this->date); } 
 	function get_acepta_bases() { return($this->acepta_bases); } 
+	function get_acepta_recibir() { return($this->acepta_recibir); } 
 
 	
 	/*------------------------------------------------------------------------*/ 
@@ -303,6 +307,7 @@ class User_gt {
 	function set_active($_active) { $this->active = $_active; } 
 	function set_date($_date) { $this->date = $_date; } 	
 	function set_acepta_bases($_acepta_bases) { $this->acepta_bases = $_acepta_bases; } 	
+	function set_acepta_recibir($_acepta_recibir) { $this->acepta_recibir = $_acepta_recibir; } 	
 
 	/*------------------------------------------------------------------------*/ 
 

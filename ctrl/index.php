@@ -21,6 +21,7 @@ switch($accion):
 	case "home" :
 		{				
 		//ACA HAY QUE VALIDAR QUE TIPO DE SESSION TIENE, SI USER O USER_GT
+	//	print_r($_SESSION);	
 		if(@$_SESSION["user"]):
 			$usuario_tipo ="KA";
 			$_usuario = unserialize($_SESSION["user"]);
@@ -28,6 +29,7 @@ switch($accion):
 			$usuario_tipo ="GT";
 			$_usuario = unserialize($_SESSION["user_gt"]);
 		endif;	
+
 
 			if($usuario_tipo == "KA"):
 				if($_usuario->active == 0):
@@ -55,15 +57,19 @@ switch($accion):
 
 				Template::draw_footer($site);
 
-			elseif($usuario_tipo == "GT"):
+			elseif($usuario_tipo == "GT"): 
+			//	print_r($_usuario);
 				if($_usuario->active == 0):
 					$provincias = User_gt::get_provincias_user($_usuario->usuario);
 					include("../view/provincia_ezd.php");
 					break;
 				endif;					
 				if($_usuario->acepta_bases == 0):
-
+					if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): 
+						include("../view/acepta-bases-condiciones-gt-2.php");
+					else:
 						include("../view/acepta-bases-condiciones-gt.php");
+					endif;
 					break;
 
 				endif;	
@@ -73,7 +79,7 @@ switch($accion):
 				include("../view/home_gt.php");
 				Template::draw_footer_gt($site, $_usuario);
 				//print_r($_usuario);
-
+				break;
 			endif;	
 
 /*
@@ -207,14 +213,19 @@ switch($accion):
 
 	case 'acepta_bases_gt':
 		{
-			
+		if($_POST["recibir_info"]):
+			$acepta_recibir = 1;
+		else:
+			$acepta_recibir = 0;
+
+		endif;	
 		$_usuario = unserialize($_SESSION["user_gt"]);			
-		User_gt::acepta_basesycondiciones($_usuario->id);		
+		User_gt::acepta_basesycondiciones($_usuario->id, $acepta_recibir);		
 
 		session_destroy();
 		session_start();
 
-	 	$_usuario_new = new User($_usuario->id);
+	 	$_usuario_new = new User_gt($_usuario->id);
 	  	$_SESSION["user_gt"] = serialize($_usuario_new);		
 		$_usuario = unserialize($_SESSION["user_gt"]);
 
@@ -223,7 +234,10 @@ switch($accion):
 	      window.location.assign("home.html");
 	      </script>';               
 	      header('Location:' . HOME . 'home.html' );		
-
+/*		$site = "home";
+		Template::draw_header_gt($site, $_usuario);
+		include("../view/home.php");
+		Template::draw_footer_gt($site, $_usuario);			*/
 		break;	
 		}
 
@@ -443,6 +457,8 @@ switch($accion):
 
 	 	$_usuario_new = new User_gt($_POST["user_id"]);
 	  	$_SESSION["user_gt"] = serialize($_usuario_new);
+	  			$_usuario = unserialize($_SESSION["user_gt"]);
+
 
 	  	$tipo = "GT"; 
 		include("../view/cambio_clave.php");

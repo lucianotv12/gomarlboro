@@ -54,17 +54,17 @@
             <div class="title">BASES Y CONDICIONES</div>
             <div class="subtitle">1. ÁMBITO DE APLICACIÓN</div>
             <div>
-              <p>1.1. Quedan sujetos a las presentes Bases y Condiciones (conforme se define a continuación), todas aquellas personas físicas residentes en el territorio de la República Argentina, excepto en las Provincias de Salta, Mendoza, Neuquén y Rio Negro, que cumplan con lo establecido en el punto 1.2. y voluntariamente accedan a participar en el programa de incentivos y beneficios denominado “GO MARLBORO”. <p>
+              <p>1.1. Quedan sujetos a las presentes Bases y Condiciones (conforme se define a continuación), todas aquellas personas físicas residentes en las Provincias de Salta, Mendoza, Neuquén y Rio Negro, que cumplan con lo establecido en el punto 1.2. y voluntariamente accedan a participar en el programa de incentivos y beneficios denominado “GO MARLBORO”. <p>
             </div>
             <div>
-              <p>1.2. Podrán participar del Programa (conforme se define a continuación) todas las personas físicas titulares de Comercios (conforme se define a continuación) -ya sea en forma directa o quien se encuentre válidamente designado como representante legal en caso de que el titular del Comercio sea una persona jurídica- que hubieran sido seleccionados por la Empresa (conforme se define a continuación) y que: (i) tengan la correspondiente habilitación para operar el Comercio; (ii) vendan cigarrillos y productos de tabaco, exclusivamente, a consumidores finales; (iii) comercialicen dichos productos al precio sugerido de venta publicado por la Empresa; y (iv) cuyos Comercios no se encuentren ubicados en las provincias de Salta, Mendoza, Neuquén y Rio Negro.<p>
+              <p>1.2. Podrán participar del Programa (conforme se define a continuación) todas las personas físicas titulares de Comercios (conforme se define a continuación) -ya sea en forma directa o quien se encuentre válidamente designado como representante legal en caso de que el titular del Comercio sea una persona jurídica- que hubieran sido seleccionados por la Empresa (conforme se define a continuación) y que: (i) tengan la correspondiente habilitación para operar el Comercio; (ii) vendan cigarrillos y productos de tabaco, exclusivamente, a consumidores finales; (iii) comercialicen dichos productos al precio sugerido de venta publicado por la Empresa; y (iv) cuyos Comercios se encuentren ubicados en las provincias de Salta, Mendoza, Neuquén y Rio Negro.<p>
             </div>
             <div class="subtitle">2. DEFINICIONES</div>
             <div>
-              <p>2.1. A los efectos del presente Programa se tendrán en cuenta las siguientes definiciones: </p>
+              <p>2.1. A los efectos del presente Programa se tendrán en cuenta las siguientes definiciones:  </p>
               <ul>
                 <li>“Bases y Condiciones”: son las estipulaciones y cláusulas establecidas en este documento y sus anexos que regirán el funcionamiento del Programa.</li>
-                <li>“Chances”: son las chances que se le asignarán a los Participantes del Programa para participar de los Sorteos, de acuerdo al sistema de puntuación que se establece en las presentes Bases y Condiciones. </li>
+                <li>“Puntos”: son los puntos que se le asignarán a los Participantes del Programa de acuerdo al cumplimiento de los objetivos, conforme se describen en el punto 5.1. de las presentes Bases y Condiciones. De acuerdo a la cantidad de Puntos acumulados, los Participantes tendrán un lugar en el Raking, siendo aquellos Participantes que más Puntos lleven acumulados los que tendrán los lugares más altos del Ranking. </li>
                 <li>“Comercio/s”: son los diversos comercios, kioscos, locales y/o puntos de venta de la República Argentina –excepto aquellos que se encuentren en las provincias de Salta, Mendoza, Neuquén y Rio Negro- que (i) posean cigarreras con comunicación de marcas de la Empresa; (ii) que comercialicen los Productos; y (iii) que sean seleccionados a exclusivo criterio de la Empresa para que sus titulares puedan acceder a participar del Programa.</li>
                 <li>“Empresa” o “MP”: es Massalin Particulares S.R.L., quien ha desarrollado el Programa y quien directa o indirectamente fiscalizará su cumplimiento. </li>
                 <li>“Ganador/es”: es el Participante que resultare acreedor de 1 (uno) de los Premios del Programa  y que cumpla con todos los requisitos para que le sea asignado dicho Premio.</li>
@@ -85,10 +85,10 @@
               <p>3.1. El Programa tendrá vigencia entre el 1 de Junio de 2017 y el 31 de julio de 2017, ambos días inclusive. </p>
             </div>
             <div>
-              <p>3.2. La Empresa se reserva el derecho de modificar, suspender y/o terminar el presente Programa en cualquier momento, sin causa y sin otra obligación que la de comunicar tal decisión a los Participantes a través de los medios que la Empresa considerare convenientes, con una antelación mínima de 10 (diez) días corridos a la fecha de la efectiva modificación, suspensión o terminación. El ejercicio de este derecho por parte de la Empresa no otorgará a los Participantes derecho a compensación y/o indemnización alguna.</p>
+              <p>3.2. La Empresa se reserva el derecho de modificar, suspender y/o terminar el presente Programa en cualquier momento, sin causa y sin otra obligación que la de comunicar tal decisión a los Participantes a través de los medios que la Empresa considerare convenientes, con una antelación mínima de 10 (diez) días corridos a la fecha de la efectiva modificación, suspensión o terminación. El ejercicio de este derecho por parte de la Empresa no otorgará a los Participantes derecho a compensación y/o indemnización alguna. </p>
             </div>
             <div>
-              <p>3.3. El Programa ofrece a los Participantes la posibilidad de ganar los siguientes premios: (i) 30 TVs SAMSUNG de 40” (LED UN40J5300AGCDF) (los “TVs 40””), (ii) 118 TVs SAMSUNG DE 32” (los “TVs  32””), (iii) 18 CONSOLAS SONY PS4 SLIM 500 GB + juego Call Of Duty: INFINITE WARFARE (los “PS4”), (iv) 54 MICRO COMPONENTE MICRO PANASONIC SC-HC19PR-K (los “MicroComponentes”), (v) 18 CELULAR LIBRE MOTOROLA MOTO X STYLE BLANCO BAMBOO (los “Celulares”),  (vi) 18 TABLET HUAWEII T1 7.0 8G 7” SPREDTRUM NEGRO 8GB (las “Tablets”), (vii) 6 MOTOS ELÉCTRICAS LUCKY LION MODELO APPLE (las “Motos”), (viii) 54 CÁMARAS INSTAX MINI 8 ROJA (las “Cámaras”), (ix) 18 BICICLETA PLEGABLE TERN LINK A7 (las “Bicis”), (x) y 18 VOUCHERS DE LA AGENCIA DE VIAJES TTS CON UN VALOR DE $10.000 – La agencia TTS creará un legajo con los datos del Ganador, quien podrá utilizar su voucher en la agencia de TTS para la compra de: vuelos, hoteles, cruceros, paquetes, alquiler de autos (los “Vouchers”).</p>
+              <p>3.3. El Programa ofrece a los Participantes la posibilidad de ganar los siguientes premios: (i) 24 TVs SAMSUNG DE 32” (los “TVs  32””), (ii) 2 CONSOLAS SONY PS4 SLIM 500 GB + juego Call Of Duty: INFINITE WARFARE (los “PS4”), (iii) 6 MICRO COMPONENTE MICRO PANASONIC SC-HC19PR-K (los “MicroComponentes”), (iv) 2 CELULAR LIBRE MOTOROLA MOTO X STYLE BLANCO BAMBOO (los “Celulares”),  (v) 2 TABLET HUAWEII T1 7.0 8G 7” SPREDTRUM NEGRO 8GB (las “Tablets”), (vi) 6 CÁMARAS INSTAX MINI 8 ROJA (las “Cámaras”), (vii) 2 BICICLETA PLEGABLE TERN LINK A7 (las “Bicis”), (viii) y 2 VOUCHERS DE LA AGENCIA DE VIAJES TTS CON UN VALOR DE $10.000 – La agencia TTS creará un legajo con los datos del Ganador, quien podrá utilizar su voucher en la agencia de TTS para la compra de: vuelos, hoteles, cruceros, paquetes, alquiler de autos (los “Vouchers”).</p>
             </div>
             <div class="subtitle">4. SISTEMA DE INGRESO Y CONDICIONES DE PERMANENCIA EN EL PROGRAMA </div>
             <div>
@@ -112,27 +112,27 @@
 
             <div class="subtitle">5. MECANISMO DE PARTICIPACIÓN Y ASIGNACIÓN DE LOS PREMIOS: </div>
             <div>
-              <p>5.1. Objetivos. Los Participantes podrán sumar Chances para participar de cada Sorteo mensual a través de los objetivos que se describen a continuación:(i)  los Participantes adquirirán cincuenta (50) Chances para el Sorteo mensual respectivo por cada mes durante el plazo de vigencia en el cual alcancen el Volumen de Compra (el “Objetivo de Volumen”);(ii)  una vez alcanzado el Objetivo de Volumen, los Participantes sumarán diez (10) Chances adicionales para el Sorteo mensual respectivo por cada cartón de paquetes de diez (10) cigarrillos de la familia Marlboro que adquieran de la Empresa y veinte (20) Chances adicionales por cada cartón de paquetes de veinte (20) cigarrillos de la familia Marlboro que adquieran de la Empresa;(iii) independientemente del cumplimiento de los objetivos (i) y (ii), los Participantes sumarán cuarenta (40) Chances para el Sorteo mensual respectivo por cada cartón de cigarrillos de “Marlboro Core” adquirido de la Empresa; y (iv)  los Participantes también podrán sumar hasta diez (10) Chances para el Sorteo mensual respectivo mediante la registración de su punto de venta en el sitio web <a href="www.gomarlboro.com.ar" class="pointer">www.gomarlboro.com.ar</a>.</p>
+              <p>5.1. Objetivos. Los Participantes podrán sumar Puntos para competir mensualmente a través de los objetivos que se describen a continuación:(i) los Participantes adquirirán cincuenta (50) Puntos por cada mes durante el plazo de vigencia en el cual alcancen el Volumen de Compra (el “Objetivo de Volumen”);(ii)  una vez alcanzado el Objetivo de Volumen, los Participantes sumarán diez (10) Puntos adicionales para el Ranking mensual respectivo por cada cartón de paquetes de diez (10) cigarrillos de la familia Marlboro que adquieran de la Empresa y veinte (20) Puntos adicionales por cada cartón de paquetes de veinte (20) cigarrillos de la familia Marlboro que adquieran de la Empresa;(iii) independientemente del cumplimiento de los objetivos (i) y (ii), los Participantes sumarán cuarenta (40) Puntos para el Ranking mensual respectivo por cada cartón de cigarrillos de “Marlboro Core” adquirido de la Empresa.</p>
             </div>
             <div>
               <p>5.2. La acreditación de Chances estará a cargo de MP, quién se encargará de informar a través del Sitio las Chances acumuladas de cada uno de los Participantes. </p>
             </div>
            
-            <div class="subtitle">6. SORTEOS MENSUALES</div>
+            <div class="subtitle">6. RANKING MENSUALES</div>
             <div>
-              <p>6.1. Participarán de los Sorteos aquellos Participantes que hubieran sumado al menos una (1) Chance durante el mes correspondiente.</p>
+              <p>6.1. Participarán del Ranking aquellos Participantes que hubieran sumado al menos un (1) Punto durante el mes correspondiente. Se confeccionará un Ranking por cada mes del plazo de vigencia del Programa, y los Participantes allí acumularán los Puntos que hubiesen ganado en ese mes correspondiente. Al mes siguiente, todos los Participantes comenzarán desde cero Puntos en el nuevo Ranking y volverán a acumular Puntos, independientemente de lo acumulado en el mes anterior. </p>
             </div>
             <div>
-              <p>6.2. En cada Sorteo se pondrán en juego (i) 15 TV 40”, (ii) 59 TV 32”, (iii) 9 PS4, (iv) 27 MicroComponentes, (v) 9 Celulares,  (vi) 9 Tablet, (vii) 3 Motos, (viii) 27 Cámaras, (ix) 9 Bicis, y (x) 9 Vouchers.</p>
+              <p>6.2. En cada Ranking mensual se pondrán en juego: (i) 12 TV 32”, (ii) 1 PS4, (iii) 3 MicroComponentes, (iv) 1 Celular,  (v) 1 Tablet, (vi) (vii) 3 Cámaras, (viii) 1 Bici, y (ix) 1 Vouchers.</p>
             </div>
             <div>
-              <p>6.3. El orden de asignación será el siguiente: <br/>
-
-                Los primeros 15 sorteados se convertirán en Potenciales Ganadores cada uno de un TVs 40”; los segundos 59 sorteados se convertirán en Potenciales Ganadores cada uno de un TVs 32” ; los terceros 3 sorteados se convertirán en Potenciales Ganadores cada uno de una Moto; los cuartos 9 sorteados se convertirán en Potenciales Ganadores cada uno de una Bici; los quintos 9 sorteados se convertirán en Potenciales Ganadores cada uno de una PS4; los sextos 9 sorteados se convertirán en Potenciales Ganadores cada uno de un Celular; los séptimos 9 sorteados se convertirán en Potenciales Ganadores cada uno de una Tablet; los octavos 9 sorteados se convertirán en Potenciales Ganadores cada uno de un Voucher; los novenos 27 sorteados se convertirán en Potenciales Ganadores cada uno de un MicroComponente; y los décimos 27 sorteados se convertirán en Potenciales Ganadores cada uno de una Cámara.                
+              <p>6.3. El orden de asignación será el siguiente: 
+                Los primeros 12 Participantes que más Puntos hubiesen acumulado, es decir que ocupen los primeros 12 lugares en el Ranking, se convertirán en Potenciales Ganadores cada uno de un TVs 32”; el Participante que ocupe el décimo tercer lugar del Ranking se convertirá en Potencial Ganador de una Bici; el Participante que ocupe el décimo cuarto lugar del Ranking se convertirá en Potencial Ganador de una PS4; el Participante que ocupe el décimo quinto lugar del Ranking se convertirá en Potencial Ganador de un Celular; el Participante que ocupe el décimo sexto lugar del Ranking se convertirá en Potencial Ganador de una Tablet; el Participante que ocupe el décimo séptimo lugar del Ranking se convertirá en Potencial Ganador de un Voucher; los Participantes que ocupen el décimo octavo, décimo noveno y vigésimo lugares del Ranking se convertirán en Potenciales Ganadores cada uno de un MicroComponente; y los Participantes que ocupen el vigésimo primero, vigésimo segundo y vigésimo terceros lugares del Ranking se convertirán en Potenciales Ganadores cada uno de una Cámara.
+                
                 </p>
             </div>
             <div>
-              <p>6.4. Los Premios no asignados quedarán en poder de la Empresa. Si en alguno de los Sorteos el número de Participantes no alcanzare a cubrir la cantidad de Premios disponibles, se realizará el Sorteo con los Participantes disponibles siguiendo el orden de asignación establecido en el punto 6.3. y los Premios sobrantes quedarán en poder de la Empresa, sin que asista derecho a los Participantes a realizar reclamo alguno contra la Empresa. En ningún caso se asignará más de un (1) Premio por Sorteo a cada Participante, sin importar la cantidad de Chances acumuladas por cada Participante.</p>
+              <p>6.4. Los Premios no asignados quedarán en poder de la Empresa. Si en alguno de los Rankigns el número de Participantes no alcanzare a cubrir la cantidad de Premios disponibles, se realizará la asignación de Premios con los Participantes disponibles siguiendo el orden de asignación establecido en el punto 6.3. y los Premios sobrantes quedarán en poder de la Empresa, sin que asista derecho a los Participantes a realizar reclamo alguno contra la Empresa. En ningún caso se asignará más de un (1) Premio por Ranking a cada Participante, sin importar la cantidad de Puntos acumulados por cada Participante.</p>
             </div>
 
             <div class="subtitle">7. RÉGIMEN DE FUNCIONAMIENTO DEL PROGRAMA </div>
@@ -143,38 +143,39 @@
               <p>7.2. MP podrá ampliar la cantidad de Premios ofrecidos y/o el plazo de vigencia del Programa. Asimismo, MP podrá – en cualquier momento - cancelar, suspender o modificar el Programa cuando circunstancias no previstas en estas Bases, o que constituyan caso fortuito o fuerza mayor, lo justifiquen (incluyendo – sin que la presente enumeración implique limitación – prohibiciones y/o restricciones impuestas por disposiciones legales nacionales, provinciales o municipales, que afectaren el desarrollo del presente Programa) sin tener nada que reclamar los Participantes por dicha cancelación, suspensión o modificación.</p>
             </div>
             <div>
-              <p>7.3. Será condición necesaria para participar en el Programa que los Participantes: (a) ingresen en el Sitio, utilizando el “nombre de usuario” y la “clave” que un representante de la Empresa les indique oportunamente, o (b) que se registre de manera OFFLINE a través del formulario presentado por el representante comercial de la Empresa.</p>
+              <p>7.3. Será condición necesaria para participar en el Programa que los Participantes: (a) ingresen en el Sitio, utilizando el “nombre de usuario” y la “clave” que un representante de la Empresa les indique oportunamente, o (b) que se registre de manera OFFLINE a través del formulario presentado por el representante comercial de la Empresa. Para acceder al Ranking parcial y ver los Puntos acumulados, los Participantes podrán ingresar al Sitio, con el “nombre de usuario” y la “clave” mencionados en el punto (a) de la presente cláusula.</p>
             </div>
             <div>
               <p>7.4. MP no será responsable por las fallas técnicas de ningún tipo, de hardware o de software, por pérdida o falta de disponibilidad de conexiones de red ni por transmisiones informáticas defectuosas, incompletas, tergiversadas o retrasadas que puedan limitar, suspender o impedir de cualquier forma la capacidad de los Participantes para participar en el Programa.</p>
             </div>
-            <div class="subtitle">8. OBTENCIÓN DE CHANCES</div>
+
+            <div class="subtitle">8. OBTENCIÓN DE PUNTOS</div>
             <div>
-              <p>8.1. La asignación de Chances se realizará de conformidad con lo establecido en el punto 5.1. de estas Bases y Condiciones.</p>
+              <p>8.1. La asignación de Puntos se realizará de conformidad con lo establecido en el punto 5.1. de estas Bases y Condiciones. </p>
             </div>            
             <div>
-              <p>8.2. El cumplimiento de los objetivos establecidos en el punto 5.1. (i) a (iii) será determinado a través del sistema de gestión de la Empresa denominado "POSIS”. Al aceptar estas  Bases y Condiciones, los Participantes aceptan la utilización del sistema POSIS y declaran y garantizan que nada tendrán que reclamar a la Empresa por los resultados brindados por dicho sistema y la consecuente asignación de Chances.</p>
+              <p>8.2. El cumplimiento de los objetivos establecidos en el punto 5.1. (i) a (iii) será determinado a través del sistema de gestión de la Empresa denominado "POSIS”. Al aceptar estas  Bases y Condiciones, los Participantes aceptan la utilización del sistema POSIS y declaran y garantizan que nada tendrán que reclamar a la Empresa por los resultados brindados por dicho sistema y la consecuente asignación de Puntos.</p>
             </div>  
             <div>
-              <p>8.3. El cumplimiento parcial de las actividades no otorgará Chances a los Participantes.</p>
+              <p>8.3. El cumplimiento parcial de las actividades no otorgará Puntos a los Participantes.</p>
             </div>  
             <div>
-              <p>8.4. El cumplimiento de cada objetivo será determinado en forma exclusiva por la Empresa. Los Participantes no tendrán derecho a reclamo ni indemnización alguna con relación a la determinación que la Empresa hiciere respecto del cumplimiento observado o de la cantidad de Chances que le correspondiere acreditar a cada Participante.</p>
+              <p>8.4. El cumplimiento de cada objetivo será determinado en forma exclusiva por la Empresa. Los Participantes no tendrán derecho a reclamo ni indemnización alguna con relación a la determinación que la Empresa hiciere respecto del cumplimiento observado o de la cantidad de Puntos que le correspondiere acreditar a cada Participante. </p>
             </div>             
             <div>
-              <p>8.5. La Empresa se reserva el derecho de modificar, alterar, suprimir, eliminar, adicionar o efectuar cualesquiera otros cambios en cuanto al sistema de medición y puntuación que se encuentra detallado en las presentes Bases y Condiciones, sin que el ejercicio de esta facultad pudiere generar derecho a reclamo o indemnización alguna a favor de los Participantes. En caso de nuevas condiciones de puntuación, éstas serán comunicadas a los Participantes por cualquiera de los medios indicados en el punto 11 de estas Bases y Condiciones. </p>
+              <p>8.5. La Empresa se reserva el derecho de modificar, alterar, suprimir, eliminar, adicionar o efectuar cualesquiera otros cambios en cuanto al sistema de medición y puntuación que se encuentra detallado en las presentes Bases y Condiciones, sin que el ejercicio de esta facultad pudiere generar derecho a reclamo o indemnización alguna a favor de los Participantes. En caso de nuevas condiciones de puntuación, éstas serán comunicadas a los Participantes por cualquiera de los medios indicados en el punto 11 de estas Bases y Condiciones.</p>
             </div> 
             <div>
-              <p>8.6. Las Chances no tienen valor monetario alguno y no podrán canjearse por dinero ni por ningún otro producto, bien, servicio o especie que no surgiere de las presentes Bases, o que no hubiera sido expresamente comunicado por la Empresa a cada Participante. </p>
+              <p>8.6. Los Puntos no tienen valor monetario alguno y no podrán canjearse por dinero ni por ningún otro producto, bien, servicio o especie que no surgiere de las presentes Bases, o que no hubiera sido expresamente comunicado por la Empresa a cada Participante.</p>
             </div>
             <div>
-              <p>8.7. Las Chances podrán ser utilizadas exclusivamente por el Participante, no pudiéndose transferir, comercializar ni ceder a ningún tercero o entre Participantes bajo ninguna circunstancia, ni trasmitirse a herederos, legatarios o sucesores en caso de fallecimiento del Participante.</p>
+              <p>8.7. Los Puntos podrán ser utilizados exclusivamente por el Participante, no pudiéndose transferir, comercializar ni ceder a ningún tercero o entre Participantes bajo ninguna circunstancia, ni trasmitirse a herederos, legatarios o sucesores en caso de fallecimiento del Participante. </p>
             </div>
             <div>
               <p>8.8. Ni el cambio de titularidad, venta o cesión por cualquier título del Comercio ni la transferencia del fondo de comercio, otorgará derecho alguno al nuevo titular sobre los objetivos cumplidos por parte del Participante vendedor o cedente. Asimismo, tampoco otorgará dere¬cho a la participación en el Programa, salvo que hubiere consentimiento expreso, previo y por escrito de la Empresa.</p>
             </div>                        
             <div>
-              <p>8.9. La acreditación de Chances estará a cargo de la Empresa</p>
+              <p>8.9. La acreditación de Puntos estará a cargo de la Empresa.</p>
             </div>   
             <div class="subtitle">9. ENTREGA DE PREMIOS </div>
             <div>
