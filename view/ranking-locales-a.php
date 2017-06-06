@@ -8,7 +8,7 @@
             <div class="ranking-container">
 
                   <table class="table table-responsive" >
-                    <tr><td colspan="8" style="text-align: center;">SEMANA 2</td></tr>
+                    <tr><td colspan="8" style="text-align: center;">SEMANA 3</td></tr>
                     <tr>
                       <td>Supervisor</td>
                       <td>Direccion</td>
@@ -18,6 +18,9 @@
                       <td>Faltante <br/> OB</td>                      
                       <td>Compras <br/>core</td>
                       <td>Faltante <br/> OB</td>
+                      <td>Ventas <br/>core</td>
+                      <td>Faltante <br/> OB</td>
+
                       <td>Cupones</td>
                     </tr>
 
@@ -33,6 +36,9 @@
                       <td ><?php echo $pdv["faltantes_ventas"]?></td>
                       <td ><?php echo $pdv["compras_core"]?></td>
                       <td ><?php echo $pdv["faltantes_core"]?></td>
+                      <td ><?php echo $pdv["ventas_core"]?></td>
+                      <td ><?php echo $pdv["faltantes_ventas_core"]?></td>
+
                       <td ><?php echo $pdv["cupones"]?></td>
                     </tr>
 
