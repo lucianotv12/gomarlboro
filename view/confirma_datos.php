@@ -41,7 +41,7 @@
           <input type="hidden" name="user_id" value="<?php echo $datos['id']?>">
             <div class="input-group">
 
-              <p class="form-control"><?php echo  htmlspecialchars_decode($datos["razon_social"])?></p>
+              <p class="form-control"><?php echo  utf8_decode($datos["razon_social"])?></p>
             </div>
             <div class="input-group input-separation">
 
