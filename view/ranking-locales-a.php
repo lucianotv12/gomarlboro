@@ -42,6 +42,7 @@
                 if($pdv["faltantes_core"] < 0): $pdv["faltantes_core"] = 0; endif;
                 if($pdv["ventas_core"] < 0): $pdv["ventas_core"] = 0; endif;
                 if($pdv["faltantes_ventas_core"] < 0): $pdv["faltantes_ventas_core"] = 0; endif;
+                if($pdv["chequeo_2"] == "NO CUMPLE"): $pdv["chequeo_2"] = "NO"; endif;
                 if($pdv["chequeo_3"] == "NO CUMPLE"): $pdv["chequeo_3"] = "NO"; endif;
 
               ?>     
