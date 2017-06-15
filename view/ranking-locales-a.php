@@ -21,9 +21,9 @@
                   <td>Compras <br/>core</td>
                   <td>Total</td>
                   <td>Stock <BR/>F.MLB 7.6</td>
-                  <td>Visibilidad 7.6</td>
+                  <td>Visib. <BR/> 7.6</td>
                   <td>Puntaje <br/>total</td>
-                  <td>IMP. GC <BR/>PDV GANADOR</td>
+                  <td>GC PDV <BR/>GANADOR</td>
                 </tr>
 
 
