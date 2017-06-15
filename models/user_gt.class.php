@@ -192,7 +192,7 @@ class User_gt {
 
 		$conn = new Conexion();
 
-		$sql = $conn->prepare('select provincia from users_gt where usuario= :NAME and active = 0');
+		$sql = $conn->prepare('select provincia from users_gt where usuario= :NAME and active = 0 GROUP BY provincia');
 		$sql->execute(array('NAME' => $_user));
 		$resultado = $sql->fetchAll();
 		
