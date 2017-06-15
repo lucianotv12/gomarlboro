@@ -18,9 +18,6 @@
                   <td>Total</td>                      
                   <td>Compras <br/>core</td>
                   <td>Total</td>
-                  <td>Ventas <br/>core</td>
-                  <td>Total</td>
-                  <td>Stock flia <BR/>MLB 1.6</td>
                   <td>Stock flia <BR/>MLB 7.6</td>
                   <td>Visibilidad 7.6</td>
                   <td>Puntaje <br/>total</td>
@@ -61,9 +58,6 @@
                       <td ><?php echo $pdv["faltantes_ventas"]?></td>
                       <td ><?php echo $pdv["compras_core"]?></td>
                       <td ><?php echo $pdv["faltantes_core"]?></td>
-                      <td ><?php echo $pdv["ventas_core"]?></td>
-                      <td ><?php echo $pdv["faltantes_ventas_core"]?></td>
-                      <td ><?php echo $pdv["chequeo_1"]?></td>
                       <td ><?php echo $pdv["chequeo_2"]?></td>
                       <td ><?php echo $pdv["chequeo_3"]?></td>
                       <td ><?php echo $pdv["puntaje_total"]?></td>
