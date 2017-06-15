@@ -5,9 +5,7 @@
           <div class="modal-body">
             <img class="ranking-text" src="<?php echo IMGS?>ka/ranking-text.png">
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext2.png">
-            <div class="ranking-container">
-
-                  <table class="table table-responsive" >
+             <table class="table table-responsive" >
               <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 3</td></tr>
 
                 <tr>
@@ -20,11 +18,14 @@
                   <td>Total</td>                      
                   <td>Compras <br/>core</td>
                   <td>Total</td>
-                  <td>Stock <BR/>7.6</td>
-                  <td>Visib. <BR/> 7.6</td>
-                  <td>Puntaje <br/>total</td>
-                  <td>GC PDV <BR/>GANADOR</td>
+                  <td>Ventas <br/>core</td>
+                  <td>Total</td>
                 </tr>
+            </table>              
+            <div class="ranking-container">
+
+                  <table class="table table-responsive" >
+
 
 
               <?php foreach($pdvs as $pdv): 
@@ -42,8 +43,6 @@
                 if($pdv["faltantes_core"] < 0): $pdv["faltantes_core"] = 0; endif;
                 if($pdv["ventas_core"] < 0): $pdv["ventas_core"] = 0; endif;
                 if($pdv["faltantes_ventas_core"] < 0): $pdv["faltantes_ventas_core"] = 0; endif;
-                if($pdv["chequeo_2"] == "NO CUMPLE"): $pdv["chequeo_2"] = "NO"; endif;
-                if($pdv["chequeo_3"] == "NO CUMPLE"): $pdv["chequeo_3"] = "NO"; endif;
 
               ?>     
        
@@ -57,11 +56,8 @@
                       <td ><?php echo $pdv["faltantes_ventas"]?></td>
                       <td ><?php echo $pdv["compras_core"]?></td>
                       <td ><?php echo $pdv["faltantes_core"]?></td>
-                      <td ><?php echo $pdv["chequeo_2"]?></td>
-                      <td ><?php echo $pdv["chequeo_3"]?></td>
-                      <td ><?php echo $pdv["puntaje_total"]?></td>
-                      <td ><?php echo $pdv["importe_gc"]?></td>
-
+                      <td ><?php echo $pdv["ventas_core"]?></td>
+                      <td ><?php echo $pdv["faltantes_ventas_core"]?></td>
 
 
                     </tr>
