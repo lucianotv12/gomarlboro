@@ -11,13 +11,20 @@
                 <tr>
                   <td width="120px" >Supervisor</td>
                   <td width="120px" >Direccion</td>
+                  <td>Puntaje</td>
                   <td>Compras <br/> f.mlb</td>
-                  <td>Faltante <br/> OB</td>
+                  <td>Total</td>
                   <td>Ventas <br/> f.mlb</td>
-                  <td>Faltante <br/> OB</td>                      
+                  <td>Total</td>                      
                   <td>Compras <br/>core</td>
-                  <td>Faltante <br/> OB</td>
-                  <td>Cupones</td>
+                  <td>Total</td>
+                  <td>Ventas <br/>core</td>
+                  <td>Total</td>
+                  <td>Stock flia <BR/>MLB 1.6</td>
+                  <td>Stock flia <BR/>MLB 7.6</td>
+                  <td>Visibilidad 7.6</td>
+                  <td>Puntaje <br/>total</td>
+                  <td>IMP. GC <BR/>PDV GANADOR</td>
                 </tr>
             </table>              
             <div class="ranking-container">
@@ -47,6 +54,7 @@
                     <tr style="font-size: 12px; text-align: left;">
                       <td  width="120px" ><?php echo utf8_encode(addslashes($pdv["supervisor"]))?></td>
                       <td  width="120px"><?php echo utf8_encode(addslashes($pdv["direccion"]))?></td>
+                      <td ><?php echo $pdv["cupones"]?></td>
                       <td ><?php echo $pdv["compras_flia_mlb"]?></td>
                       <td ><?php echo $pdv["faltantes_flia_mlb"]?></td>
                       <td ><?php echo $pdv["ventas_flia_mlb"]?></td>
@@ -55,8 +63,14 @@
                       <td ><?php echo $pdv["faltantes_core"]?></td>
                       <td ><?php echo $pdv["ventas_core"]?></td>
                       <td ><?php echo $pdv["faltantes_ventas_core"]?></td>
+                      <td ><?php echo $pdv["chequeo_1"]?></td>
+                      <td ><?php echo $pdv["chequeo_2"]?></td>
+                      <td ><?php echo $pdv["chequeo_3"]?></td>
+                      <td ><?php echo $pdv["puntaje_total"]?></td>
+                      <td ><?php echo $pdv["importe_gc"]?></td>
 
-                      <td ><?php echo $pdv["cupones"]?></td>
+
+
                     </tr>
 
             <?php endforeach;?>
