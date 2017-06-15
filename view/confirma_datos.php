@@ -41,11 +41,11 @@
           <input type="hidden" name="user_id" value="<?php echo $datos['id']?>">
             <div class="input-group">
 
-              <p class="form-control"><?php echo $datos["razon_social"]?></p>
+              <p class="form-control"><?php echo  htmlspecialchars($datos["razon_social"])?></p>
             </div>
             <div class="input-group input-separation">
 
-              <p class="form-control"><?php echo $datos["calle"] . " " . $datos["numero"] ?></p>
+              <p class="form-control"><?php echo htmlspecialchars($datos["calle"]) . " " . $datos["numero"] ?></p>
             </div>
             <div class="input-group input-separation">
               <p class="form-control"><?php echo $datos["localidad"]?></p>
