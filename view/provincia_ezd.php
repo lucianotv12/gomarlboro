@@ -47,7 +47,7 @@
           {
             if(resultado == false)
             {
-              alert(" Ocurrio un error de datos.");
+            //  alert(" Ocurrio un error de datos.");
             }
             else
             {
