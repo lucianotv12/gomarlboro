@@ -20,7 +20,7 @@
                   <td>Total</td>                      
                   <td>Compras <br/>core</td>
                   <td>Total</td>
-                  <td>Stock flia <BR/>MLB 7.6</td>
+                  <td>Stock <BR/>MLB 7.6</td>
                   <td>Visibilidad 7.6</td>
                   <td>Puntaje <br/>total</td>
                   <td>IMP. GC <BR/>PDV GANADOR</td>
