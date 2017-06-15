@@ -5,7 +5,9 @@
           <div class="modal-body">
             <img class="ranking-text" src="<?php echo IMGS?>ka/ranking-text.png">
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext2.png">
-             <table class="table table-responsive" >
+            <div class="ranking-container">
+
+                  <table class="table table-responsive" >
               <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 3</td></tr>
 
                 <tr>
@@ -23,11 +25,6 @@
                   <td>Puntaje <br/>total</td>
                   <td>IMP. GC <BR/>PDV GANADOR</td>
                 </tr>
-            </table>              
-            <div class="ranking-container">
-
-                  <table class="table table-responsive" >
-
 
 
               <?php foreach($pdvs as $pdv): 
