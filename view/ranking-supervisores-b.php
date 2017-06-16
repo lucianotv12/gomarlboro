@@ -6,21 +6,18 @@
             <img class="ranking-text" src="<?php echo IMGS?>ka/ranking-text.png">
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext2.png">
  
-             <table class="table table-responsive" >
-              <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 3</td></tr>
 
-              <tr style="text-align: left">
-                <td >Supervisor</td>
-                <td >Cuenta</td>
-                <td>Pos Total</td>
-                <td>Pos CG <br/> Ganadores </td>
-                <td>Locales <br/> Ganadores CG</td>
-                <td>¿GANA?</td>
-
-              </tr>
-            </table>  
             <div class="ranking-container">
                   <table class="table table-responsive" >
+                  <tr style="text-align: left">
+                    <td >Supervisor</td>
+                    <td >Cuenta</td>
+                    <td>Pos Total</td>
+                    <td>Pos CG <br/> Ganadores </td>
+                    <td>Locales <br/> Ganadores CG</td>
+                    <td>¿GANA?</td>
+
+                  </tr>                  
               <?php foreach($supervisores as $supervisor): ?>     
        
                     <tr style="font-size: 12px; text-align: left">
