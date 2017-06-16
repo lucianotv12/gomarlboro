@@ -300,10 +300,13 @@
 .home-modal-background .modal-content.mlb-modal.box-1,
 .home-modal2-background .modal-content.mlb-modal.box-1{
 	background-image: url(../img/mobile/MLBCORE.png);		
+
+
 }
 
 .home-modal-background .modal-content.mlb-modal.box-2,
 .home-modal2-background .modal-content.mlb-modal.box-2{
+    min-height: 600px;
 	background-image: url(../img/mobile/MLBCORE.png);		
 }
 
