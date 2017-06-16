@@ -427,8 +427,8 @@ switch($accion):
 		$_usuario = unserialize($_SESSION["user"]);
 		Template::draw_header($site);
 		if($_usuario->mecanica == "A"):
-			$pdvs= User::get_pdvs_a($_usuario->usuario);	
-			include("../view/ranking.php");
+			$supervisores= User::get_ranking_a($_usuario->usuario);	
+			include("../view/ranking-supervisores-a.php");
 		elseif($_usuario->mecanica == "B"):
 			$supervisores= User::get_ranking_b($_usuario->usuario);	
 			include("../view/ranking-supervisores-b.php");

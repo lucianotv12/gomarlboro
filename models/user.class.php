@@ -229,6 +229,26 @@ class User {
 
 	}
 
+	function get_ranking_a($_dni){
+		if($_dni == "pruebaaa"): $_dni = "3043758A"; endif;
+
+		$conn = new Conexion();
+
+		$sql = $conn->prepare('select grupo from ranking_a where dni = :DNI');
+		$sql->execute(array('DNI' => $_dni));
+		$grupo = $sql->fetch(PDO::FETCH_ASSOC);
+		
+		$grupo = $grupo["grupo"];
+
+
+		$sql = $conn->prepare("select * from ranking_a where grupo = '$grupo' order by puntos_promedio");
+		$sql->execute();
+//		print_r($sql);die;
+		return $sql->fetchAll();
+
+
+	}	
+
 	/*---GETTERS--------------------------------------------------------------*/ 
 
 	function get_id() { return($this->id); }
