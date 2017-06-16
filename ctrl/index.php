@@ -423,11 +423,17 @@ switch($accion):
 		}		
 	case 'ranking':
 		{
-		$site="ranking";				
+		$site="ranking-locales";							
 		$_usuario = unserialize($_SESSION["user"]);
-
 		Template::draw_header($site);
-		include("../view/ranking.php");
+		if($_usuario->mecanica == "A"):
+			$pdvs= User::get_pdvs_a($_usuario->usuario);	
+			include("../view/ranking.php");
+		elseif($_usuario->mecanica == "B"):
+			$supervisores= User::get_ranking_b($_usuario->usuario);	
+			include("../view/ranking-supervisores-b.php");
+		endif;	
+
 
 		}
 		break;	

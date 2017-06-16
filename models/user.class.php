@@ -198,6 +198,16 @@ class User {
 		return $sql->fetchAll();
 
 	}
+	function get_ranking_b($_dni){
+		if($_dni == "pruebabb"): $_dni = "31833109"; endif;
+		$conn = new Conexion();
+
+		$sql = $conn->prepare('select * from ranking_b where dni = :DNI order by pos_total');
+		$sql->execute(array('DNI' => $_dni));
+		return $sql->fetchAll();
+
+	}
+
 
 	function get_pdvs_a($_dni){
 		if($_dni == "pruebaaa"): $_dni = "3043758A"; endif;
