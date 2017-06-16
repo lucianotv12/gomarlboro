@@ -10,8 +10,8 @@
               <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 3</td></tr>
 
               <tr style="text-align: left">
-                <td width="160px">Supervisor</td>
-                <td width="160px">Cuenta</td>
+                <td >Supervisor</td>
+                <td >Cuenta</td>
                 <td>Pos Total</td>
                 <td>Pos CG <br/> Ganadores </td>
                 <td>Locales <br/> Ganadores CG</td>
