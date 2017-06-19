@@ -169,6 +169,15 @@
 	margin: 58% 26% 0 40%;
 }
 }
+@media (min-width: 2000px){
+
+.perfil-container {
+
+    margin: 75% 27% 0 24%;
+
+}
+
+}
 
 .perfil-box{
 	width: 50%;
@@ -367,6 +376,7 @@
 	margin-top: -3px;
 	text-align: center;
     padding-top: 12px;
+	border-radius: 0 0 4px 4px;
 }
 
 .chances-acumuladas{

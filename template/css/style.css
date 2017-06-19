@@ -228,6 +228,16 @@ body.modal-open{
 }
 }
 
+@media (min-width: 2000px){
+
+.background-image{
+
+min-height: 1440px;
+
+}
+
+}
+
 /*MOBILE BACKGROUND*/
 .start-gift-background, .login-background, .popin-background {
     background-image: url(../img/mobile/background.jpg);
@@ -611,6 +621,12 @@ body.modal-open{
 .login-form.sign-up{
 	margin: 85% 34% 0 0;
 }
+}
+@media (min-width: 2000px){
+.login-form.sign-up {
+    margin: 114% 16% 0px 4%;
+}
+
 }
 
 @media (max-width: 768px){
