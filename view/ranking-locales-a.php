@@ -9,17 +9,15 @@
               <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 3</td></tr>
 
                 <tr>
-                  <td width="120px" >Supervisor</td>
-                  <td width="120px" >Direccion</td>
-                  <td>Puntaje</td>
-                  <td>Compras <br/> f.mlb</td>
-                  <td>Total</td>
-                  <td>Ventas <br/> f.mlb</td>
-                  <td>Total</td>                      
-                  <td>Compras <br/>core</td>
-                  <td>Total</td>
-                  <td>Ventas <br/>core</td>
-                  <td>Total</td>
+                  <td width="140px" >Supervisor</td>
+                  <td width="140px" >Direccion</td>
+                  <td>Puntaje <br/>OB.Codigos</td>
+                  <td>Puntaje <br/>OB.Volumen</td>
+                  <td>Chequeo<br/>Stock</td>
+                  <td>Chequeo<br/>Visibilidad</td>
+                  <td>Puntaje<br/>Final</td>
+                  <td>PDV<br/>Ganó CG</td>
+
                 </tr>
             </table>              
             <div class="ranking-container">
@@ -35,29 +33,18 @@
                 if(strlen($pdv["direccion"]) > 22):
                  $pdv["direccion"] = substr($pdv["direccion"], 0, 19) . "...";
                 endif;                
-                if($pdv["compras_flia_mlb"] < 0): $pdv["compras_flia_mlb"] = 0; endif;
-                if($pdv["faltantes_flia_mlb"] < 0): $pdv["faltantes_flia_mlb"] = 0; endif;
-                if($pdv["ventas_flia_mlb"] < 0): $pdv["ventas_flia_mlb"] = 0; endif;
-                if($pdv["faltantes_ventas"] < 0): $pdv["faltantes_ventas"] = 0; endif;
-                if($pdv["compras_core"] < 0): $pdv["compras_core"] = 0; endif;
-                if($pdv["faltantes_core"] < 0): $pdv["faltantes_core"] = 0; endif;
-                if($pdv["ventas_core"] < 0): $pdv["ventas_core"] = 0; endif;
-                if($pdv["faltantes_ventas_core"] < 0): $pdv["faltantes_ventas_core"] = 0; endif;
 
               ?>     
        
                     <tr style="font-size: 12px; text-align: left;">
-                      <td  width="120px" ><?php echo utf8_encode(addslashes($pdv["supervisor"]))?></td>
-                      <td  width="120px"><?php echo utf8_encode(addslashes($pdv["direccion"]))?></td>
-                      <td ><?php echo $pdv["cupones"]?></td>
-                      <td ><?php echo $pdv["compras_flia_mlb"]?></td>
-                      <td ><?php echo $pdv["faltantes_flia_mlb"]?></td>
-                      <td ><?php echo $pdv["ventas_flia_mlb"]?></td>
-                      <td ><?php echo $pdv["faltantes_ventas"]?></td>
-                      <td ><?php echo $pdv["compras_core"]?></td>
-                      <td ><?php echo $pdv["faltantes_core"]?></td>
-                      <td ><?php echo $pdv["ventas_core"]?></td>
-                      <td ><?php echo $pdv["faltantes_ventas_core"]?></td>
+                      <td style="text-align: center" width="140px" ><?php echo utf8_encode(addslashes($pdv["supervisor"]))?></td>
+                      <td style="text-align: center" width="140px"><?php echo utf8_encode(addslashes($pdv["direccion"]))?></td>
+                      <td style="text-align: center" width="100px"><?php echo $pdv["cupones"]?></td>
+                      <td style="text-align: center" width="100px"><?php echo $pdv["ob_volumen"]?></td>
+                      <td style="text-align: center" width="100px"><?php echo $pdv["stock"]?></td>
+                      <td style="text-align: center" width="100px"><?php echo $pdv["visibilidad"]?></td>
+                      <td style="text-align: center" width="100px"><?php echo $pdv["puntaje_final"]?></td>
+                      <td style="text-align: right;" ><?php echo $pdv["pdv_gano"]?></td>
 
 
                     </tr>

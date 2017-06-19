@@ -193,7 +193,7 @@ class User {
 		if($_dni == "pruebabb"): $_dni = "31833109"; endif;
 		$conn = new Conexion();
 
-		$sql = $conn->prepare('select * from pdv_b where dni = :DNI order by faltantes_flia_mlb');
+		$sql = $conn->prepare('select * from pdv_b where dni = :DNI ');
 		$sql->execute(array('DNI' => $_dni));
 		return $sql->fetchAll();
 
@@ -221,7 +221,7 @@ class User {
 		$grupo = $grupo["grupo"];
 
 
-		$sql = $conn->prepare("select * from pdv_a where grupo = '$grupo' order by faltantes_flia_mlb");
+		$sql = $conn->prepare("select * from pdv_a where grupo = '$grupo' ");
 		$sql->execute();
 //		print_r($sql);die;
 		return $sql->fetchAll();
