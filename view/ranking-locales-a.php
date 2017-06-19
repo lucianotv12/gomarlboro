@@ -6,7 +6,7 @@
             <img class="ranking-text" src="<?php echo IMGS?>ka/ranking-text.png">
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext2.png">
              <table class="table table-responsive" >
-              <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 3</td></tr>
+              <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 4</td></tr>
 
                 <tr>
                   <td width="140px" >Supervisor</td>
