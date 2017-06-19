@@ -16,7 +16,7 @@
                   <td>Chequeo<br/>Stock</td>
                   <td>Chequeo<br/>Visibilidad</td>
                   <td>Puntaje<br/>Final</td>
-                  <td>PDV<br/>Ganó CG</td>
+                  <td>GANO GC <br/>(Gift Card)</td>
 
                 </tr>
             </table>              
