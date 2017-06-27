@@ -24,7 +24,7 @@
   </head>
   <body>
   <?php 
-   $porcentaje_objetivo = $_usuario->puntos * 100 / $_usuario->objetivo;  
+   $porcentaje_objetivo = round($_usuario->puntos * 100 / $_usuario->objetivo,0);  
 
   ?>  
 
