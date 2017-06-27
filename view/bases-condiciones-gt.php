@@ -1,4 +1,4 @@
-      <div class="modal-dialog">
+      <div class="modal-dialog"  style="margin-top: 20px">
         <!-- Modal content-->
         <div class="modal-content bases-condiciones">
           <div class="bold">
@@ -191,13 +191,13 @@
             <div>
                 <p>13.1. Los Participantes y/o titulares de Comercios acuerdan someter cualquier divergencia derivada de la interpretación de las presentes Bases y Condiciones a la jurisdicción y competen¬cia de los Tribunales Nacionales Ordinarios en lo Comercial de la Ciudad Autónoma de Buenos Aires, con renuncia a cualquier otro fuero y/o jurisdicción que pudiere corresponder.</p>
             </div>     
-       
+                 <a class="back-home" href="./home.html">
+            <img src="<?php echo IMGS?>ka/arrow-left.png">
+          </a>
 
           </div>
   
-          <a class="back-home" href="./home.html">
-            <img src="<?php echo IMGS?>ka/arrow-left.png">
-          </a>
+
         </div>
       </div>
       </div>

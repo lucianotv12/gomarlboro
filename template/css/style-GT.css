@@ -251,7 +251,7 @@
 @media (min-width: 769px){
 .home-background .modal-dialog{
 	margin: 8% auto;
-	width: 26%;
+/*	width: 26%;*/
 }
 .home-background .modal-content, .ranking-background .modal-content{
 	min-height: 300px;

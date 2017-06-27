@@ -175,6 +175,8 @@ class Template
       <section class="background-image home-background home-modal-background modal-gt-back">
     <?php elseif($site == "video"):?>  
       <section class="background-image ranking-background" style=" background: rgba(0, 0, 0, 0.6);">              
+    <?php elseif($site == "basesycondiciones-gt"):?>  
+       <section class="background-image home-background home-modal-background" >                    
     <?php else:?>      
       <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>
         <section class="background-image home-background home2-background full-puntos">
