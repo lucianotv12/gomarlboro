@@ -70,6 +70,8 @@ class Template
       <section class="background-image premios-background">
     <?php elseif($site == "ranking-locales"):?>  
       <section class="background-image ranking-background">
+    <?php elseif($site == "video"):?>  
+      <section class="background-image ranking-background" style=" background: rgba(0, 0, 0, 0.6);">
 
 
     <?php else: ?>
@@ -171,9 +173,12 @@ class Template
 
     <?php if($site == "core"):?>  
       <section class="background-image home-background home-modal-background modal-gt-back">
+    <?php elseif($site == "video"):?>  
+      <section class="background-image ranking-background" style=" background: rgba(0, 0, 0, 0.6);">              
     <?php else:?>      
       <?php if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): ?>
         <section class="background-image home-background home2-background full-puntos">
+
       <?php else: ?> 
         <section class="background-image home-background home2-background full">
       <?php endif;?>      

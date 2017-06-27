@@ -23,9 +23,14 @@
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
   </head>
   <body>
+  <?php 
+   $porcentaje_objetivo = $_usuario->puntos * 100 / $_usuario->objetivo;  
+
+  ?>  
+
     <script type="text/javascript">
     $( document ).ready(function() {
-      var percentage = 0.25;
+      var percentage = 0.<?php echo $porcentaje_objetivo?>;
 
       var browserData = [
           {color: '#4f7282', y: 1, sliced: true},
@@ -162,7 +167,7 @@
           </div>
           <div class="chart-container bold">
             <div><span class="red">AVANCE </span><span>VS. OBJETIVO</span></div>
-            <div class="percentage red">00%</div>
+            <div class="percentage red"><?php echo $porcentaje_objetivo?>%</div>
             <div id="chart"></div>
           </div>
         </div>

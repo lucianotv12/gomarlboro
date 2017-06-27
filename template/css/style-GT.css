@@ -376,7 +376,7 @@
 	margin-top: -3px;
 	text-align: center;
     padding-top: 12px;
-	border-radius: 0 0 4px 4px;
+	border-radius: 0 0 10px 10px;
 }
 
 .chances-acumuladas{
@@ -663,7 +663,7 @@ position: absolute;
 left:42%; 
 top:75%; 
 color:white; 
-font-size: 14px; 
+font-size: 16px; 
 font-weight: bold;
 
 }
