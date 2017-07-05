@@ -25,7 +25,7 @@
   <body>
   <?php 
    $porcentaje_objetivo = round($_usuario->puntos * 100 / $_usuario->objetivo,0);  
-
+   
   ?>  
 
     <script type="text/javascript">
@@ -157,9 +157,15 @@
         <div class="modal-dialog">
           <!-- Modal content-->
           <div class="modal-content mlb-modal box-1">
-            <div class="modal-body">
-            <span id="muestra_objetivo"><?php echo $_usuario->objetivo?></span>
+            <div class="modal-body" style="font-family: 'DIN'; font-weight: 550; text-align: center;  ">
               <img src="<?php echo IMGS?>gt/<?php echo $img_muestra?>">
+
+            <p style="color:#4f7282; line-height: 28px  ">Alcanzando tu compra habitual de familia <span style="color:#dc1e25"> Marlboro</span> en atados de 20 de , <span style="background: #4f7282; color: white;padding: 0px 15px 0px 15px;border-radius: 64px 64px 64px 64px;-moz-border-radius: 64px 64px 64px 64px;-webkit-border-radius: 64px 64px 64px 64px;border: 0px solid #000000;"><?php echo $_usuario->objetivo?></span> <span style="color:#dc1e25; font-size: 26px "> sumás 50 <?php echo $palabra;?>.</span></p>
+            <p style="color:#4f7282; line-height: 28px">¡Además, por cada cartón adicional seguís sumando! </p>
+            <p style="color:#4f7282; font-size: 18px; line-height: 28px">(10 <?php echo $palabra;?> por cada cartón de 10s y 20 por cada cartón de 20s). </p>
+
+    
+
             </div>
             <a class="back-home" href="./home.html">
               <img src="<?php echo IMGS?>ka/arrow-left.png">

@@ -515,9 +515,12 @@ switch($accion):
 //			Template::draw_header_gt($site);
 			$_usuario = unserialize($_SESSION["user_gt"]);
 			if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"):
-				$img_muestra ="compra-mlb-PUNTOS.png";
+				$img_muestra ="compra-mlb2.png";
+				$palabra = "puntos";
 			else:
-				$img_muestra ="compra-mlb.png";
+				$img_muestra ="compra-mlb2.png";
+				$palabra = "chances";
+
 			endif;	
 
 			include("../view/mlb_compra.php");
