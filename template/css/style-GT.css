@@ -642,15 +642,15 @@
 
 .percentage{
 	position: absolute;
-    right: calc(50% - 35px);
-    top: calc(50% - 18px);
+    right: 34%;
+    top: 38%;
     font-size: 28px;
 }
 
 @media (max-width: 768px){
 .percentage{
-	right: calc(50% - 16px);
-    top: calc(50% - 12px);
+	right: 45%;
+    top: 40%;
     font-size: 22px;
 }	
 }
