@@ -9,12 +9,12 @@
               <p>1.1. Este programa denominado “GO MARLBORO” (el “Programa”), organizado por Massalin Particulares S.R.L. ("MP"), se desarrollará en los puntos de venta de Argentina que tengan relación comercial de cuentas claves (las “KA”) con MP y que hayan sido previamente seleccionados a exclusivo criterio de MP (los “PDV”).<p>
             </div>
             <div>
-              <p>1.2. Para participar del Programa no se requiere la compra de producto alguno  y podrán hacerlo todos los empleados de los PDVs de las KA involucradas (conforme este término se define en el punto 1.3), siempre que los PDV: (i) tuvieren la  correspondiente habilitación comercial; (ii) vendieren cigarrillos y productos de tabaco, exclusivamente, a consumidores finales.<p>
+              <p>1.2. Para participar del Programa no se requiere la compra de producto alguno  y podrán hacerlo todos los empleados de los PDVs de las KA involucradas (conforme este término se define en el punto 1.3), siempre que los PDV: (i) tuvieren la  correspondiente habilitación comercial; (ii) vendieren cigarrillos y productos de tabaco, exclusivamente, a consumidores finales<p>
             </div>
             <div>
               <p>1.3. MP se reserva el derecho exclusivo y excluyente de seleccionar los PDV que podrán participar en el Programa, sin que los no seleccionados tengan derecho a objeción y/o reclamo alguno. La selección será comunicada por MP a los titulares de las KA a través de un representante de MP (el “Representante”).</p>
             </div>
-            <div class="subtitle">2. DEFINICIONES</div>
+            <div class="subtitle">2. DEFINICIONES </div>
             <div>
               <p>2.1. A los efectos del presente Programa, se tendrán en cuenta las siguientes definiciones:</p>
               <ul>
@@ -32,15 +32,15 @@
             </div>
             <div class="subtitle">3. PLAZO DE VIGENCIA </div>
             <div>
-              <p>3.1. Este Programa tendrá vigencia entre el 2 de mayo de 2017 y el 31 de julio de 2017, ambas fechas inclusive.</p>
+              <p>3.1. Este Programa tendrá vigencia entre el 8 de mayo de 2017 y el 6 de agosto de 2017, ambas fechas inclusive.</p>
             </div>
             <div>
               <p>3.2. MP se reserva el derecho de suspender y/o terminar el presente Programa en cualquier momento, sin causa y sin otra obligación que la de comunicar tal decisión a los Participantes a través de los medios que MP considerare convenientes, con una antelación mínima de 10 (diez) días corridos a la fecha de efectiva suspensión o terminación. El ejercicio de este derecho por parte de MP no otorgará a los Participantes derecho a reclamo y/o indemnización alguna.</p>
             </div>
             <div>
-              <p>3.3. En el supuesto de suspensión o terminación del Programa, se le entregarán los premios correspondientes al período participado en caso de que efectivamente correspondiera alguno en el transcurso de 1 (un) mes contado a partir de la fecha de efectiva suspensión o terminación.</p>
+              <p>3.3. En el supuesto de suspensión o terminación del Programa, se le entregarán los premios correspondientes al período participado en caso de que efectivamente correspondiera alguno en el transcurso de 1 (un) mes contado a partir de la fecha de efectiva suspensión o terminación. </p>
             </div>
-            <div class="subtitle">4. SISTEMA DE INGRESO Y CONDICIONES DE PERMANENCIA</div>
+            <div class="subtitle">4. SISTEMA DE INGRESO Y CONDICIONES DE PERMANENCIA </div>
             <div>
               <p>4.1. Independientemente de la selección previa por parte de MP, para hacer efectiva su adhesión al Programa, cualquiera de los supervisores de las KA participantes, deberá acceder al Sitio, ingresar el Código de registro que previamente se le hubiere proporcionado y aceptar expresamente las políticas de bases de datos de MP. Finalizado este proceso, quien haya completado el Formulario de Registro, recibirá un e-mail en su casilla de correo electrónico con las instrucciones para poder finalizar el proceso de registro, a partir del cual podrá acceder al Sitio utilizando su “nombre de usuario” que le será entregado por un Representante y la contraseña que hubiere creado durante el proceso de registro. Las bases y condiciones serán firmadas también por los responsables de las cuentas participantes en representación de los empleados y/o supervisores que no ingresaran y aceptaran las bases y condiciones a través de la web.</p>
             </div>
@@ -48,13 +48,13 @@
               <p>4.2. Aquellos que finalicen satisfactoriamente el proceso mencionado en el apartado anterior, serán considerados “Participantes” a los efectos de este Programa y habrán creado una cuenta única donde tanto el PDV como el supervisor podrán acumular sus puntos (la “Cuenta”). Se deja expresa constancia de que existirá una sola Cuenta por PDV y una sola Cuenta por supervisor.</p>
             </div>
             <div>
-              <p>4.3. Se deja expresa constancia de que la adhesión al Programa es responsabilidad exclusiva de los empleados o responsables de la KA con PDVs seleccionados, quienes – indefectiblemente y sin excepción – deberán completar el Formulario de Registro en el Sitio. En ningún caso, los Representantes ni MP serán los responsables del alta del PDV en el Programa ni de la carga del Formulario de Registro.</p>
+              <p>4.3. Se deja expresa constancia de que la adhesión al Programa es responsabilidad exclusiva de los empleados o responsables de la KA con PDVs seleccionados, quienes – indefectiblemente y sin excepción – deberán completar el Formulario de Registro en el Sitio. En ningún caso, los Representantes ni MP serán los responsables del alta del PDV en el Programa ni de la carga del Formulario de Registro. </p>
             </div>
             <div>
               <p>4.4. La posibilidad de los Participantes de acumular puntos conforme a lo estipulado en estas Bases, comenzará una vez suscripto en debida forma el Formulario de Registro y siempre que se cumplan con los demás requisitos aquí establecidos.</p>
             </div>
             <div>
-              <p>4.5. Los empleados de las KA, podrán ingresar al Programa y participar de él mientras cumplan con los requisitos y condiciones aquí establecidas y mientras el Programa no hubiere culminado o sido suspendido o cancelado por MP.</p>
+              <p>4.5. Los empleados de las KA, podrán ingresar al Programa y participar de él mientras cumplan con los requisitos y condiciones aquí establecidas y mientras el Programa no hubiere culminado o sido suspendido o cancelado por MP. </p>
             </div>
             <div>
               <p>4.6. Salvo autorización expresa de MP, ninguna KA, podrá ingresar al Programa si se encontrare el en mora con MP en el cumplimiento de cualquiera de sus obligaciones contractuales, originadas en la relación comercial que el titular de la KA mantiene con MP.</p>
@@ -73,7 +73,7 @@
               <p>5.2. A efectos del Programa, los Participantes serán visitados por un Representante en 2 (dos) oportunidades, en el horario normal y habitual de atención de los PVD. Si el PDV se encontrare cerrado - por cualquier causa – el Representante no estará obligado a reprogramar su visita. Durante la visita, el Representante (a) reforzará la comunicación explicativa de la mecánica del Programa que ya habrá sido comunicada previamente por el supervisor de la cuenta; (b) colocará los planogramas y materiales de comunicación; (c) realizará el chequeo de visibilidad y de disponibilidad de productos.</p>
             </div>
             <div>
-              <p>5.3. Para participar del Programa, los Participantes deberán sumar puntos en su Cuenta durante dos etapas: 4 semanas del 2/05/2017 al 28/05/2017 inclusive y otras 4 semanas del 26/06/2017 al 23/07/2017, los cuales adquirirán al cumplir los siguientes desafíos: (i) conseguir que al menos 5 consumidores adultos de productos de tabaco – durante cada etapa del Programa - ingresen y se registren en el sitio web www.marlboro.com.ar, y carguen el Código incluido en la Tarjeta que el Participante le haya entregado previamente en el PDV– el Participante no podrá entregar más de 1 (una) Tarjeta por cada consumidor de productos de tabaco (el “Desafío Tarjeta”); (ii) alcanzar un objetivo de volumen de compra -por cada etapa del Programa- de la marca Marlboro expresado en atados de 20 (veinte) cigarrillos de cualquier versión (el “Desafío Volumen”); e (iii) tener disponibilidad de 3 packs de cada una de las versiones de la familia Marlboro al momento de la visita del Representante; (iv) mantener los materiales de visibilidad tal como los colocó el Representante en su última visita al momento del chequeo del mismo.</p>
+              <p>5.3. Para participar del Programa, los Participantes deberán sumar puntos en su Cuenta durante dos etapas: 4 semanas del 08/05/2017 al 04/06/2017 inclusive y otras 4 semanas del 10/07/2017 al 06/08/2017, los cuales adquirirán al cumplir los siguientes desafíos: (i) conseguir que al menos 5 consumidores adultos de productos de tabaco, nuevos nombres en las bases de datos de Massalin Particulares S.R.L. – durante cada etapa del Programa - ingresen y se registren en el sitio web <a href="www.ingresatuclave.com.ar" class="pointer">www.ingresatuclave.com.ar</a>, y carguen el Código incluido en la Tarjeta que el Participante le haya entregado previamente en el PDV– el Participante no podrá entregar más de 1 (una) Tarjeta por cada consumidor de productos de tabaco (el “Desafío Tarjeta”); (ii) alcanzar un objetivo de volumen de compra -por cada etapa del Programa- de la marca Marlboro expresado en atados de 20 (veinte) cigarrillos de cualquier versión (el “Desafío Volumen”); e (iii) tener disponibilidad de 3 packs de cada una de las versiones de la familia Marlboro al momento de la visita del Representante; (iv) mantener los materiales de visibilidad tal como los colocó el Representante en su última visita al momento del chequeo del mismo.</p>
             </div>
             <div>
               <p>5.4. Por cada Desafío que el PDV cumpla de forma exitosa en cada etapa del Programa sumará los siguientes puntos en su Cuenta: (i) 10 puntos por 5 o más Códigos ingresados bajo los términos del Desafío Tarjeta; (ii) 50 puntos por cada objetivo de volumen alcanzado bajo los términos del Desafío Volumen; (iii) 20 puntos por tener disponibilidad de 3 packs de cada una de las versiones de la familia Marlboro al momento del chequeo del Representante; (iv) 20 puntos por mantener los materiales de visibilidad tal como los colocó el Representante al momento de su visita.</p>
@@ -85,11 +85,14 @@
               <p>5.6 Los supervisores que lograran que, en cada etapa del Programa, el 80% de sus PDV participantes sean ganadores de algún premio serán Potenciales Ganadores del Premio Gift Card $3000. Los supervisores que hayan tenido el 80% de sus PDV ganadores en ambos meses de acción participarán del sorteo por una Moto Eléctrica.</p>
             </div>
             <div>
-              <p>5.7. Los Potenciales Ganadores serán notificados a los representantes de la cuenta a través del ejecutivo de Massalin Particulares responsable de la misma. Dentro de los 30 (treinta) días de finalizado este proceso, los Representantes entregarán a los Ganadores el premio correspondiente. Contra la entrega de los Premios, los representantes de la cuenta deberán firmar el formulario de constancia de entrega respectivo.</p>
+              <p>5.7 En caso de tener PDV o supervisores que residan en las provincias de Mendoza, Salta, Río Negro o Neuquén de la República Argentina entre los potenciales participantes para el sorteo de las motos, el sorteo será reemplazado por un desafío por puntaje total de la acción, donde los PDV que acumulen mayor cantidad de puntajes en el transcurso de las 2 etapas y los supervisores con el promedio mayor de puntaje serán los potenciales ganadores del premio Moto Eléctrica. En caso de tener un empate, serán considerados ganadores del premio los PDV con el mayor porcentaje de compras de familia Marlboro respecto al objetivo propuesto. En el caso de los supervisores el desempate se realizará considerando el porcentaje de compras de familia Marlboro del promedio de los PDV de venta asignados al consumidor, siendo considerado potencial ganador del premio Moto Eléctrica el que logré el mayor porcentaje.</p>
             </div>
+            <div>
+              <p>5.8. Los Potenciales Ganadores serán notificados a los representantes de la cuenta a través del ejecutivo de Massalin Particulares responsable de la misma. Dentro de los 30 (treinta) días de finalizado este proceso, los Representantes entregarán a los Ganadores el premio correspondiente. Contra la entrega de los Premios, los representantes de la cuenta deberán firmar el formulario de constancia de entrega respectivo.</p>
+            </div>            
             <div class="subtitle">6. PREMIOS</div>
             <div>
-              <p>6.1. Los Premios no incluyen ninguna otra prestación, bien o servicio no enumerado expresamente en estas Bases y no son transferibles a persona alguna ni redimibles en dinero efectivo u otros bienes o servicios. Se procurará que no queden premios sin asignar. Si de todos modos quedasen Premios no asignados, estos quedarán en poder de MP. En el supuesto que cualquiera de los Potenciales Ganadores no pudieren o no quisieren acceder a los Premios, por cualquier causa, perderán automáticamente todo derecho a la asignación del Premio y no tendrán nada que reclamar a MP por ningún concepto.</p>
+              <p>6.1. Los Premios no incluyen ninguna otra prestación, bien o servicio no enumerado expresamente en estas Bases y no son transferibles a persona alguna ni redimibles en dinero efectivo u otros bienes o servicios. Se procurará que no queden premios sin asignar. Si de todos modos quedasen Premios no asignados, estos quedarán en poder de MP. En el supuesto que cualquiera de los Potenciales Ganadores no pudieren o no quisieren acceder a los Premios, por cualquier causa, perderán automáticamente todo derecho a la asignación del Premio y no tendrán nada que reclamar a MP por ningún concepto. </p>
             </div>
             <div>
               <p>6.2. MP no será responsable por ningún daño o perjuicio de ningún tipo que pudieren sufrir los Participantes, Potenciales Ganadores y/o Ganadores en sus personas o en sus bienes, con motivo de su participación en el Programa o con relación al uso de los Premios. Asimismo, MP no otorga garantía de calidad, evicción, vicios redhibitorios, funcionamiento, ni ninguna otra con relación a los Premios, debiendo dirigirse cualquier reclamo a los fabricantes, vendedores o importadores de los mismos.</p>
@@ -105,10 +108,10 @@
             </div>
             <div class="subtitle">7. MISCELÁNEAS</div>
             <div>
-              <p>7.1. La mera participación en el presente Programa implica la autorización de los Participantes, Potenciales Ganadores y Ganadores, para que MP utilice sus nombres, voces e imágenes con fines comerciales, en los medios de comunicación y formas que MP disponga, sin que esto les otorgue derecho a la percepción de suma alguna y/o compensación de ningún tipo, durante la vigencia de la Acción y hasta los 3 (tres) años posteriores a su finalización.</p>
+              <p>7.1. La mera participación en el presente Programa implica la autorización de los Participantes, Potenciales Ganadores y Ganadores, para que MP utilice sus nombres, voces e imágenes con fines comerciales, en los medios de comunicación y formas que MP disponga, sin que esto les otorgue derecho a la percepción de suma alguna y/o compensación de ningún tipo, durante la vigencia de la Acción y hasta los 3 (tres) años posteriores a su finalización. </p>
             </div>
             <div>
-              <p>7.2. No podrán participar de este Programa directivos ni empleados de MP, ex empleados de MP que se hubieren desvinculado de la empresa dentro de los 30 (treinta) días anteriores a la fecha de comienzo del Programa ni personal de sus agencias de publicidad y logística involucradas en el Programa, así como tampoco sus familiares hasta el segundo grado de consanguinidad ni sus cónyuges. Tampoco podrán participar de este Programa los titulares de PDV que incumplieren con las obligaciones comerciales que mantienen con MP. Si, igualmente, uno de estos titulares de un PDV resultare Potencial Ganador, MP se reserva el derecho de no asignar el Premio.</p>
+              <p>7.2. No podrán participar de este Programa directivos ni empleados de MP, ex empleados de MP que se hubieren desvinculado de la empresa dentro de los 30 (treinta) días anteriores a la fecha de comienzo del Programa ni personal de sus agencias de publicidad y logística involucradas en el Programa, así como tampoco sus familiares hasta el segundo grado de consanguinidad ni sus cónyuges. Tampoco podrán participar de este Programa los titulares de PDV que incumplieren con las obligaciones comerciales que mantienen con MP. Si, igualmente, uno de estos titulares de un PDV resultare Potencial Ganador, MP se reserva el derecho de no asignar el Premio. </p>
             </div>
             <div>
               <p>7.3. MP se reserva el derecho de admisión y participación del Programa, conservando el derecho de rechazar y/o suprimir del Programa a los Participantes que, a criterio de MP, infringieren las presentes Bases.</p>
@@ -123,7 +126,7 @@
               <p>7.6. Todo impuesto nacional o provincial que deba tributarse sobre o en relación con los Premios, toda suma que deba abonarse a sociedades del estado, autoridades nacionales o provinciales con motivo de la organización del Programa y/o del ofrecimiento de los Premios y los gastos en que incurran los Ganadores con motivo de su participación en este Programa, serán a cargo de los Ganadores. En el mismo sentido, estará a cargo de los Ganadores el pago de todos los impuestos, tasas, aranceles, sellados, gastos y honorarios de profesionales y gestores y de todo otro costo o gasto que sea necesario para hacerse acreedor del Premio en cuestión.</p>
             </div>
             <div>
-              <p>7.7. Para cualquier cuestión judicial que pudiera derivarse de la realización del Programa, los Participantes y MP se someterán a la jurisdicción de los tribunales ordinarios de la Ciudad Autónoma de Buenos Aires.</p>
+              <p>7.7. Para cualquier cuestión judicial que pudiera derivarse de la realización del Programa, los Participantes y MP se someterán a la jurisdicción de los tribunales ordinarios de la Ciudad Autónoma de Buenos Aires. </p>
             </div>
             <div>
               <p>7.8. La participación en el Programa implica la aceptación de estas Bases, así como de las decisiones que adopte MP, conforme a derecho, sobre cualquier cuestión no prevista en ellas.</p>
