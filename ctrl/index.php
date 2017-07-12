@@ -41,8 +41,10 @@ switch($accion):
 				if($_usuario->acepta_bases == 0):
 					if($_usuario->mecanica == "A"):
 						include("../view/acepta-bases-condiciones-A.php");
+						break;
 					else:
 						include("../view/acepta-bases-condiciones-B.php");			
+						break;
 					endif;	
 
 				endif;	
