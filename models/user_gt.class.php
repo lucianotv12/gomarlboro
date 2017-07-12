@@ -269,6 +269,24 @@ class User_gt {
 
 	}	
 
+	function cargo_datos($_id){
+		$conn = new Conexion();
+		$sql = $conn->prepare("SELECT * FROM datos_gt D  where idUser_gt = :USER ");
+		$sql->execute(array("USER" => $_id));
+		$datos = $sql->fetch(PDO::FETCH_ASSOC);
+
+		$sql =null;
+		$conn=null;
+
+
+		if($datos):
+			return true;
+		else:
+			return false;
+		endif;		 
+
+	}
+
 	/*---GETTERS--------------------------------------------------------------*/ 
 
 	function get_id() { return($this->id); }

@@ -66,6 +66,7 @@ switch($accion):
 					include("../view/provincia_ezd.php");
 					break;
 				endif;					
+
 				if($_usuario->acepta_bases == 0):
 					if($_usuario->provincia == "MENDOZA" or $_usuario->provincia == "SALTA" or $_usuario->provincia == "RIO NEGRO" or $_usuario->provincia == "NEUQUEN"): 
 						include("../view/acepta-bases-condiciones-gt-2.php");
@@ -76,6 +77,10 @@ switch($accion):
 
 				endif;	
 
+				if(User_gt::cargo_datos($_usuario->id) === false):
+					include("../view/completar_datos_gt.php");
+					break;
+				endif;	
 
 				Template::draw_header_gt($site, $_usuario);
 				include("../view/home_gt.php");
