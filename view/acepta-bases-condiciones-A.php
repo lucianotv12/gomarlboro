@@ -193,7 +193,7 @@
 
 
 
-          <div class="col-xs-12 text-center">
+          <div style="padding: 10px">
             <form name="acepta_bases" method="post" action="<?php echo HOME?>acepta_bases.html">
               <button type="submit" style="width: 100%; margin-top: 20px" class="btn btn-grey btn-red inline">
               <span class="grey">Acepto bases y condiciones</span>
