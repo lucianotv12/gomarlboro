@@ -25,9 +25,12 @@ switch($accion):
 		if(@$_SESSION["user"]):
 			$usuario_tipo ="KA";
 			$_usuario = unserialize($_SESSION["user"]);
+			User::new_user_log($_usuario->id,"LOGIN OK KA");  
 		elseif(@$_SESSION["user_gt"]):
 			$usuario_tipo ="GT";
 			$_usuario = unserialize($_SESSION["user_gt"]);
+			User::new_user_log($_usuario->id,"LOGIN OK GT");  
+
 		endif;	
 
 

@@ -281,6 +281,50 @@ class User {
 
 	/*------------------------------------------------------------------------*/ 
 
+	function new_user_log($userId,$accion ){
+		$ipReal = User::getRealIP();
+
+		$conn = new Conexion();
+		$sql = $conn->prepare("INSERT INTO users_logs values (null, :USER, '$ipReal', NOW(), :ACCION )");
+		$sql->execute(array("USER" => $userId, "ACCION" => $accion));
+
+		$conn = null;
+		$sql = null;
+
+
+	}
+
+function getRealIP()
+{
+
+    if (isset($_SERVER["HTTP_CLIENT_IP"]))
+    {
+        return $_SERVER["HTTP_CLIENT_IP"];
+    }
+    elseif (isset($_SERVER["HTTP_X_FORWARDED_FOR"]))
+    {
+        return $_SERVER["HTTP_X_FORWARDED_FOR"];
+    }
+    elseif (isset($_SERVER["HTTP_X_FORWARDED"]))
+    {
+        return $_SERVER["HTTP_X_FORWARDED"];
+    }
+    elseif (isset($_SERVER["HTTP_FORWARDED_FOR"]))
+    {
+        return $_SERVER["HTTP_FORWARDED_FOR"];
+    }
+    elseif (isset($_SERVER["HTTP_FORWARDED"]))
+    {
+        return $_SERVER["HTTP_FORWARDED"];
+    }
+    else
+    {
+        return $_SERVER["REMOTE_ADDR"];
+    }
+
+}
+
+
 }//endclass
 
 

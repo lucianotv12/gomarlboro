@@ -58,7 +58,8 @@ if (isset($_POST["user"]) && isset($_POST["password"]))
             header('Location:' . HOME . 'home.html');
 
           }else{
-  
+            $ERROR = "Login Error" . $_POST["user"] . " : " . $_POST["password"];
+            User::new_user_log(0,$ERROR);    
             $mensaje_error = true;
             include("view/login.php");
           }    
