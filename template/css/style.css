@@ -662,9 +662,9 @@ min-height: 1440px;
 
 @media (min-width: 769px){
 .bottom-container{
-	width: 27%;
+	/*width: 27%;*/
 	margin: 0 auto;
-	margin-top: 17%;
+	margin-top: 12%;
 }
 }
 
@@ -683,7 +683,7 @@ min-height: 1440px;
 
 @media (min-width: 1800px){
 .bottom-container{
-	margin-top: 15%;
+	margin-top: 6%;
 }
 }
 

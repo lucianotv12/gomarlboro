@@ -286,13 +286,15 @@ class Template
 
 
       <div class="container hidden-mobile">
-        <?php if($site != "home" and $site != "ranking-locales" ):?>  
-        <div class="bottom-text bold">
-          <p>¡Aprovechá todas las oportunidades de sumar y ganá con marlboro!</p>
-          <p>¡No dejes que nada te frene!</p>
-        </div>
-        <?php endif;?>
+        
         <div class="bottom-container bold">
+          <div class="bottom-text bold">
+            <p>¡Aprovechá todas las oportunidades de sumar y ganá con marlboro!</p>
+            <p>¡No dejes que nada te frene!</p>
+          </div>        
+          <div class="bottom-text bold" style="padding-bottom: 10px; padding-top: 10px">
+            <p>Etapa 1</p>
+          </div>  
           <a href="<?php echo HOME?>ranking.html" class="btn btn-grey btn-red inline">
             <span class="grey">tu </span><span>performance</span>
           </a>
