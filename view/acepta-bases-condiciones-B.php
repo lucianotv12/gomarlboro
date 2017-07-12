@@ -181,9 +181,7 @@
             <div>
               <p>7.8. La participación en el Programa implica la aceptación de estas Bases, así como de las decisiones que adopte MP, conforme a derecho, sobre cualquier cuestión no prevista en ellas.</p>
             </div>
-          </div>          
 
-        </div>
         <div class="row">
           <div class="col-xs-12 text-center">
             <form name="acepta_bases" method="post" action="<?php echo HOME?>acepta_bases.html">
@@ -195,7 +193,9 @@
         </div>
       </div>
 
+          </div>          
 
+        </div>
 
     </section>
   </body>
