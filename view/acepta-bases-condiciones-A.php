@@ -189,8 +189,6 @@
             <div>
               <p>7.8. La participación en el Programa implica la aceptación de estas Bases y Condiciones, así como de las decisiones que adopte MP, conforme a derecho, sobre cualquier cuestión no prevista en ellas.</p>
             </div>
-          </div>
-
 
         <div class="row">
           <div class="col-xs-12 text-center">
@@ -200,8 +198,11 @@
               </button>
             </form>  
           </div>
-        </div>       
-        </div>         
+        </div>  
+          </div>
+
+        </div>
+              
       </div>
 
     </section>
