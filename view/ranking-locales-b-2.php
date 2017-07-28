@@ -10,8 +10,8 @@
               <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 1</td></tr>
 
               <tr style="text-align: left">
-                  <td width="140px" >Supervisor</td>
-                  <td width="140px" >Direccion</td>
+                  <td width="100px" >Supervisor</td>
+                  <td width="100px" >Direccion</td>
                   <td>Puntaje <br/>OB.Codigos</td>
                   <td>Compras</td>
                   <td>OB.Compras</td>
@@ -36,15 +36,15 @@
               ?>     
        
                     <tr style="font-size: 12px; text-align: left">
-                      <td style="text-align: center" width="140px" ><?php echo utf8_encode(addslashes($pdv["supervisor"]))?></td>
-                      <td style="text-align: center" width="140px"><?php echo utf8_encode(addslashes($pdv["direccion"]))?></td>
+                      <td style="text-align: left" width="100px" ><?php echo utf8_encode(addslashes($pdv["supervisor"]))?></td>
+                      <td style="text-align: center" width="100px"><?php echo utf8_encode(addslashes($pdv["direccion"]))?></td>
                       <td style="text-align: center" width="90px"><?php echo $pdv["cupones"]?></td>
                       <td style="text-align: center" width="90px"><?php echo $pdv["compras_mlb"]?></td>
                       <td style="text-align: center" width="90px"><?php echo $pdv["compras_ob"]?></td>
                       <td style="text-align: center" width="90px"><?php echo $pdv["compras_fb"]?></td>
                       <td style="text-align: center" width="90px"><?php echo $pdv["compras_fb_ob"]?></td>                      
                       <td style="text-align: center" width="90px"><?php echo $pdv["chequeo_1"]?></td>
-                      <td style="text-align: center" width="90px"><?php echo $pdv["chequeo_2"]?></td>
+                      <td style="text-align: right" width="90px"><?php echo $pdv["chequeo_2"]?></td>
 
                     </tr>
 
