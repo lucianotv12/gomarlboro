@@ -465,6 +465,25 @@ switch($accion):
 
 		}
 		break;	
+
+	case 'ranking-locales-2':
+		{
+		$site="ranking-locales";				
+		$_usuario = unserialize($_SESSION["user"]);
+		Template::draw_header($site);
+		if($_usuario->mecanica == "A"):
+			$pdvs= User::get_pdvs_a_2($_usuario->usuario);	
+			include("../view/ranking-locales-a-2.php");
+		elseif($_usuario->mecanica == "B"):
+			$pdvs= User::get_pdvs_b_2($_usuario->usuario);	
+			include("../view/ranking-locales-b-2.php");
+		endif;	
+
+		Template::draw_footer($site);			
+
+		}
+		break;	
+
 /*// GT*///
 	case 'confirma_gt_datos':
 		{

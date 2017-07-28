@@ -198,6 +198,16 @@ class User {
 		return $sql->fetchAll();
 
 	}
+	function get_pdvs_b_2($_dni){
+		if($_dni == "pruebabb"): $_dni = "31833109"; endif;
+		$conn = new Conexion();
+
+		$sql = $conn->prepare('select * from pdv_b_2 where dni = :DNI ');
+		$sql->execute(array('DNI' => $_dni));
+		return $sql->fetchAll();
+
+	}
+
 	function get_ranking_b($_dni){
 		if($_dni == "pruebabb"): $_dni = "31833109"; endif;
 		$conn = new Conexion();
@@ -228,6 +238,25 @@ class User {
 
 
 	}
+	function get_pdvs_a_2($_dni){
+		if($_dni == "pruebaaa"): $_dni = "3043758A"; endif;
+
+		$conn = new Conexion();
+
+		$sql = $conn->prepare('select grupo from pdv_a_2 where dni = :DNI');
+		$sql->execute(array('DNI' => $_dni));
+		$grupo = $sql->fetch(PDO::FETCH_ASSOC);
+		
+		$grupo = $grupo["grupo"];
+
+
+		$sql = $conn->prepare("select * from pdv_a_2 where grupo = '$grupo' ");
+		$sql->execute();
+//		print_r($sql);die;
+		return $sql->fetchAll();
+
+
+	}	
 
 	function get_ranking_a($_dni){
 		if($_dni == "pruebaaa"): $_dni = "3043758A"; endif;
