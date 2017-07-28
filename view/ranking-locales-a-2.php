@@ -9,9 +9,9 @@
               <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 1</td></tr>
 
                 <tr>
-                  <td width="120px" >Supervisor</td>
-                  <td width="120px" >Direccion</td>
-                  <td>Puntaje <br/>OB.Codigos</td>
+                  <td width="100px" >Supervisor</td>
+                  <td width="100px" >Direccion</td>
+                  <td>Códigos</td>
                   <td>Compras</td>
                   <td>OB.Compras</td>
                   <td>Ventas</td>
@@ -40,8 +40,8 @@
               ?>     
        
                     <tr style="font-size: 12px; text-align: left;">
-                      <td style="text-align: center" width="120px" ><?php echo utf8_encode(addslashes($pdv["supervisor"]))?></td>
-                      <td style="text-align: center" width="120px"><?php echo utf8_encode(addslashes($pdv["direccion"]))?></td>
+                      <td style="text-align: center" width="100px" ><?php echo utf8_encode(addslashes($pdv["supervisor"]))?></td>
+                      <td style="text-align: center" width="100px"><?php echo utf8_encode(addslashes($pdv["direccion"]))?></td>
                       <td style="text-align: center" width="100px"><?php echo $pdv["cupones"]?></td>
                       <td style="text-align: center" width="100px"><?php echo $pdv["compras_mlb"]?></td>
                       <td style="text-align: center" width="100px"><?php echo $pdv["compras_ob"]?></td>
