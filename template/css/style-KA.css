@@ -742,8 +742,8 @@
 }
 
 .modal-dialog.ranking{
-	width: 50%;
-	margin-top: 5%;
+	width: 65%;
+	margin-top: 8%;
 }
 
 @media (max-width: 768px) {
