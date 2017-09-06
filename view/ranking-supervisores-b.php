@@ -14,8 +14,10 @@
                     <td >Cuenta</td>
                     <td>Pos Total</td>
                     <td>Pos CG <br/> Ganadores </td>
-                    <td>Locales <br/> Ganadores CG</td>
+                    <TD>%</TD>
                     <td>¿GANA?</td>
+                    <td>EFECTIVIDAD <BR/> TOTAL</td>
+                    <td>sORTEO MOTO</td>
 
                   </tr>                  
               <?php foreach($supervisores as $supervisor): 
@@ -25,10 +27,12 @@
                     <tr style="font-size: 12px; text-align: left">
                       <td ><?php echo utf8_encode(addslashes($supervisor["supervisor"]))?></td>
                       <td ><?php echo utf8_encode(addslashes($supervisor["cuenta"]))?></td>
-                      <td ><?php echo $supervisor["pos_total"]?></td>
-                      <td ><?php echo $supervisor["ganadores_gc"]?></td>
-                      <td ><?php echo $supervisor["locales_ganador_gc"]?> %</td>
-                      <td ><?php echo $supervisor["gana"]?></td>
+                      <td ><?php echo $supervisor["A"]?></td>
+                      <td ><?php echo $supervisor["B"]?></td>
+                      <td ><?php echo $supervisor["C"]?> %</td>
+                      <td ><?php echo $supervisor["D"]?></td>
+                      <td ><?php echo $supervisor["E"]?></td>
+                      <td ><?php echo $supervisor["F"]?></td>
                     </tr>
 
             <?php endforeach;?>

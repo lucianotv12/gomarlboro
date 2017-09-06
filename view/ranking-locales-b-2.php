@@ -7,18 +7,18 @@
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext2.png">
  
              <table class="table table-responsive" >
-              <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 1</td></tr>
+              <tr><td colspan="8" style="text-align: center;">FINAL ETAPA 2</td></tr>
 
               <tr style="text-align: left">
                   <td width="120px" >Supervisor</td>
                   <td width="120px" >Direccion</td>
-                  <td>Codigos</td>
-                  <td>Compras</td>
-                  <td>OB.Compras</td>
-                  <td>Compras FB</td>
-                  <td>OB.Compras FB</td>
-                  <td>Chequeo<br/>21.07</td>
-                  <td>Chequeo<br/>21.073</td>
+                  <td>Códigos</td>
+                  <td>Ob.Volumen</td>
+                  <td>OB.Stock</td>
+                  <td>Ob.Visibilidad</td>
+                  <td>Puntaje Final</td>
+                  <td>¿Ganó GC?</td>
+                  <td>¿Ganó Moto?</td>
                   
               </tr>
             </table>  

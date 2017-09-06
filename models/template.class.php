@@ -293,24 +293,17 @@ class Template
             <p>¡No dejes que nada te frene!</p>
           </div>        
           <div class="bottom-text bold" style="padding-bottom: 10px; padding-top: 10px">
-            <p>Etapa 1</p>
+            <p>Etapa 2</p>
           </div>  
           <a href="<?php echo HOME?>ranking.html" class="btn btn-grey btn-red inline">
             <span class="grey">tu </span><span>performance</span>
           </a>
           <span class="btn-sep inline hidden-mobile"></span>
-          <a href="<?php echo HOME?>ranking-locales.html" class="btn btn-grey btn-red inline">
-            <span>performance </span><span class="grey">locales</span>
-          </a>
-
-          <div class="bottom-text bold" style="padding-bottom: 10px; padding-top: 10px">
-            <p>Etapa 2</p>
-          </div>  
-         
-          <span class="btn-sep inline hidden-mobile"></span>
           <a href="<?php echo HOME?>ranking-locales-2.html" class="btn btn-grey btn-red inline">
             <span>performance </span><span class="grey">locales</span>
           </a>
+
+
 
 
         </div>

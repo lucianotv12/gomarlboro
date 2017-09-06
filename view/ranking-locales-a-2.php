@@ -6,20 +6,18 @@
             <img class="ranking-text" src="<?php echo IMGS?>ka/ranking-text.png">
             <img class="ranking-subtext" src="<?php echo IMGS?>ka/ranking-subtext2.png">
              <table class="table table-responsive" >
-              <tr><td colspan="8" style="text-align: center;">ACUMULADO SEMANA 1</td></tr>
+              <tr><td colspan="8" style="text-align: center;">FINAL ETAPA 2</td></tr>
 
                 <tr>
                   <td width="100px" >Supervisor</td>
                   <td width="100px" >Direccion</td>
                   <td>Códigos</td>
-                  <td>Compras</td>
-                  <td>OB.Compras</td>
-                  <td>Ventas</td>
-                  <td>OB.Ventas</td>
-                  <td>Compras FB</td>
-                  <td>OB.Compras FB</td>
-                  <td>Visibilidad</td>
-                  <td>Stock</td>
+                  <td>Ob.Volumen</td>
+                  <td>OB.Stock</td>
+                  <td>Ob.Visibilidad</td>
+                  <td>Puntaje Final</td>
+                  <td>¿Ganó GC?</td>
+                  <td>¿Ganó Moto?</td>
 
                 </tr>
             </table>              
@@ -49,8 +47,7 @@
                       <td style="text-align: center" width="100px"><?php echo $pdv["ventas_ob"]?></td>
                       <td style="text-align: center" width="100px"><?php echo $pdv["compras_fb"]?></td>
                       <td style="text-align: center" width="100px"><?php echo $pdv["compras_fb_ob"]?></td>                      
-                      <td style="text-align: center" ><?php echo $pdv["visibilidad"]?></td>
-                      <td style="text-align: right"><?php echo $pdv["stock"]?></td>
+
 
                     </tr>
 

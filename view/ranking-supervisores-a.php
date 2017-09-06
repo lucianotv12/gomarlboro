@@ -14,6 +14,8 @@
                     <td >Cuenta</td>
                     <td>Puntos promedio</td>
                     <td>Ranking</td>
+                    <td>Total puntaje prom</td>
+                    <td>¿Gana Moto?</td>
 
 
                   </tr>                  
@@ -24,8 +26,10 @@
                     <tr style="font-size: 12px; text-align: left">
                       <td ><?php echo utf8_encode(addslashes($supervisor["supervisor"]))?></td>
                       <td ><?php echo utf8_encode(addslashes($supervisor["cuenta"]))?></td>
-                      <td ><?php echo $supervisor["puntos_promedio"]?></td>
-                      <td ><?php echo $supervisor["ranking"]?></td>
+                      <td ><?php echo $supervisor["C"]?></td>
+                      <td ><?php echo $supervisor["D"]?></td>
+                      <td ><?php echo $supervisor["E"]?></td>
+                      <td ><?php echo $supervisor["F"]?></td>
                     </tr>
 
             <?php endforeach;?>
