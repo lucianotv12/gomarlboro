@@ -212,7 +212,7 @@ class User {
 		if($_dni == "pruebabb"): $_dni = "31833109"; endif;
 		$conn = new Conexion();
 
-		$sql = $conn->prepare('select * from ranking_b where dni = :DNI order by pos_total');
+		$sql = $conn->prepare('select * from ranking_b where dni = :DNI order by A');
 		$sql->execute(array('DNI' => $_dni));
 		return $sql->fetchAll();
 
