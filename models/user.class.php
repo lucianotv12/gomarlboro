@@ -270,7 +270,7 @@ class User {
 		$grupo = $grupo["grupo"];
 
 
-		$sql = $conn->prepare("select * from ranking_a where grupo = '$grupo' order by puntos_promedio desc");
+		$sql = $conn->prepare("select * from ranking_a where grupo = '$grupo' order by E desc");
 		$sql->execute();
 //		print_r($sql);die;
 		return $sql->fetchAll();
